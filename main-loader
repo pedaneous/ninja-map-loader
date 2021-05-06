@@ -655,6 +655,8 @@ end
 --Add Custom Map Buttons here
 addButton("Gilbert Swamp", "https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/maps/GilbertSwamp")
 addButton("Whomp Fortress", "https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/maps/WhompFortressDS")
+addButton("Tall Tall Mountain", "https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/maps/TallTallMountainN64")
+
 
 
 print("Ninja Map Loader by Gilbert")
