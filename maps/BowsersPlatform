@@ -1,0 +1,1159 @@
+local CUSTOMMAP = Instance.new("Model")
+CUSTOMMAP.Name = "CUSTOMMAP"
+CUSTOMMAP.Parent = workspace
+
+local Part = Instance.new("Part")
+Part.Anchored = true
+Part.BottomSurface = Enum.SurfaceType.Smooth
+Part.TopSurface = Enum.SurfaceType.Smooth
+Part.Color = Color3.fromRGB(0, 32, 96)
+Part.Size = Vector3.new(5.0700006484985, 5.0700006484985, 5.0700006484985)
+Part.CFrame = CFrame.new(256.869140625, 141.61209106445, 2460.3981933594, 1, 3.0518043786287e-05, -3.0517112463713e-05, -3.0517112463713e-05, 1, 3.0518043786287e-05, 3.0518043786287e-05, -3.0517112463713e-05, 1)
+Part.formFactor = Enum.FormFactor.Symmetric
+Part.Shape = Enum.PartType.Ball
+Part.Parent = CUSTOMMAP
+
+local Part1 = Instance.new("Part")
+Part1.Anchored = true
+Part1.BottomSurface = Enum.SurfaceType.Smooth
+Part1.TopSurface = Enum.SurfaceType.Smooth
+Part1.Color = Color3.fromRGB(0, 32, 96)
+Part1.Size = Vector3.new(5.0700006484985, 5.0700006484985, 5.0700006484985)
+Part1.CFrame = CFrame.new(412.267578125, 141.52207946777, 2368.6984863281, 1, 3.0518043786287e-05, -3.0517112463713e-05, -3.0517112463713e-05, 1, 3.0518043786287e-05, 3.0518043786287e-05, -3.0517112463713e-05, 1)
+Part1.formFactor = Enum.FormFactor.Symmetric
+Part1.Shape = Enum.PartType.Ball
+Part1.Parent = CUSTOMMAP
+
+local Part2 = Instance.new("Part")
+Part2.Anchored = true
+Part2.BottomSurface = Enum.SurfaceType.Smooth
+Part2.TopSurface = Enum.SurfaceType.Smooth
+Part2.Color = Color3.fromRGB(0, 32, 96)
+Part2.Size = Vector3.new(5.0700006484985, 5.0700006484985, 5.0700006484985)
+Part2.CFrame = CFrame.new(545.77685546875, 141.53207397461, 2485.068359375, 1, 3.0518043786287e-05, -3.0517112463713e-05, -3.0517112463713e-05, 1, 3.0518043786287e-05, 3.0518043786287e-05, -3.0517112463713e-05, 1)
+Part2.formFactor = Enum.FormFactor.Symmetric
+Part2.Shape = Enum.PartType.Ball
+Part2.Parent = CUSTOMMAP
+
+local Part3 = Instance.new("Part")
+Part3.Anchored = true
+Part3.BottomSurface = Enum.SurfaceType.Smooth
+Part3.TopSurface = Enum.SurfaceType.Smooth
+Part3.Color = Color3.fromRGB(0, 32, 96)
+Part3.Size = Vector3.new(5.0700006484985, 5.0700006484985, 5.0700006484985)
+Part3.CFrame = CFrame.new(290.98681640625, 141.57208251953, 2633.158203125, 1, 3.0518043786287e-05, -3.0517112463713e-05, -3.0517112463713e-05, 1, 3.0518043786287e-05, 3.0518043786287e-05, -3.0517112463713e-05, 1)
+Part3.formFactor = Enum.FormFactor.Symmetric
+Part3.Shape = Enum.PartType.Ball
+Part3.Parent = CUSTOMMAP
+
+local BowserBattleArea3 = Instance.new("Model")
+BowserBattleArea3.Name = "Bowser Battle Area 3"
+BowserBattleArea3.Parent = CUSTOMMAP
+
+local Model = Instance.new("Model")
+Model.Parent = BowserBattleArea3
+
+local CornerWedge = Instance.new("CornerWedgePart")
+CornerWedge.Anchored = true
+CornerWedge.Size = Vector3.new(8.1599988937378, 12.840000152588, 8.3900003433228)
+CornerWedge.CFrame = CFrame.new(550.2451171875, 129.09275817871, 2489.5405273438, 5.3468229452847e-05, 1.2351784092063e-13, 1, -4.3159529013792e-05, 1, 2.3075401589523e-09, -1, -4.3159529013792e-05, 5.3468233090825e-05)
+CornerWedge.Parent = Model
+
+local Decal = Instance.new("Decal")
+Decal.Face = Enum.NormalId.Top
+Decal.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal.Parent = CornerWedge
+
+local CornerWedge1 = Instance.new("CornerWedgePart")
+CornerWedge1.Anchored = true
+CornerWedge1.Size = Vector3.new(8.1599988937378, 12.840000152588, 8.5000009536743)
+CornerWedge1.CFrame = CFrame.new(542.3369140625, 116.25538635254, 2489.4914550781, -0.0051320791244507, -4.3158146581845e-05, -0.99998289346695, 1.1083102435805e-07, -0.99999213218689, 4.3158146581845e-05, -0.99998289346695, 1.1083102435805e-07, 0.0051398873329163)
+CornerWedge1.Parent = Model
+
+local Decal1 = Instance.new("Decal")
+Decal1.Face = Enum.NormalId.Top
+Decal1.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal1.Parent = CornerWedge1
+
+local CornerWedge2 = Instance.new("CornerWedgePart")
+CornerWedge2.Anchored = true
+CornerWedge2.Size = Vector3.new(8.9899997711182, 12.840000152588, 7.9099998474121)
+CornerWedge2.CFrame = CFrame.new(550.482421875, 116.25489807129, 2480.8376464844, 0.0050535616464913, 1.0989963783459e-07, 0.99998724460602, 4.3157397158211e-05, -1, -1.082003180386e-07, 0.99998724460602, 4.3157389882253e-05, -0.0050535621121526)
+CornerWedge2.Parent = Model
+
+local Decal2 = Instance.new("Decal")
+Decal2.Face = Enum.NormalId.Top
+Decal2.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal2.Parent = CornerWedge2
+
+local CornerWedge3 = Instance.new("CornerWedgePart")
+CornerWedge3.Anchored = true
+CornerWedge3.Size = Vector3.new(7.9000015258789, 12.840000152588, 8.1900053024292)
+CornerWedge3.CFrame = CFrame.new(550.52197265625, 116.25489807129, 2489.4453125, -0.99998676776886, -3.0438473913819e-05, 0.0051575219258666, 3.0595871066907e-05, -1, 3.0438473913819e-05, 0.005157520994544, 3.0595867428929e-05, 0.99998670816422)
+CornerWedge3.Parent = Model
+
+local Decal3 = Instance.new("Decal")
+Decal3.Face = Enum.NormalId.Top
+Decal3.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal3.Parent = CornerWedge3
+
+local CornerWedge4 = Instance.new("CornerWedgePart")
+CornerWedge4.Anchored = true
+CornerWedge4.Size = Vector3.new(7.9800009727478, 12.840000152588, 8.1900053024292)
+CornerWedge4.CFrame = CFrame.new(542.07421875, 129.09324645996, 2489.5356445313, 1, 3.0517112463713e-05, -3.0516181141138e-05, -3.0516181141138e-05, 1, 3.0517112463713e-05, 3.0517112463713e-05, -3.0516181141138e-05, 1)
+CornerWedge4.Parent = Model
+
+local Decal4 = Instance.new("Decal")
+Decal4.Face = Enum.NormalId.Top
+Decal4.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal4.Parent = CornerWedge4
+
+local CornerWedge5 = Instance.new("CornerWedgePart")
+CornerWedge5.Anchored = true
+CornerWedge5.Size = Vector3.new(8.39000415802, 12.840000152588, 9.0000047683716)
+CornerWedge5.CFrame = CFrame.new(550.2548828125, 129.09373474121, 2480.9423828125, -1, 3.0517112463713e-05, 3.0518043786287e-05, 3.0518043786287e-05, 1, 3.0517112463713e-05, -3.0517112463713e-05, 3.0518043786287e-05, -1)
+CornerWedge5.Parent = Model
+
+local Decal5 = Instance.new("Decal")
+Decal5.Face = Enum.NormalId.Top
+Decal5.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal5.Parent = CornerWedge5
+
+local CornerWedge6 = Instance.new("CornerWedgePart")
+CornerWedge6.Anchored = true
+CornerWedge6.Size = Vector3.new(8.4700021743774, 12.840000152588, 9.0000047683716)
+CornerWedge6.CFrame = CFrame.new(542.2978515625, 116.25440979004, 2480.8950195313, 0.99998700618744, 3.059534355998e-05, -0.0050964350812137, 3.043981269002e-05, -1, -3.0594954296248e-05, -0.0050964360125363, 3.0439419788308e-05, -0.99998700618744)
+CornerWedge6.Parent = Model
+
+local Decal6 = Instance.new("Decal")
+Decal6.Face = Enum.NormalId.Top
+Decal6.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal6.Parent = CornerWedge6
+
+local CornerWedge7 = Instance.new("CornerWedgePart")
+CornerWedge7.Anchored = true
+CornerWedge7.Size = Vector3.new(8.9899997711182, 12.840000152588, 7.9800000190735)
+CornerWedge7.CFrame = CFrame.new(542.0732421875, 129.09324645996, 2480.9262695313, -3.2663687306922e-05, 4.3158150219824e-05, -1, 9.2951335517455e-10, 1, 4.3158150219824e-05, 1, 4.8019099807561e-10, -3.2663687306922e-05)
+CornerWedge7.Parent = Model
+
+local Decal7 = Instance.new("Decal")
+Decal7.Face = Enum.NormalId.Top
+Decal7.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal7.Parent = CornerWedge7
+
+local Wedge = Instance.new("WedgePart")
+Wedge.Anchored = true
+Wedge.BottomSurface = Enum.SurfaceType.Smooth
+Wedge.Color = Color3.fromRGB(39, 70, 45)
+Wedge.Size = Vector3.new(1.2299998998642, 85.27001953125, 64.819999694824)
+Wedge.CFrame = CFrame.new(451.7197265625, 123.9677734375, 2516.6787109375, 2.0862060409854e-05, -0.041800983250141, -0.9991260766983, 1, 8.7205444287974e-07, 2.0843826860073e-05, 0, -0.99912601709366, 0.041800986975431)
+Wedge.Parent = BowserBattleArea3
+
+local Texture = Instance.new("Texture")
+Texture.Face = Enum.NormalId.Right
+Texture.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture.StudsPerTileV = 4
+Texture.StudsPerTileU = 4
+Texture.Parent = Wedge
+
+local Part4 = Instance.new("Part")
+Part4.Anchored = true
+Part4.BottomSurface = Enum.SurfaceType.Smooth
+Part4.TopSurface = Enum.SurfaceType.Smooth
+Part4.Color = Color3.fromRGB(39, 70, 45)
+Part4.Size = Vector3.new(60.809993743896, 1.2599999904633, 2)
+Part4.CFrame = CFrame.new(466.015625, 123.982421875, 2532.8598632813, -0.62814593315125, 1.4372579244082e-05, 0.7780956029892, 4.0690705645829e-05, 1, 1.4377563275048e-05, -0.7780956029892, 4.0692462789593e-05, -0.62814593315125)
+Part4.formFactor = Enum.FormFactor.Custom
+Part4.Parent = BowserBattleArea3
+
+local Texture1 = Instance.new("Texture")
+Texture1.Face = Enum.NormalId.Top
+Texture1.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture1.StudsPerTileV = 4
+Texture1.StudsPerTileU = 4
+Texture1.Parent = Part4
+
+local Part5 = Instance.new("Part")
+Part5.Anchored = true
+Part5.BottomSurface = Enum.SurfaceType.Smooth
+Part5.TopSurface = Enum.SurfaceType.Smooth
+Part5.Color = Color3.fromRGB(39, 70, 45)
+Part5.Size = Vector3.new(65.210037231445, 1.2000000476837, 2)
+Part5.CFrame = CFrame.new(453.4208984375, 124.0029296875, 2558.568359375, -0.99883323907852, 3.1244264391717e-05, -0.048293471336365, 2.9770009859931e-05, 1, 3.124629802187e-05, 0.048293471336365, 2.9772143534501e-05, -0.99883323907852)
+Part5.formFactor = Enum.FormFactor.Custom
+Part5.Parent = BowserBattleArea3
+
+local Texture2 = Instance.new("Texture")
+Texture2.Face = Enum.NormalId.Top
+Texture2.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture2.StudsPerTileV = 4
+Texture2.StudsPerTileU = 4
+Texture2.Parent = Part5
+
+local Part6 = Instance.new("Part")
+Part6.Anchored = true
+Part6.BottomSurface = Enum.SurfaceType.Smooth
+Part6.TopSurface = Enum.SurfaceType.Smooth
+Part6.Color = Color3.fromRGB(39, 70, 45)
+Part6.Size = Vector3.new(72.659973144531, 1.2000000476837, 2.2799999713898)
+Part6.CFrame = CFrame.new(400.7353515625, 124.0029296875, 2589.5407714844, 0.56747257709503, 1.2824504665332e-05, 0.82339233160019, -4.1208961192751e-05, 1, 1.2825536032324e-05, -0.82339233160019, -4.1209277696908e-05, 0.56747257709503)
+Part6.formFactor = Enum.FormFactor.Custom
+Part6.Parent = BowserBattleArea3
+
+local Texture3 = Instance.new("Texture")
+Texture3.Face = Enum.NormalId.Top
+Texture3.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture3.StudsPerTileV = 4
+Texture3.StudsPerTileU = 4
+Texture3.Parent = Part6
+
+local Model1 = Instance.new("Model")
+Model1.Parent = BowserBattleArea3
+
+local CornerWedge8 = Instance.new("CornerWedgePart")
+CornerWedge8.Anchored = true
+CornerWedge8.Size = Vector3.new(8.1599988937378, 12.840000152588, 8.3900003433228)
+CornerWedge8.CFrame = CFrame.new(475.994140625, 125.86425018311, 2650.0476074219, 5.3468229452847e-05, 1.2351784092063e-13, 1, -4.3159529013792e-05, 1, 2.3075401589523e-09, -1, -4.3159529013792e-05, 5.3468233090825e-05)
+CornerWedge8.Parent = Model1
+
+local Decal8 = Instance.new("Decal")
+Decal8.Face = Enum.NormalId.Top
+Decal8.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal8.Parent = CornerWedge8
+
+local CornerWedge9 = Instance.new("CornerWedgePart")
+CornerWedge9.Anchored = true
+CornerWedge9.Size = Vector3.new(8.1599988937378, 12.840000152588, 8.5000009536743)
+CornerWedge9.CFrame = CFrame.new(468.0859375, 113.02687835693, 2649.9992675781, -0.0051320791244507, -4.3158146581845e-05, -0.99998289346695, 1.1083102435805e-07, -0.99999213218689, 4.3158146581845e-05, -0.99998289346695, 1.1083102435805e-07, 0.0051398873329163)
+CornerWedge9.Parent = Model1
+
+local Decal9 = Instance.new("Decal")
+Decal9.Face = Enum.NormalId.Top
+Decal9.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal9.Parent = CornerWedge9
+
+local CornerWedge10 = Instance.new("CornerWedgePart")
+CornerWedge10.Anchored = true
+CornerWedge10.Size = Vector3.new(8.9899997711182, 12.840000152588, 7.9099998474121)
+CornerWedge10.CFrame = CFrame.new(476.232421875, 113.02639007568, 2641.3454589844, 0.0050535616464913, 1.0989963783459e-07, 0.99998724460602, 4.3157397158211e-05, -1, -1.082003180386e-07, 0.99998724460602, 4.3157389882253e-05, -0.0050535621121526)
+CornerWedge10.Parent = Model1
+
+local Decal10 = Instance.new("Decal")
+Decal10.Face = Enum.NormalId.Top
+Decal10.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal10.Parent = CornerWedge10
+
+local CornerWedge11 = Instance.new("CornerWedgePart")
+CornerWedge11.Anchored = true
+CornerWedge11.Size = Vector3.new(7.9000015258789, 12.840000152588, 8.1900053024292)
+CornerWedge11.CFrame = CFrame.new(476.271484375, 113.02639007568, 2649.953125, -0.99998676776886, -3.0438473913819e-05, 0.0051575219258666, 3.0595871066907e-05, -1, 3.0438473913819e-05, 0.005157520994544, 3.0595867428929e-05, 0.99998670816422)
+CornerWedge11.Parent = Model1
+
+local Decal11 = Instance.new("Decal")
+Decal11.Face = Enum.NormalId.Top
+Decal11.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal11.Parent = CornerWedge11
+
+local CornerWedge12 = Instance.new("CornerWedgePart")
+CornerWedge12.Anchored = true
+CornerWedge12.Size = Vector3.new(7.9800009727478, 12.840000152588, 8.1900053024292)
+CornerWedge12.CFrame = CFrame.new(467.82421875, 125.86473846436, 2650.0424804688, 1, 3.0517112463713e-05, -3.0516181141138e-05, -3.0516181141138e-05, 1, 3.0517112463713e-05, 3.0517112463713e-05, -3.0516181141138e-05, 1)
+CornerWedge12.Parent = Model1
+
+local Decal12 = Instance.new("Decal")
+Decal12.Face = Enum.NormalId.Top
+Decal12.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal12.Parent = CornerWedge12
+
+local CornerWedge13 = Instance.new("CornerWedgePart")
+CornerWedge13.Anchored = true
+CornerWedge13.Size = Vector3.new(8.39000415802, 12.840000152588, 9.0000047683716)
+CornerWedge13.CFrame = CFrame.new(476.00390625, 125.86522674561, 2641.4494628906, -1, 3.0517112463713e-05, 3.0518043786287e-05, 3.0518043786287e-05, 1, 3.0517112463713e-05, -3.0517112463713e-05, 3.0518043786287e-05, -1)
+CornerWedge13.Parent = Model1
+
+local Decal13 = Instance.new("Decal")
+Decal13.Face = Enum.NormalId.Top
+Decal13.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal13.Parent = CornerWedge13
+
+local CornerWedge14 = Instance.new("CornerWedgePart")
+CornerWedge14.Anchored = true
+CornerWedge14.Size = Vector3.new(8.4700021743774, 12.840000152588, 9.0000047683716)
+CornerWedge14.CFrame = CFrame.new(468.0458984375, 113.02590179443, 2641.4018554688, 0.99998700618744, 3.059534355998e-05, -0.0050964350812137, 3.043981269002e-05, -1, -3.0594954296248e-05, -0.0050964360125363, 3.0439419788308e-05, -0.99998700618744)
+CornerWedge14.Parent = Model1
+
+local Decal14 = Instance.new("Decal")
+Decal14.Face = Enum.NormalId.Top
+Decal14.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal14.Parent = CornerWedge14
+
+local CornerWedge15 = Instance.new("CornerWedgePart")
+CornerWedge15.Anchored = true
+CornerWedge15.Size = Vector3.new(8.9899997711182, 12.840000152588, 7.9800000190735)
+CornerWedge15.CFrame = CFrame.new(467.8232421875, 125.86473846436, 2641.4338378906, -3.2663687306922e-05, 4.3158150219824e-05, -1, 9.2951335517455e-10, 1, 4.3158150219824e-05, 1, 4.8019099807561e-10, -3.2663687306922e-05)
+CornerWedge15.Parent = Model1
+
+local Decal15 = Instance.new("Decal")
+Decal15.Face = Enum.NormalId.Top
+Decal15.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal15.Parent = CornerWedge15
+
+local Wedge1 = Instance.new("WedgePart")
+Wedge1.Anchored = true
+Wedge1.BottomSurface = Enum.SurfaceType.Smooth
+Wedge1.Color = Color3.fromRGB(39, 70, 45)
+Wedge1.Size = Vector3.new(1.2299998998642, 31.420022964478, 56.309997558594)
+Wedge1.CFrame = CFrame.new(454.060546875, 123.97412109375, 2481.0886230469, -0.00010644851136021, 0.73964619636536, -0.67299598455429, -1, -6.218817725312e-05, 8.982411964098e-05, 2.4585673600086e-05, 0.67299598455429, 0.73964619636536)
+Wedge1.Parent = BowserBattleArea3
+
+local Texture4 = Instance.new("Texture")
+Texture4.Face = Enum.NormalId.Left
+Texture4.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture4.StudsPerTileV = 4
+Texture4.StudsPerTileU = 4
+Texture4.Parent = Wedge1
+
+local Part7 = Instance.new("Part")
+Part7.Anchored = true
+Part7.BottomSurface = Enum.SurfaceType.Smooth
+Part7.TopSurface = Enum.SurfaceType.Smooth
+Part7.Color = Color3.fromRGB(39, 70, 45)
+Part7.Size = Vector3.new(18.220001220703, 1.2499998807907, 31.299999237061)
+Part7.CFrame = CFrame.new(417.31640625, 123.97802734375, 2550.2854003906, 0.73965716362, 3.9471084164688e-05, -0.67298382520676, -1.7450687664677e-05, 1, 3.9471320633311e-05, 0.67298382520676, -1.7451211533626e-05, 0.73965716362)
+Part7.formFactor = Enum.FormFactor.Custom
+Part7.Parent = BowserBattleArea3
+
+local Texture5 = Instance.new("Texture")
+Texture5.Face = Enum.NormalId.Top
+Texture5.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture5.StudsPerTileV = 4
+Texture5.StudsPerTileU = 4
+Texture5.Parent = Part7
+
+local Part8 = Instance.new("Part")
+Part8.Anchored = true
+Part8.BottomSurface = Enum.SurfaceType.Smooth
+Part8.TopSurface = Enum.SurfaceType.Smooth
+Part8.Color = Color3.fromRGB(39, 70, 45)
+Part8.Size = Vector3.new(65.900016784668, 1.2000000476837, 2)
+Part8.CFrame = CFrame.new(369.1259765625, 123.98828125, 2588.8581542969, -0.3511389195919, -7.701604772592e-06, 0.93632352352142, -4.2466483137105e-05, 1, -7.7003587648505e-06, -0.93632352352142, -4.2466250306461e-05, -0.3511389195919)
+Part8.formFactor = Enum.FormFactor.Custom
+Part8.Parent = BowserBattleArea3
+
+local Texture6 = Instance.new("Texture")
+Texture6.Face = Enum.NormalId.Top
+Texture6.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture6.StudsPerTileV = 4
+Texture6.StudsPerTileU = 4
+Texture6.Parent = Part8
+
+local Part9 = Instance.new("Part")
+Part9.Anchored = true
+Part9.BottomSurface = Enum.SurfaceType.Smooth
+Part9.TopSurface = Enum.SurfaceType.Smooth
+Part9.Color = Color3.fromRGB(39, 70, 45)
+Part9.Size = Vector3.new(61.540035247803, 1.2399998903275, 2)
+Part9.CFrame = CFrame.new(454.478515625, 123.97265625, 2480.0222167969, -0.23772740364075, 4.284801252652e-05, -0.971335709095, 5.1670576795004e-06, 1, 4.284801252652e-05, 0.971335709095, 5.1670576795004e-06, -0.23772740364075)
+Part9.formFactor = Enum.FormFactor.Custom
+Part9.Parent = BowserBattleArea3
+
+local Texture7 = Instance.new("Texture")
+Texture7.Face = Enum.NormalId.Top
+Texture7.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture7.StudsPerTileV = 4
+Texture7.StudsPerTileU = 4
+Texture7.Parent = Part9
+
+local Wedge2 = Instance.new("WedgePart")
+Wedge2.Anchored = true
+Wedge2.BottomSurface = Enum.SurfaceType.Smooth
+Wedge2.Color = Color3.fromRGB(39, 70, 45)
+Wedge2.Size = Vector3.new(1.2299998998642, 31.420022964478, 52.990001678467)
+Wedge2.CFrame = CFrame.new(431.66796875, 123.9677734375, 2460.8718261719, -2.5748544430826e-05, -0.73960864543915, -0.67303723096848, 1, -1.9043845895794e-05, -1.732972850732e-05, 0, -0.67303723096848, 0.73960864543915)
+Wedge2.Parent = BowserBattleArea3
+
+local Texture8 = Instance.new("Texture")
+Texture8.Face = Enum.NormalId.Right
+Texture8.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture8.StudsPerTileV = 4
+Texture8.StudsPerTileU = 4
+Texture8.Parent = Wedge2
+
+local Wedge3 = Instance.new("WedgePart")
+Wedge3.Anchored = true
+Wedge3.BottomSurface = Enum.SurfaceType.Smooth
+Wedge3.Color = Color3.fromRGB(39, 70, 45)
+Wedge3.Size = Vector3.new(1.2299998998642, 65.170013427734, 94.789993286133)
+Wedge3.CFrame = CFrame.new(360.48046875, 123.96728515625, 2563.8005371094, 4.0413582610199e-05, -0.57660454511642, 0.817023396492, 1, 2.3302656700253e-05, -3.3018848625943e-05, 0, 0.817023396492, 0.57660454511642)
+Wedge3.Parent = BowserBattleArea3
+
+local Texture9 = Instance.new("Texture")
+Texture9.Face = Enum.NormalId.Right
+Texture9.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture9.StudsPerTileV = 4
+Texture9.StudsPerTileU = 4
+Texture9.Parent = Wedge3
+
+local Part10 = Instance.new("Part")
+Part10.Anchored = true
+Part10.BottomSurface = Enum.SurfaceType.Smooth
+Part10.TopSurface = Enum.SurfaceType.Smooth
+Part10.Color = Color3.fromRGB(39, 70, 45)
+Part10.Size = Vector3.new(55.039989471436, 1.2699998617172, 75.229995727539)
+Part10.CFrame = CFrame.new(401.58984375, 123.98681640625, 2517.048828125, 0.73965716362, 3.9471084164688e-05, -0.67298382520676, -1.7450687664677e-05, 1, 3.9471320633311e-05, 0.67298382520676, -1.7451211533626e-05, 0.73965716362)
+Part10.formFactor = Enum.FormFactor.Custom
+Part10.Parent = BowserBattleArea3
+
+local Texture10 = Instance.new("Texture")
+Texture10.Face = Enum.NormalId.Top
+Texture10.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture10.StudsPerTileV = 4
+Texture10.StudsPerTileU = 4
+Texture10.Parent = Part10
+
+local Part11 = Instance.new("Part")
+Part11.Anchored = true
+Part11.BottomSurface = Enum.SurfaceType.Smooth
+Part11.TopSurface = Enum.SurfaceType.Smooth
+Part11.Color = Color3.fromRGB(39, 70, 45)
+Part11.Size = Vector3.new(61.36999130249, 1.2000000476837, 2)
+Part11.CFrame = CFrame.new(433.1171875, 123.990234375, 2460.07421875, -0.94952702522278, 3.4977798350155e-05, -0.31368520855904, 2.5281713533332e-05, 1, 3.4978158510057e-05, 0.31368520855904, 2.528220647946e-05, -0.94952702522278)
+Part11.formFactor = Enum.FormFactor.Custom
+Part11.Parent = BowserBattleArea3
+
+local Texture11 = Instance.new("Texture")
+Texture11.Face = Enum.NormalId.Top
+Texture11.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture11.StudsPerTileV = 4
+Texture11.StudsPerTileU = 4
+Texture11.Parent = Part11
+
+local Model2 = Instance.new("Model")
+Model2.Parent = BowserBattleArea3
+
+local CornerWedge16 = Instance.new("CornerWedgePart")
+CornerWedge16.Anchored = true
+CornerWedge16.Size = Vector3.new(8.1599988937378, 12.840000152588, 8.3900003433228)
+CornerWedge16.CFrame = CFrame.new(416.4111328125, 130.83395385742, 2373.251953125, 5.3468229452847e-05, 1.2351784092063e-13, 1, -4.3159529013792e-05, 1, 2.3075401589523e-09, -1, -4.3159529013792e-05, 5.3468233090825e-05)
+CornerWedge16.Parent = Model2
+
+local Decal16 = Instance.new("Decal")
+Decal16.Face = Enum.NormalId.Top
+Decal16.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal16.Parent = CornerWedge16
+
+local CornerWedge17 = Instance.new("CornerWedgePart")
+CornerWedge17.Anchored = true
+CornerWedge17.Size = Vector3.new(8.1599988937378, 12.840000152588, 8.5000009536743)
+CornerWedge17.CFrame = CFrame.new(408.50390625, 117.99659729004, 2373.2043457031, -0.0051320791244507, -4.3158146581845e-05, -0.99998289346695, 1.1083102435805e-07, -0.99999213218689, 4.3158146581845e-05, -0.99998289346695, 1.1083102435805e-07, 0.0051398873329163)
+CornerWedge17.Parent = Model2
+
+local Decal17 = Instance.new("Decal")
+Decal17.Face = Enum.NormalId.Top
+Decal17.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal17.Parent = CornerWedge17
+
+local CornerWedge18 = Instance.new("CornerWedgePart")
+CornerWedge18.Anchored = true
+CornerWedge18.Size = Vector3.new(8.9899997711182, 12.840000152588, 7.9099998474121)
+CornerWedge18.CFrame = CFrame.new(416.6484375, 117.99610900879, 2364.5490722656, 0.0050535616464913, 1.0989963783459e-07, 0.99998724460602, 4.3157397158211e-05, -1, -1.082003180386e-07, 0.99998724460602, 4.3157389882253e-05, -0.0050535621121526)
+CornerWedge18.Parent = Model2
+
+local Decal18 = Instance.new("Decal")
+Decal18.Face = Enum.NormalId.Top
+Decal18.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal18.Parent = CornerWedge18
+
+local CornerWedge19 = Instance.new("CornerWedgePart")
+CornerWedge19.Anchored = true
+CornerWedge19.Size = Vector3.new(7.9000015258789, 12.840000152588, 8.1900053024292)
+CornerWedge19.CFrame = CFrame.new(416.6884765625, 117.99610900879, 2373.1564941406, -0.99998676776886, -3.0438473913819e-05, 0.0051575219258666, 3.0595871066907e-05, -1, 3.0438473913819e-05, 0.005157520994544, 3.0595867428929e-05, 0.99998670816422)
+CornerWedge19.Parent = Model2
+
+local Decal19 = Instance.new("Decal")
+Decal19.Face = Enum.NormalId.Top
+Decal19.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal19.Parent = CornerWedge19
+
+local CornerWedge20 = Instance.new("CornerWedgePart")
+CornerWedge20.Anchored = true
+CornerWedge20.Size = Vector3.new(7.9800009727478, 12.840000152588, 8.1900053024292)
+CornerWedge20.CFrame = CFrame.new(408.240234375, 130.83444213867, 2373.2468261719, 1, 3.0517112463713e-05, -3.0516181141138e-05, -3.0516181141138e-05, 1, 3.0517112463713e-05, 3.0517112463713e-05, -3.0516181141138e-05, 1)
+CornerWedge20.Parent = Model2
+
+local Decal20 = Instance.new("Decal")
+Decal20.Face = Enum.NormalId.Top
+Decal20.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal20.Parent = CornerWedge20
+
+local CornerWedge21 = Instance.new("CornerWedgePart")
+CornerWedge21.Anchored = true
+CornerWedge21.Size = Vector3.new(8.39000415802, 12.840000152588, 9.0000047683716)
+CornerWedge21.CFrame = CFrame.new(416.4208984375, 130.83493041992, 2364.6538085938, -1, 3.0517112463713e-05, 3.0518043786287e-05, 3.0518043786287e-05, 1, 3.0517112463713e-05, -3.0517112463713e-05, 3.0518043786287e-05, -1)
+CornerWedge21.Parent = Model2
+
+local Decal21 = Instance.new("Decal")
+Decal21.Face = Enum.NormalId.Top
+Decal21.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal21.Parent = CornerWedge21
+
+local CornerWedge22 = Instance.new("CornerWedgePart")
+CornerWedge22.Anchored = true
+CornerWedge22.Size = Vector3.new(8.4700021743774, 12.840000152588, 9.0000047683716)
+CornerWedge22.CFrame = CFrame.new(408.462890625, 117.99562072754, 2364.6062011719, 0.99998700618744, 3.059534355998e-05, -0.0050964350812137, 3.043981269002e-05, -1, -3.0594954296248e-05, -0.0050964360125363, 3.0439419788308e-05, -0.99998700618744)
+CornerWedge22.Parent = Model2
+
+local Decal22 = Instance.new("Decal")
+Decal22.Face = Enum.NormalId.Top
+Decal22.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal22.Parent = CornerWedge22
+
+local CornerWedge23 = Instance.new("CornerWedgePart")
+CornerWedge23.Anchored = true
+CornerWedge23.Size = Vector3.new(8.9899997711182, 12.840000152588, 7.9800000190735)
+CornerWedge23.CFrame = CFrame.new(408.2392578125, 130.83444213867, 2364.6374511719, -3.2663687306922e-05, 4.3158150219824e-05, -1, 9.2951335517455e-10, 1, 4.3158150219824e-05, 1, 4.8019099807561e-10, -3.2663687306922e-05)
+CornerWedge23.Parent = Model2
+
+local Decal23 = Instance.new("Decal")
+Decal23.Face = Enum.NormalId.Top
+Decal23.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal23.Parent = CornerWedge23
+
+local Part12 = Instance.new("Part")
+Part12.Anchored = true
+Part12.BottomSurface = Enum.SurfaceType.Smooth
+Part12.TopSurface = Enum.SurfaceType.Smooth
+Part12.Color = Color3.fromRGB(39, 70, 45)
+Part12.Size = Vector3.new(68.450012207031, 1.2000000476837, 2)
+Part12.CFrame = CFrame.new(348.2822265625, 123.95068359375, 2463.1577148438, 0.066997170448303, 4.3133928556927e-05, -0.99774450063705, -1.4463639672613e-06, 1, 4.3133928556927e-05, 0.99774450063705, -1.4463639672613e-06, 0.066997170448303)
+Part12.formFactor = Enum.FormFactor.Custom
+Part12.Parent = BowserBattleArea3
+
+local Texture12 = Instance.new("Texture")
+Texture12.Face = Enum.NormalId.Top
+Texture12.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture12.StudsPerTileV = 4
+Texture12.StudsPerTileU = 4
+Texture12.Parent = Part12
+
+local Part13 = Instance.new("Part")
+Part13.Anchored = true
+Part13.BottomSurface = Enum.SurfaceType.Smooth
+Part13.TopSurface = Enum.SurfaceType.Smooth
+Part13.Color = Color3.fromRGB(40, 127, 71)
+Part13.Size = Vector3.new(90.799995422363, 85.640007019043, 49.830001831055)
+Part13.CFrame = CFrame.new(322.373046875, 81.733428955078, 2456.5988769531, 0.67301404476166, 1.5571773474221e-05, 0.7396297454834, -4.0251114114653e-05, 1, 1.5572373740724e-05, -0.7396297454834, -4.0251343307318e-05, 0.67301404476166)
+Part13.formFactor = Enum.FormFactor.Custom
+Part13.Parent = BowserBattleArea3
+
+local Texture13 = Instance.new("Texture")
+Texture13.Face = Enum.NormalId.Top
+Texture13.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture13.StudsPerTileV = 4
+Texture13.StudsPerTileU = 4
+Texture13.Parent = Part13
+
+local Texture14 = Instance.new("Texture")
+Texture14.Face = Enum.NormalId.Bottom
+Texture14.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture14.StudsPerTileV = 4
+Texture14.StudsPerTileU = 4
+Texture14.Parent = Part13
+
+local Decal24 = Instance.new("Decal")
+Decal24.Texture = "http://www.roblox.com/asset/?id=162897974"
+Decal24.Parent = Part13
+
+local Part14 = Instance.new("Part")
+Part14.Anchored = true
+Part14.BottomSurface = Enum.SurfaceType.Smooth
+Part14.TopSurface = Enum.SurfaceType.Smooth
+Part14.Color = Color3.fromRGB(40, 127, 71)
+Part14.Size = Vector3.new(80.769973754883, 85.660003662109, 56.239994049072)
+Part14.CFrame = CFrame.new(297.0087890625, 81.721710205078, 2516.6203613281, -0.10756969451904, 4.3095747969346e-05, -0.99419885873795, 2.3246138880495e-06, 1, 4.3095747969346e-05, 0.99419885873795, 2.3246138880495e-06, -0.10756969451904)
+Part14.formFactor = Enum.FormFactor.Custom
+Part14.Parent = BowserBattleArea3
+
+local Texture15 = Instance.new("Texture")
+Texture15.Face = Enum.NormalId.Top
+Texture15.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture15.StudsPerTileV = 4
+Texture15.StudsPerTileU = 4
+Texture15.Parent = Part14
+
+local Texture16 = Instance.new("Texture")
+Texture16.Face = Enum.NormalId.Bottom
+Texture16.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture16.StudsPerTileV = 4
+Texture16.StudsPerTileU = 4
+Texture16.Parent = Part14
+
+local Decal25 = Instance.new("Decal")
+Decal25.Face = Enum.NormalId.Back
+Decal25.Texture = "http://www.roblox.com/asset/?id=162897974"
+Decal25.Parent = Part14
+
+local Part15 = Instance.new("Part")
+Part15.Anchored = true
+Part15.BottomSurface = Enum.SurfaceType.Smooth
+Part15.TopSurface = Enum.SurfaceType.Smooth
+Part15.Color = Color3.fromRGB(40, 127, 71)
+Part15.Size = Vector3.new(73.940010070801, 85.629997253418, 2.6699995994568)
+Part15.CFrame = CFrame.new(285.244140625, 81.737823486328, 2584.5004882813, 0.52591592073441, 4.1514336771797e-05, -0.85053420066833, -1.179817445518e-05, 1, 4.1514336771797e-05, 0.85053420066833, -1.179817445518e-05, 0.52591592073441)
+Part15.formFactor = Enum.FormFactor.Custom
+Part15.Parent = BowserBattleArea3
+
+local Texture17 = Instance.new("Texture")
+Texture17.Face = Enum.NormalId.Top
+Texture17.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture17.StudsPerTileV = 4
+Texture17.StudsPerTileU = 4
+Texture17.Parent = Part15
+
+local Texture18 = Instance.new("Texture")
+Texture18.Face = Enum.NormalId.Bottom
+Texture18.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture18.StudsPerTileV = 4
+Texture18.StudsPerTileU = 4
+Texture18.Parent = Part15
+
+local Decal26 = Instance.new("Decal")
+Decal26.Face = Enum.NormalId.Back
+Decal26.Texture = "http://www.roblox.com/asset/?id=162897974"
+Decal26.Parent = Part15
+
+local Model3 = Instance.new("Model")
+Model3.Parent = BowserBattleArea3
+
+local CornerWedge24 = Instance.new("CornerWedgePart")
+CornerWedge24.Anchored = true
+CornerWedge24.Size = Vector3.new(8.1599988937378, 12.840000152588, 8.3900003433228)
+CornerWedge24.CFrame = CFrame.new(261.2626953125, 131.18795776367, 2464.625, 5.3468229452847e-05, 1.2351784092063e-13, 1, -4.3159529013792e-05, 1, 2.3075401589523e-09, -1, -4.3159529013792e-05, 5.3468233090825e-05)
+CornerWedge24.Parent = Model3
+
+local Decal27 = Instance.new("Decal")
+Decal27.Face = Enum.NormalId.Top
+Decal27.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal27.Parent = CornerWedge24
+
+local CornerWedge25 = Instance.new("CornerWedgePart")
+CornerWedge25.Anchored = true
+CornerWedge25.Size = Vector3.new(8.1599988937378, 12.840000152588, 8.5000009536743)
+CornerWedge25.CFrame = CFrame.new(253.3544921875, 118.35060119629, 2464.5759277344, -0.0051320791244507, -4.3158146581845e-05, -0.99998289346695, 1.1083102435805e-07, -0.99999213218689, 4.3158146581845e-05, -0.99998289346695, 1.1083102435805e-07, 0.0051398873329163)
+CornerWedge25.Parent = Model3
+
+local Decal28 = Instance.new("Decal")
+Decal28.Face = Enum.NormalId.Top
+Decal28.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal28.Parent = CornerWedge25
+
+local CornerWedge26 = Instance.new("CornerWedgePart")
+CornerWedge26.Anchored = true
+CornerWedge26.Size = Vector3.new(8.9899997711182, 12.840000152588, 7.9099998474121)
+CornerWedge26.CFrame = CFrame.new(261.5, 118.35011291504, 2455.9221191406, 0.0050535616464913, 1.0989963783459e-07, 0.99998724460602, 4.3157397158211e-05, -1, -1.082003180386e-07, 0.99998724460602, 4.3157389882253e-05, -0.0050535621121526)
+CornerWedge26.Parent = Model3
+
+local Decal29 = Instance.new("Decal")
+Decal29.Face = Enum.NormalId.Top
+Decal29.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal29.Parent = CornerWedge26
+
+local CornerWedge27 = Instance.new("CornerWedgePart")
+CornerWedge27.Anchored = true
+CornerWedge27.Size = Vector3.new(7.9000015258789, 12.840000152588, 8.1900053024292)
+CornerWedge27.CFrame = CFrame.new(261.5400390625, 118.35011291504, 2464.5297851563, -0.99998676776886, -3.0438473913819e-05, 0.0051575219258666, 3.0595871066907e-05, -1, 3.0438473913819e-05, 0.005157520994544, 3.0595867428929e-05, 0.99998670816422)
+CornerWedge27.Parent = Model3
+
+local Decal30 = Instance.new("Decal")
+Decal30.Face = Enum.NormalId.Top
+Decal30.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal30.Parent = CornerWedge27
+
+local CornerWedge28 = Instance.new("CornerWedgePart")
+CornerWedge28.Anchored = true
+CornerWedge28.Size = Vector3.new(7.9800009727478, 12.840000152588, 8.1900053024292)
+CornerWedge28.CFrame = CFrame.new(253.091796875, 131.18844604492, 2464.6201171875, 1, 3.0517112463713e-05, -3.0516181141138e-05, -3.0516181141138e-05, 1, 3.0517112463713e-05, 3.0517112463713e-05, -3.0516181141138e-05, 1)
+CornerWedge28.Parent = Model3
+
+local Decal31 = Instance.new("Decal")
+Decal31.Face = Enum.NormalId.Top
+Decal31.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal31.Parent = CornerWedge28
+
+local CornerWedge29 = Instance.new("CornerWedgePart")
+CornerWedge29.Anchored = true
+CornerWedge29.Size = Vector3.new(8.39000415802, 12.840000152588, 9.0000047683716)
+CornerWedge29.CFrame = CFrame.new(261.2724609375, 131.18893432617, 2456.0268554688, -1, 3.0517112463713e-05, 3.0518043786287e-05, 3.0518043786287e-05, 1, 3.0517112463713e-05, -3.0517112463713e-05, 3.0518043786287e-05, -1)
+CornerWedge29.Parent = Model3
+
+local Decal32 = Instance.new("Decal")
+Decal32.Face = Enum.NormalId.Top
+Decal32.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal32.Parent = CornerWedge29
+
+local CornerWedge30 = Instance.new("CornerWedgePart")
+CornerWedge30.Anchored = true
+CornerWedge30.Size = Vector3.new(8.4700021743774, 12.840000152588, 9.0000047683716)
+CornerWedge30.CFrame = CFrame.new(253.314453125, 118.34962463379, 2455.9792480469, 0.99998700618744, 3.059534355998e-05, -0.0050964350812137, 3.043981269002e-05, -1, -3.0594954296248e-05, -0.0050964360125363, 3.0439419788308e-05, -0.99998700618744)
+CornerWedge30.Parent = Model3
+
+local Decal33 = Instance.new("Decal")
+Decal33.Face = Enum.NormalId.Top
+Decal33.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal33.Parent = CornerWedge30
+
+local CornerWedge31 = Instance.new("CornerWedgePart")
+CornerWedge31.Anchored = true
+CornerWedge31.Size = Vector3.new(8.9899997711182, 12.840000152588, 7.9800000190735)
+CornerWedge31.CFrame = CFrame.new(253.0908203125, 131.18844604492, 2456.0107421875, -3.2663687306922e-05, 4.3158150219824e-05, -1, 9.2951335517455e-10, 1, 4.3158150219824e-05, 1, 4.8019099807561e-10, -3.2663687306922e-05)
+CornerWedge31.Parent = Model3
+
+local Decal34 = Instance.new("Decal")
+Decal34.Face = Enum.NormalId.Top
+Decal34.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal34.Parent = CornerWedge31
+
+local Wedge4 = Instance.new("WedgePart")
+Wedge4.Anchored = true
+Wedge4.BottomSurface = Enum.SurfaceType.Smooth
+Wedge4.Color = Color3.fromRGB(39, 70, 45)
+Wedge4.Size = Vector3.new(1.2899998426437, 93.460014343262, 58.659999847412)
+Wedge4.CFrame = CFrame.new(353.96484375, 123.98193359375, 2556.7387695313, -5.3164516430115e-05, 0.65622001886368, 0.75456964969635, 1, 3.4887620131485e-05, 4.0116326999851e-05, 0, 0.75456964969635, -0.65621995925903)
+Wedge4.Parent = BowserBattleArea3
+
+local Texture19 = Instance.new("Texture")
+Texture19.Face = Enum.NormalId.Right
+Texture19.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture19.StudsPerTileV = 4
+Texture19.StudsPerTileU = 4
+Texture19.Parent = Wedge4
+
+local Part16 = Instance.new("Part")
+Part16.Anchored = true
+Part16.BottomSurface = Enum.SurfaceType.Smooth
+Part16.TopSurface = Enum.SurfaceType.Smooth
+Part16.Color = Color3.fromRGB(40, 127, 71)
+Part16.Size = Vector3.new(79.539993286133, 85.529975891113, 2.9499998092651)
+Part16.CFrame = CFrame.new(450.80078125, 81.788604736328, 2403.4653320313, -0.89835369586945, 2.2850230379845e-05, 0.43927299976349, 3.6610141251003e-05, 1, 2.2852809706819e-05, -0.43927299976349, 3.6611745599657e-05, -0.89835369586945)
+Part16.formFactor = Enum.FormFactor.Custom
+Part16.Parent = BowserBattleArea3
+
+local Texture20 = Instance.new("Texture")
+Texture20.Face = Enum.NormalId.Top
+Texture20.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture20.StudsPerTileV = 4
+Texture20.StudsPerTileU = 4
+Texture20.Parent = Part16
+
+local Texture21 = Instance.new("Texture")
+Texture21.Face = Enum.NormalId.Bottom
+Texture21.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture21.StudsPerTileV = 4
+Texture21.StudsPerTileU = 4
+Texture21.Parent = Part16
+
+local Decal35 = Instance.new("Decal")
+Decal35.Face = Enum.NormalId.Back
+Decal35.Texture = "http://www.roblox.com/asset/?id=162897974"
+Decal35.Parent = Part16
+
+local Part17 = Instance.new("Part")
+Part17.Anchored = true
+Part17.BottomSurface = Enum.SurfaceType.Smooth
+Part17.TopSurface = Enum.SurfaceType.Smooth
+Part17.Color = Color3.fromRGB(39, 70, 45)
+Part17.Size = Vector3.new(36.240001678467, 1.2600001096725, 34.060001373291)
+Part17.CFrame = CFrame.new(368.4814453125, 123.9833984375, 2506.1982421875, 0.63935607671738, 4.0588587580714e-05, -0.76891320943832, -1.467041693104e-05, 1, 4.0588587580714e-05, 0.76891320943832, -1.467041693104e-05, 0.63935607671738)
+Part17.formFactor = Enum.FormFactor.Custom
+Part17.Parent = BowserBattleArea3
+
+local Texture22 = Instance.new("Texture")
+Texture22.Face = Enum.NormalId.Top
+Texture22.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture22.StudsPerTileV = 4
+Texture22.StudsPerTileU = 4
+Texture22.Parent = Part17
+
+local Part18 = Instance.new("Part")
+Part18.Anchored = true
+Part18.BottomSurface = Enum.SurfaceType.Smooth
+Part18.TopSurface = Enum.SurfaceType.Smooth
+Part18.Color = Color3.fromRGB(39, 70, 45)
+Part18.Size = Vector3.new(61.36999130249, 1.2000000476837, 2)
+Part18.CFrame = CFrame.new(328.7822265625, 123.98828125, 2549.58984375, 0.9573957324028, 3.4644799598027e-05, -0.28877821564674, -2.5736562747625e-05, 1, 3.4644799598027e-05, 0.28877821564674, -2.5736562747625e-05, 0.9573957324028)
+Part18.formFactor = Enum.FormFactor.Custom
+Part18.Parent = BowserBattleArea3
+
+local Texture23 = Instance.new("Texture")
+Texture23.Face = Enum.NormalId.Top
+Texture23.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture23.StudsPerTileV = 4
+Texture23.StudsPerTileU = 4
+Texture23.Parent = Part18
+
+local Model4 = Instance.new("Model")
+Model4.Parent = BowserBattleArea3
+
+local CornerWedge32 = Instance.new("CornerWedgePart")
+CornerWedge32.Anchored = true
+CornerWedge32.Size = Vector3.new(8.1599988937378, 12.840000152588, 8.3900003433228)
+CornerWedge32.CFrame = CFrame.new(295.1142578125, 130.82516479492, 2637.2473144531, 5.3468229452847e-05, 1.2351784092063e-13, 1, -4.3159529013792e-05, 1, 2.3075401589523e-09, -1, -4.3159529013792e-05, 5.3468233090825e-05)
+CornerWedge32.Parent = Model4
+
+local Decal36 = Instance.new("Decal")
+Decal36.Face = Enum.NormalId.Top
+Decal36.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal36.Parent = CornerWedge32
+
+local CornerWedge33 = Instance.new("CornerWedgePart")
+CornerWedge33.Anchored = true
+CornerWedge33.Size = Vector3.new(8.1599988937378, 12.840000152588, 8.5000009536743)
+CornerWedge33.CFrame = CFrame.new(287.20703125, 117.98780822754, 2637.1994628906, -0.0051320791244507, -4.3158146581845e-05, -0.99998289346695, 1.1083102435805e-07, -0.99999213218689, 4.3158146581845e-05, -0.99998289346695, 1.1083102435805e-07, 0.0051398873329163)
+CornerWedge33.Parent = Model4
+
+local Decal37 = Instance.new("Decal")
+Decal37.Face = Enum.NormalId.Top
+Decal37.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal37.Parent = CornerWedge33
+
+local CornerWedge34 = Instance.new("CornerWedgePart")
+CornerWedge34.Anchored = true
+CornerWedge34.Size = Vector3.new(8.9899997711182, 12.840000152588, 7.9099998474121)
+CornerWedge34.CFrame = CFrame.new(295.3525390625, 117.98731994629, 2628.5451660156, 0.0050535616464913, 1.0989963783459e-07, 0.99998724460602, 4.3157397158211e-05, -1, -1.082003180386e-07, 0.99998724460602, 4.3157389882253e-05, -0.0050535621121526)
+CornerWedge34.Parent = Model4
+
+local Decal38 = Instance.new("Decal")
+Decal38.Face = Enum.NormalId.Top
+Decal38.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal38.Parent = CornerWedge34
+
+local CornerWedge35 = Instance.new("CornerWedgePart")
+CornerWedge35.Anchored = true
+CornerWedge35.Size = Vector3.new(7.9000015258789, 12.840000152588, 8.1900053024292)
+CornerWedge35.CFrame = CFrame.new(295.392578125, 117.98731994629, 2637.1533203125, -0.99998676776886, -3.0438473913819e-05, 0.0051575219258666, 3.0595871066907e-05, -1, 3.0438473913819e-05, 0.005157520994544, 3.0595867428929e-05, 0.99998670816422)
+CornerWedge35.Parent = Model4
+
+local Decal39 = Instance.new("Decal")
+Decal39.Face = Enum.NormalId.Top
+Decal39.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal39.Parent = CornerWedge35
+
+local CornerWedge36 = Instance.new("CornerWedgePart")
+CornerWedge36.Anchored = true
+CornerWedge36.Size = Vector3.new(7.9800009727478, 12.840000152588, 8.1900053024292)
+CornerWedge36.CFrame = CFrame.new(286.943359375, 130.82565307617, 2637.2424316406, 1, 3.0517112463713e-05, -3.0516181141138e-05, -3.0516181141138e-05, 1, 3.0517112463713e-05, 3.0517112463713e-05, -3.0516181141138e-05, 1)
+CornerWedge36.Parent = Model4
+
+local Decal40 = Instance.new("Decal")
+Decal40.Face = Enum.NormalId.Top
+Decal40.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal40.Parent = CornerWedge36
+
+local CornerWedge37 = Instance.new("CornerWedgePart")
+CornerWedge37.Anchored = true
+CornerWedge37.Size = Vector3.new(8.39000415802, 12.840000152588, 9.0000047683716)
+CornerWedge37.CFrame = CFrame.new(295.1240234375, 130.82614135742, 2628.6491699219, -1, 3.0517112463713e-05, 3.0518043786287e-05, 3.0518043786287e-05, 1, 3.0517112463713e-05, -3.0517112463713e-05, 3.0518043786287e-05, -1)
+CornerWedge37.Parent = Model4
+
+local Decal41 = Instance.new("Decal")
+Decal41.Face = Enum.NormalId.Top
+Decal41.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal41.Parent = CornerWedge37
+
+local CornerWedge38 = Instance.new("CornerWedgePart")
+CornerWedge38.Anchored = true
+CornerWedge38.Size = Vector3.new(8.4700021743774, 12.840000152588, 9.0000047683716)
+CornerWedge38.CFrame = CFrame.new(287.16702270508, 117.98683166504, 2628.6022949219, 0.99998700618744, 3.059534355998e-05, -0.0050964350812137, 3.043981269002e-05, -1, -3.0594954296248e-05, -0.0050964360125363, 3.0439419788308e-05, -0.99998700618744)
+CornerWedge38.Parent = Model4
+
+local Decal42 = Instance.new("Decal")
+Decal42.Face = Enum.NormalId.Top
+Decal42.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal42.Parent = CornerWedge38
+
+local CornerWedge39 = Instance.new("CornerWedgePart")
+CornerWedge39.Anchored = true
+CornerWedge39.Size = Vector3.new(8.9899997711182, 12.840000152588, 7.9800000190735)
+CornerWedge39.CFrame = CFrame.new(286.94430541992, 130.82565307617, 2628.6342773438, -3.2663687306922e-05, 4.3158150219824e-05, -1, 9.2951335517455e-10, 1, 4.3158150219824e-05, 1, 4.8019099807561e-10, -3.2663687306922e-05)
+CornerWedge39.Parent = Model4
+
+local Decal43 = Instance.new("Decal")
+Decal43.Face = Enum.NormalId.Top
+Decal43.Texture = "http://www.roblox.com/asset/?id=162897966"
+Decal43.Parent = CornerWedge39
+
+local Wedge5 = Instance.new("WedgePart")
+Wedge5.Anchored = true
+Wedge5.BottomSurface = Enum.SurfaceType.Smooth
+Wedge5.Color = Color3.fromRGB(39, 70, 45)
+Wedge5.Size = Vector3.new(1.2299998998642, 95.310035705566, 76.470008850098)
+Wedge5.CFrame = CFrame.new(350.82421875, 123.9677734375, 2491.0915527344, 2.7776535716839e-05, -0.5625147819519, 0.82678729295731, 1, 1.5624713341822e-05, -2.2965286916588e-05, 0, 0.82678723335266, 0.5625147819519)
+Wedge5.Parent = BowserBattleArea3
+
+local Texture24 = Instance.new("Texture")
+Texture24.Face = Enum.NormalId.Right
+Texture24.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture24.StudsPerTileV = 4
+Texture24.StudsPerTileU = 4
+Texture24.Parent = Wedge5
+
+local Part19 = Instance.new("Part")
+Part19.Anchored = true
+Part19.BottomSurface = Enum.SurfaceType.Smooth
+Part19.TopSurface = Enum.SurfaceType.Smooth
+Part19.Color = Color3.fromRGB(39, 70, 45)
+Part19.Size = Vector3.new(70.76001739502, 1.2000000476837, 2)
+Part19.CFrame = CFrame.new(375.5322265625, 123.990234375, 2449.7407226563, 0.82533407211304, 3.8172700442374e-05, -0.56463611125946, -2.0135499653406e-05, 1, 3.8172700442374e-05, 0.56463611125946, -2.0135499653406e-05, 0.82533407211304)
+Part19.formFactor = Enum.FormFactor.Custom
+Part19.Parent = BowserBattleArea3
+
+local Texture25 = Instance.new("Texture")
+Texture25.Face = Enum.NormalId.Top
+Texture25.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture25.StudsPerTileV = 4
+Texture25.StudsPerTileU = 4
+Texture25.Parent = Part19
+
+local Part20 = Instance.new("Part")
+Part20.Anchored = true
+Part20.BottomSurface = Enum.SurfaceType.Smooth
+Part20.TopSurface = Enum.SurfaceType.Smooth
+Part20.Color = Color3.fromRGB(40, 127, 71)
+Part20.Size = Vector3.new(99.26000213623, 85.530006408691, 84.120040893555)
+Part20.CFrame = CFrame.new(387.857421875, 81.788604736328, 2443.4250488281, -0.25701332092285, -5.5938135119504e-06, 0.96640783548355, -4.2794883484021e-05, 1, -5.5929208429006e-06, -0.96640783548355, -4.2794770706678e-05, -0.25701332092285)
+Part20.formFactor = Enum.FormFactor.Custom
+Part20.Parent = BowserBattleArea3
+
+local Texture26 = Instance.new("Texture")
+Texture26.Face = Enum.NormalId.Top
+Texture26.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture26.StudsPerTileV = 4
+Texture26.StudsPerTileU = 4
+Texture26.Parent = Part20
+
+local Texture27 = Instance.new("Texture")
+Texture27.Face = Enum.NormalId.Bottom
+Texture27.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture27.StudsPerTileV = 4
+Texture27.StudsPerTileU = 4
+Texture27.Parent = Part20
+
+local Decal44 = Instance.new("Decal")
+Decal44.Face = Enum.NormalId.Right
+Decal44.Texture = "http://www.roblox.com/asset/?id=162897974"
+Decal44.Parent = Part20
+
+local Part21 = Instance.new("Part")
+Part21.Anchored = true
+Part21.BottomSurface = Enum.SurfaceType.Smooth
+Part21.TopSurface = Enum.SurfaceType.Smooth
+Part21.Color = Color3.fromRGB(39, 70, 45)
+Part21.Size = Vector3.new(69.710029602051, 1.2599999904633, 2)
+Part21.CFrame = CFrame.new(325.833984375, 123.98095703125, 2518.302734375, 0.75260692834854, 1.7834168829722e-05, 0.65845912694931, -3.9300550270127e-05, 1, 1.7834168829722e-05, -0.65845912694931, -3.9300550270127e-05, 0.75260692834854)
+Part21.formFactor = Enum.FormFactor.Custom
+Part21.Parent = BowserBattleArea3
+
+local Texture28 = Instance.new("Texture")
+Texture28.Face = Enum.NormalId.Top
+Texture28.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture28.StudsPerTileV = 4
+Texture28.StudsPerTileU = 4
+Texture28.Parent = Part21
+
+local Part22 = Instance.new("Part")
+Part22.Anchored = true
+Part22.BottomSurface = Enum.SurfaceType.Smooth
+Part22.TopSurface = Enum.SurfaceType.Smooth
+Part22.Color = Color3.fromRGB(40, 127, 71)
+Part22.Size = Vector3.new(79.539993286133, 85.380012512207, 255.01998901367)
+Part22.CFrame = CFrame.new(395.2626953125, 81.861846923828, 2519.6511230469, 0.89834272861481, 3.6611781979445e-05, -0.43929010629654, -2.2851279936731e-05, 1, 3.6611781979445e-05, 0.43929010629654, -2.2851279936731e-05, 0.89834272861481)
+Part22.formFactor = Enum.FormFactor.Custom
+Part22.Parent = BowserBattleArea3
+
+local Texture29 = Instance.new("Texture")
+Texture29.Face = Enum.NormalId.Top
+Texture29.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture29.StudsPerTileV = 4
+Texture29.StudsPerTileU = 4
+Texture29.Parent = Part22
+
+local Texture30 = Instance.new("Texture")
+Texture30.Face = Enum.NormalId.Bottom
+Texture30.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture30.StudsPerTileV = 4
+Texture30.StudsPerTileU = 4
+Texture30.Parent = Part22
+
+local Decal45 = Instance.new("Decal")
+Decal45.Face = Enum.NormalId.Back
+Decal45.Texture = "http://www.roblox.com/asset/?id=162897974"
+Decal45.Parent = Part22
+
+local Part23 = Instance.new("Part")
+Part23.Anchored = true
+Part23.BottomSurface = Enum.SurfaceType.Smooth
+Part23.TopSurface = Enum.SurfaceType.Smooth
+Part23.Color = Color3.fromRGB(40, 127, 71)
+Part23.Size = Vector3.new(75.200012207031, 85.590003967285, 258.14996337891)
+Part23.CFrame = CFrame.new(396.2880859375, 81.757354736328, 2518.1794433594, -0.52597469091415, 1.1797729712271e-05, 0.85050022602081, 4.1512161260471e-05, 1, 1.1800838365161e-05, -0.85050022602081, 4.1513041651342e-05, -0.52597469091415)
+Part23.formFactor = Enum.FormFactor.Custom
+Part23.Parent = BowserBattleArea3
+
+local Texture31 = Instance.new("Texture")
+Texture31.Face = Enum.NormalId.Top
+Texture31.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture31.StudsPerTileV = 4
+Texture31.StudsPerTileU = 4
+Texture31.Parent = Part23
+
+local Texture32 = Instance.new("Texture")
+Texture32.Face = Enum.NormalId.Bottom
+Texture32.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture32.StudsPerTileV = 4
+Texture32.StudsPerTileU = 4
+Texture32.Parent = Part23
+
+local Decal46 = Instance.new("Decal")
+Decal46.Face = Enum.NormalId.Back
+Decal46.Texture = "http://www.roblox.com/asset/?id=162897974"
+Decal46.Parent = Part23
+
+local Decal47 = Instance.new("Decal")
+Decal47.Face = Enum.NormalId.Right
+Decal47.Texture = "http://www.roblox.com/asset/?id=162897974"
+Decal47.Parent = Part23
+
+local Decal48 = Instance.new("Decal")
+Decal48.Face = Enum.NormalId.Left
+Decal48.Texture = "http://www.roblox.com/asset/?id=162897974"
+Decal48.Parent = Part23
+
+local Part24 = Instance.new("Part")
+Part24.Anchored = true
+Part24.BottomSurface = Enum.SurfaceType.Smooth
+Part24.TopSurface = Enum.SurfaceType.Smooth
+Part24.Color = Color3.fromRGB(40, 127, 71)
+Part24.Size = Vector3.new(79.189964294434, 85.659965515137, 235.73999023438)
+Part24.CFrame = CFrame.new(404.544921875, 81.724151611328, 2509.2783203125, 0.10757155716419, 2.3238767425937e-06, 0.99419730901718, -4.3096515582874e-05, 1, 2.3255770429387e-06, -0.99419730901718, -4.3096610170323e-05, 0.10757155716419)
+Part24.formFactor = Enum.FormFactor.Custom
+Part24.Parent = BowserBattleArea3
+
+local Texture33 = Instance.new("Texture")
+Texture33.Face = Enum.NormalId.Top
+Texture33.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture33.StudsPerTileV = 4
+Texture33.StudsPerTileU = 4
+Texture33.Parent = Part24
+
+local Texture34 = Instance.new("Texture")
+Texture34.Face = Enum.NormalId.Bottom
+Texture34.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture34.StudsPerTileV = 4
+Texture34.StudsPerTileU = 4
+Texture34.Parent = Part24
+
+local Decal49 = Instance.new("Decal")
+Decal49.Face = Enum.NormalId.Back
+Decal49.Texture = "http://www.roblox.com/asset/?id=162897974"
+Decal49.Parent = Part24
+
+local Decal50 = Instance.new("Decal")
+Decal50.Face = Enum.NormalId.Right
+Decal50.Texture = "http://www.roblox.com/asset/?id=162897974"
+Decal50.Parent = Part24
+
+local Part25 = Instance.new("Part")
+Part25.Anchored = true
+Part25.BottomSurface = Enum.SurfaceType.Smooth
+Part25.TopSurface = Enum.SurfaceType.Smooth
+Part25.Color = Color3.fromRGB(40, 127, 71)
+Part25.Size = Vector3.new(230.28002929688, 85.750022888184, 82.380027770996)
+Part25.CFrame = CFrame.new(385.16015625, 81.677276611328, 2529.8266601563, 0.25696283578873, 4.2795119952643e-05, -0.96642136573792, -5.5925902415765e-06, 1, 4.2795036279131e-05, 0.96642136573792, -5.5919349506439e-06, 0.25696283578873)
+Part25.formFactor = Enum.FormFactor.Custom
+Part25.Parent = BowserBattleArea3
+
+local Texture35 = Instance.new("Texture")
+Texture35.Face = Enum.NormalId.Top
+Texture35.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture35.StudsPerTileV = 4
+Texture35.StudsPerTileU = 4
+Texture35.Parent = Part25
+
+local Texture36 = Instance.new("Texture")
+Texture36.Face = Enum.NormalId.Bottom
+Texture36.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture36.StudsPerTileV = 4
+Texture36.StudsPerTileU = 4
+Texture36.Parent = Part25
+
+local Decal51 = Instance.new("Decal")
+Decal51.Face = Enum.NormalId.Right
+Decal51.Texture = "http://www.roblox.com/asset/?id=162897974"
+Decal51.Parent = Part25
+
+local Part26 = Instance.new("Part")
+Part26.Anchored = true
+Part26.BottomSurface = Enum.SurfaceType.Smooth
+Part26.TopSurface = Enum.SurfaceType.Smooth
+Part26.Color = Color3.fromRGB(40, 127, 71)
+Part26.Size = Vector3.new(232.52001953125, 85.569984436035, 93.349990844727)
+Part26.CFrame = CFrame.new(399.951171875, 81.767608642578, 2517.7209472656, 0.73965716362, 3.9471084164688e-05, -0.67298382520676, -1.7450687664677e-05, 1, 3.9471320633311e-05, 0.67298382520676, -1.7451211533626e-05, 0.73965716362)
+Part26.formFactor = Enum.FormFactor.Custom
+Part26.Parent = BowserBattleArea3
+
+local Texture37 = Instance.new("Texture")
+Texture37.Face = Enum.NormalId.Top
+Texture37.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture37.StudsPerTileV = 4
+Texture37.StudsPerTileU = 4
+Texture37.Parent = Part26
+
+local Texture38 = Instance.new("Texture")
+Texture38.Face = Enum.NormalId.Bottom
+Texture38.Texture = "http://www.roblox.com/asset/?id=162897981"
+Texture38.StudsPerTileV = 4
+Texture38.StudsPerTileU = 4
+Texture38.Parent = Part26
+
+local Decal52 = Instance.new("Decal")
+Decal52.Face = Enum.NormalId.Right
+Decal52.Texture = "http://www.roblox.com/asset/?id=162897974"
+Decal52.Parent = Part26
+
+local Part27 = Instance.new("Part")
+Part27.Anchored = true
+Part27.BottomSurface = Enum.SurfaceType.Smooth
+Part27.TopSurface = Enum.SurfaceType.Smooth
+Part27.Color = Color3.fromRGB(0, 32, 96)
+Part27.Size = Vector3.new(5.0700006484985, 5.0700006484985, 5.0700006484985)
+Part27.CFrame = CFrame.new(472.38916015625, 141.43206787109, 2645.8481445313, 1, 3.0518043786287e-05, -3.0517112463713e-05, -3.0517112463713e-05, 1, 3.0518043786287e-05, 3.0518043786287e-05, -3.0517112463713e-05, 1)
+Part27.formFactor = Enum.FormFactor.Symmetric
+Part27.Shape = Enum.PartType.Ball
+Part27.Parent = CUSTOMMAP
+
+local Spawns = Instance.new("Folder")
+Spawns.Name = "Spawns"
+Spawns.Parent = CUSTOMMAP
+
+local Spawn_ = Instance.new("Part")
+Spawn_.Name = "Spawn "
+Spawn_.Anchored = true
+Spawn_.BottomSurface = Enum.SurfaceType.Smooth
+Spawn_.CanCollide = false
+Spawn_.TopSurface = Enum.SurfaceType.Smooth
+Spawn_.Transparency = 1
+Spawn_.Size = Vector3.new(1, 1, 1)
+Spawn_.CFrame = CFrame.new(398.30920410156, 131.22207641602, 2523.9536132813, 0.7396577000618, 3.9471084164688e-05, -0.67298328876495, -1.7450718587497e-05, 1, 3.9471302443417e-05, 0.67298322916031, -1.7451211533626e-05, 0.73965775966644)
+Spawn_.Parent = Spawns
+
+local Sky = Instance.new("Sky")
+Sky.SkyboxUp = "rbxassetid://6020396584"
+Sky.SkyboxLf = "rbxassetid://83126116"
+Sky.SkyboxBk = "rbxassetid://83126116"
+Sky.SkyboxFt = "rbxassetid://83126116"
+Sky.CelestialBodiesShown = false
+Sky.SkyboxDn = "rbxassetid://6020396584"
+Sky.SkyboxRt = "rbxassetid://83126116"
+Sky.Parent = CUSTOMMAP
+
+CUSTOMMAP.Parent = workspace
