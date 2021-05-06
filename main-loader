@@ -2,6 +2,10 @@ if workspace:FindFirstChild("MapLoader") then
 workspace:FindFirstChild("MapLoader"):Destroy()
 end
 
+if workspace:FindFirstChild("CUSTOMMAP") then
+workspace:FindFirstChild("CUSTOMMAP"):Destroy()
+end
+
 local MapLoader = Instance.new("Model")
 MapLoader.Name = "MapLoader"
 
