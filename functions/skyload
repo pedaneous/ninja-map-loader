@@ -1,0 +1,9 @@
+local map = workspace:FindFirstChild("CUSTOMMAP")
+if map then
+  if map:FindFirstChildWhichIsA("Sky") then
+    if game.Lighting:FindFirstChildWhichIsA("Sky") then
+      game.Lighting:FindFirstChildWhichIsA("Sky"):Destroy()
+    end
+    map:FindFirstChildWhichIsA("Sky").Parent = game.Lighting
+  end
+end
