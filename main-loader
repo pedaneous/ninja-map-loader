@@ -653,7 +653,7 @@ Button.Parent = List
 end
 
 --Add Custom Map Buttons here
-addButton("Swamp", "https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/maps/Swamp")
+addButton("Gilbert Swamp", "https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/maps/GilbertSwamp")
 
 print("Ninja Map Loader by Gilbert")
 print("V1")
