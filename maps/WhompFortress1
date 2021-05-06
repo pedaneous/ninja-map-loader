@@ -1372,7 +1372,7 @@ Part66.brickColor = BrickColor.new("Br. yellowish orange")
 Part66.FormFactor = Enum.FormFactor.Custom
 Part66.formFactor = Enum.FormFactor.Custom
 game:GetService("RunService").Heartbeat:Connect(function()
-Part66.CFrame = Part66.CFrame * CFrame.fromEulerAnglesXYZ(0,1,0)
+Part66.CFrame = Part66.CFrame * CFrame.fromEulerAnglesXYZ(0,0.01,0)
 end)
 Decal67.Parent = Part66
 Decal67.Texture = "http://www.roblox.com/asset/?id=201043672"
