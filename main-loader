@@ -1,0 +1,655 @@
+if workspace:FindFirstChild("MapLoader") then
+workspace:FindFirstChild("MapLoader"):Destroy()
+end
+
+local MapLoader = Instance.new("Model")
+MapLoader.Name = "MapLoader"
+
+local Chair = Instance.new("Model")
+Chair.Name = "Chair"
+Chair.Parent = MapLoader
+
+local Part = Instance.new("Part")
+Part.Anchored = true
+Part.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part.Color = Color3.fromRGB(108, 88, 75)
+Part.Material = Enum.Material.WoodPlanks
+Part.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part.Size = Vector3.new(0.20000000298023, 1.4999996423721, 0.099999904632568)
+Part.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part.CFrame = CFrame.new(-14.91455078125, 27.506340026855, 793.87603759766, -0.13308225572109, 0.64279329776764, -0.75439113378525, -0.98480904102325, -0.00010472936264705, 0.17364110052586, 0.11153631657362, 0.7660396695137, 0.63304233551025)
+Part.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part.Parent = Chair
+
+local Part1 = Instance.new("Part")
+Part1.Anchored = true
+Part1.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part1.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part1.Color = Color3.fromRGB(108, 88, 75)
+Part1.Material = Enum.Material.WoodPlanks
+Part1.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part1.Size = Vector3.new(1.6000001430511, 0.099999934434891, 0.1000000089407)
+Part1.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part1.CFrame = CFrame.new(-16.384948730469, 24.572845458984, 795.109375, -0.64279168844223, 0.066878385841846, 0.76311612129211, 0.00011354956950527, 0.99619007110596, -0.087208993732929, -0.76604110002518, -0.055970542132854, -0.64034992456436)
+Part1.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part1.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part1.Parent = Chair
+
+local Part2 = Instance.new("Part")
+Part2.Anchored = true
+Part2.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part2.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part2.Color = Color3.fromRGB(108, 88, 75)
+Part2.Material = Enum.Material.WoodPlanks
+Part2.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part2.Size = Vector3.new(0.050000000745058, 1.5499995946884, 0.050000000745058)
+Part2.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part2.CFrame = CFrame.new(-15.037628173828, 26.595355987549, 793.97918701172, 0.64279329776764, 0.13308227062225, -0.75439113378525, -0.00010475916496944, 0.98480904102325, 0.17364110052586, 0.7660396695137, -0.1115362867713, 0.63304233551025)
+Part2.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part2.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part2.Parent = Chair
+
+local Part3 = Instance.new("Part")
+Part3.Anchored = true
+Part3.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part3.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part3.Color = Color3.fromRGB(108, 88, 75)
+Part3.Material = Enum.Material.WoodPlanks
+Part3.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part3.Size = Vector3.new(1.6000001430511, 0.29999992251396, 1.5500001907349)
+Part3.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part3.CFrame = CFrame.new(-15.784545898438, 25.320262908936, 794.60577392578, -0.64278775453568, 4.3655738746207e-11, 0.76604449748993, 1.0347428469615e-10, 1, 2.8352657027719e-11, -0.76604437828064, -8.7311484431307e-11, -0.64278739690781)
+Part3.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part3.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part3.Parent = Chair
+
+local Seat = Instance.new("Seat")
+Seat.Anchored = true
+Seat.BottomSurface = Enum.SurfaceType.Smooth
+Seat.TopSurface = Enum.SurfaceType.Smooth
+Seat.Transparency = 1
+Seat.Color = Color3.fromRGB(27, 42, 53)
+Seat.Material = Enum.Material.WoodPlanks
+Seat.Size = Vector3.new(2.050000667572, 0.20000000298023, 1.8999999761581)
+Seat.CFrame = CFrame.new(-15.787719726563, 25.270290374756, 794.64093017578, -0.64278775453568, 4.3655738746207e-11, 0.76604449748993, 1.0347428469615e-10, 1, 2.8352657027719e-11, -0.76604437828064, -8.7311484431307e-11, -0.64278739690781)
+Seat.Parent = Chair
+
+local Part4 = Instance.new("Part")
+Part4.Anchored = true
+Part4.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part4.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part4.Color = Color3.fromRGB(108, 88, 75)
+Part4.Material = Enum.Material.WoodPlanks
+Part4.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part4.Size = Vector3.new(0.20000000298023, 0.19999960064888, 0.1999998986721)
+Part4.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part4.CFrame = CFrame.new(-14.373657226563, 27.703193664551, 794.46655273438, -0.13308225572109, 0.64279329776764, -0.75439113378525, -0.98480904102325, -0.00010472936264705, 0.17364110052586, 0.11153631657362, 0.7660396695137, 0.63304233551025)
+Part4.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part4.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part4.Parent = Chair
+
+local Part5 = Instance.new("Part")
+Part5.Anchored = true
+Part5.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part5.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part5.Color = Color3.fromRGB(108, 88, 75)
+Part5.Material = Enum.Material.WoodPlanks
+Part5.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part5.Size = Vector3.new(2.2499995231628, 0.20000012218952, 0.20000018179417)
+Part5.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part5.CFrame = CFrame.new(-15.551788330078, 26.595443725586, 793.36627197266, -0.13308224081993, -0.64279329776764, 0.75439113378525, -0.98480898141861, 0.0001046101533575, -0.1736411601305, 0.11153640598059, -0.7660396695137, -0.63304227590561)
+Part5.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part5.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part5.Parent = Chair
+
+local Part6 = Instance.new("Part")
+Part6.Anchored = true
+Part6.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part6.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part6.Color = Color3.fromRGB(108, 88, 75)
+Part6.Material = Enum.Material.WoodPlanks
+Part6.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part6.Size = Vector3.new(0.20000000298023, 0.19999960064888, 0.1999998986721)
+Part6.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part6.CFrame = CFrame.new(-15.402099609375, 27.703380584717, 793.24084472656, -0.13308225572109, 0.64279329776764, -0.75439113378525, -0.98480904102325, -0.00010472936264705, 0.17364110052586, 0.11153631657362, 0.7660396695137, 0.63304233551025)
+Part6.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part6.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part6.Parent = Chair
+
+local Part7 = Instance.new("Part")
+Part7.Anchored = true
+Part7.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part7.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part7.Color = Color3.fromRGB(108, 88, 75)
+Part7.Material = Enum.Material.WoodPlanks
+Part7.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part7.Size = Vector3.new(0.20000000298023, 0.20000006258488, 1.8999993801117)
+Part7.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part7.CFrame = CFrame.new(-15.864166259766, 24.620182037354, 795.71667480469, -0.6402496099472, -0.7680875658989, 0.011047311127186, -0.087121061980724, 0.086894504725933, 0.99240070581436, -0.76321053504944, 0.63442158699036, -0.12255074828863)
+Part7.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part7.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part7.Parent = Chair
+
+local Part8 = Instance.new("Part")
+Part8.Anchored = true
+Part8.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part8.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part8.Color = Color3.fromRGB(108, 88, 75)
+Part8.Material = Enum.Material.WoodPlanks
+Part8.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part8.Size = Vector3.new(1.6000000238419, 0.29999959468842, 0.10000018030405)
+Part8.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part8.CFrame = CFrame.new(-14.934448242188, 27.358589172363, 793.89270019531, -0.64279323816299, 0.13308247923851, 0.75439113378525, 0.00010499755444471, 0.98480898141861, -0.1736411601305, -0.76603960990906, -0.11153611540794, -0.63304227590561)
+Part8.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part8.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part8.Parent = Chair
+
+local Part9 = Instance.new("Part")
+Part9.Anchored = true
+Part9.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part9.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part9.Color = Color3.fromRGB(108, 88, 75)
+Part9.Material = Enum.Material.WoodPlanks
+Part9.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part9.Size = Vector3.new(0.20000000298023, 0.20000006258488, 1.8999993801117)
+Part9.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part9.CFrame = CFrame.new(-14.6767578125, 24.62024307251, 794.72039794922, -0.63451451063156, -0.76314908266068, -0.12245423346758, -0.086788065731525, -0.087082527577877, 0.9924134016037, -0.76802295446396, 0.64032804965973, -0.010977119207382)
+Part9.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part9.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part9.Parent = Chair
+
+local Part10 = Instance.new("Part")
+Part10.Anchored = true
+Part10.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part10.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part10.Color = Color3.fromRGB(108, 88, 75)
+Part10.Material = Enum.Material.WoodPlanks
+Part10.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part10.Size = Vector3.new(1.7500002384186, 0.14999993145466, 1.8000001907349)
+Part10.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part10.CFrame = CFrame.new(-15.78466796875, 25.545303344727, 794.60571289063, -0.76604431867599, 9.2137808678672e-05, -0.64278787374496, 1.5888953157628e-06, 1, 0.00014144733722787, 0.64278763532639, 0.00010733350063674, -0.76604425907135)
+Part10.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part10.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part10.Parent = Chair
+
+local Part11 = Instance.new("Part")
+Part11.Anchored = true
+Part11.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part11.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part11.Color = Color3.fromRGB(108, 88, 75)
+Part11.Material = Enum.Material.WoodPlanks
+Part11.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part11.Size = Vector3.new(2.2499995231628, 0.20000012218952, 0.20000018179417)
+Part11.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part11.CFrame = CFrame.new(-14.523376464844, 26.595272064209, 794.59204101563, -0.13308224081993, -0.64279329776764, 0.75439113378525, -0.98480898141861, 0.0001046101533575, -0.1736411601305, 0.11153640598059, -0.7660396695137, -0.63304227590561)
+Part11.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part11.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part11.Parent = Chair
+
+local Part12 = Instance.new("Part")
+Part12.Anchored = true
+Part12.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part12.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part12.Color = Color3.fromRGB(108, 88, 75)
+Part12.Material = Enum.Material.WoodPlanks
+Part12.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part12.Size = Vector3.new(0.10000001639128, 1.5499995946884, 0.050000000745058)
+Part12.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part12.CFrame = CFrame.new(-15.278625488281, 26.595386505127, 793.69183349609, 0.64279329776764, 0.13308227062225, -0.75439113378525, -0.00010475916496944, 0.98480904102325, 0.17364110052586, 0.7660396695137, -0.1115362867713, 0.63304233551025)
+Part12.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part12.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part12.Parent = Chair
+
+local Part13 = Instance.new("Part")
+Part13.Anchored = true
+Part13.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part13.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part13.Color = Color3.fromRGB(108, 88, 75)
+Part13.Material = Enum.Material.WoodPlanks
+Part13.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part13.Size = Vector3.new(0.20000000298023, 0.20000006258488, 1.8999993801117)
+Part13.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part13.CFrame = CFrame.new(-15.705108642578, 24.62036895752, 793.49468994141, -0.64028787612915, 0.76805830001831, 0.010868512094021, 0.0872553139925, 0.086783021688461, -0.99239873886108, -0.76316320896149, -0.63447231054306, -0.12258325517178)
+Part13.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part13.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part13.Parent = Chair
+
+local Part14 = Instance.new("Part")
+Part14.Anchored = true
+Part14.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part14.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part14.Color = Color3.fromRGB(108, 88, 75)
+Part14.Material = Enum.Material.WoodPlanks
+Part14.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part14.Size = Vector3.new(1.6000001430511, 0.099999934434891, 0.1000000089407)
+Part14.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part14.CFrame = CFrame.new(-16.288848876953, 24.572910308838, 794.01147460938, -0.76611757278442, -0.056054309010506, 0.64025139808655, -6.4226906033582e-06, -0.99618870019913, -0.087224461138248, 0.64270025491714, -0.066828303039074, 0.76319724321365)
+Part14.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part14.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part14.Parent = Chair
+
+local Part15 = Instance.new("Part")
+Part15.Anchored = true
+Part15.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part15.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part15.Color = Color3.fromRGB(108, 88, 75)
+Part15.Material = Enum.Material.WoodPlanks
+Part15.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part15.Size = Vector3.new(1.6000001430511, 0.099999934434891, 0.1000000089407)
+Part15.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part15.CFrame = CFrame.new(-15.197540283203, 24.572868347168, 794.11303710938, -0.6426750421524, -0.066659025847912, 0.76323354244232, 0.00024214269069489, 0.99619007110596, 0.087208792567253, -0.76613879203796, 0.056231703609228, -0.64021003246307)
+Part15.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part15.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part15.Parent = Chair
+
+local Part16 = Instance.new("Part")
+Part16.Anchored = true
+Part16.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part16.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part16.Color = Color3.fromRGB(108, 88, 75)
+Part16.Material = Enum.Material.WoodPlanks
+Part16.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part16.Size = Vector3.new(0.050000000745058, 1.5499995946884, 0.050000000745058)
+Part16.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part16.CFrame = CFrame.new(-14.796569824219, 26.595306396484, 794.26647949219, 0.64279329776764, 0.13308227062225, -0.75439113378525, -0.00010475916496944, 0.98480904102325, 0.17364110052586, 0.7660396695137, -0.1115362867713, 0.63304233551025)
+Part16.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part16.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part16.Parent = Chair
+
+local Part17 = Instance.new("Part")
+Part17.Anchored = true
+Part17.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part17.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part17.Color = Color3.fromRGB(108, 88, 75)
+Part17.Material = Enum.Material.WoodPlanks
+Part17.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part17.Size = Vector3.new(0.20000000298023, 1.4999996423721, 0.099999904632568)
+Part17.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part17.CFrame = CFrame.new(-14.954406738281, 27.210865020752, 793.90948486328, -0.13308225572109, 0.64279329776764, -0.75439113378525, -0.98480904102325, -0.00010472936264705, 0.17364110052586, 0.11153631657362, 0.7660396695137, 0.63304233551025)
+Part17.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part17.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part17.Parent = Chair
+
+local Part18 = Instance.new("Part")
+Part18.Anchored = true
+Part18.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part18.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part18.Color = Color3.fromRGB(108, 88, 75)
+Part18.Material = Enum.Material.WoodPlanks
+Part18.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part18.Size = Vector3.new(1.6000000238419, 0.29999959468842, 0.10000018030405)
+Part18.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part18.CFrame = CFrame.new(-15.154022216797, 25.733604431152, 794.07678222656, -0.64279323816299, 0.13308247923851, 0.75439113378525, 0.00010499755444471, 0.98480898141861, -0.1736411601305, -0.76603960990906, -0.11153611540794, -0.63304227590561)
+Part18.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part18.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part18.Parent = Chair
+
+local Part19 = Instance.new("Part")
+Part19.Anchored = true
+Part19.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part19.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part19.Color = Color3.fromRGB(108, 88, 75)
+Part19.Material = Enum.Material.WoodPlanks
+Part19.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part19.Size = Vector3.new(1.6000001430511, 0.099999934434891, 0.1000000089407)
+Part19.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part19.CFrame = CFrame.new(-15.292510986328, 24.572780609131, 795.19891357422, 0.76605892181396, -0.055903557687998, 0.64033478498459, -0.00010153344192076, 0.99620014429092, 0.087093360722065, -0.64277017116547, -0.066783674061298, 0.76314240694046)
+Part19.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part19.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part19.Parent = Chair
+
+local Part20 = Instance.new("Part")
+Part20.Anchored = true
+Part20.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part20.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part20.Color = Color3.fromRGB(108, 88, 75)
+Part20.Material = Enum.Material.WoodPlanks
+Part20.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part20.Size = Vector3.new(0.20000000298023, 1.4999996423721, 0.099999904632568)
+Part20.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part20.CFrame = CFrame.new(-15.134063720703, 25.881366729736, 794.05999755859, -0.13308225572109, 0.64279329776764, -0.75439113378525, -0.98480904102325, -0.00010472936264705, 0.17364110052586, 0.11153631657362, 0.7660396695137, 0.63304233551025)
+Part20.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part20.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part20.Parent = Chair
+
+local Part21 = Instance.new("Part")
+Part21.Anchored = true
+Part21.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Part21.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Part21.Color = Color3.fromRGB(108, 88, 75)
+Part21.Material = Enum.Material.WoodPlanks
+Part21.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Part21.Size = Vector3.new(0.20000000298023, 0.20000006258488, 1.8999993801117)
+Part21.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part21.CFrame = CFrame.new(-16.892547607422, 24.62035369873, 794.49090576172, -0.63447672128677, 0.76315075159073, -0.12263980507851, 0.086933597922325, -0.087203212082386, -0.99239009618759, -0.76803761720657, -0.64030975103378, -0.011015042662621)
+Part21.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Part21.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Part21.Parent = Chair
+
+local Part22 = Instance.new("Part")
+Part22.Anchored = true
+Part22.BottomSurface = Enum.SurfaceType.Smooth
+Part22.TopSurface = Enum.SurfaceType.Smooth
+Part22.Size = Vector3.new(6.0999999046326, 7, 0.10000000149012)
+Part22.CFrame = CFrame.new(-28.730001449585, 30.159999847412, 798.84997558594, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part22.Parent = MapLoader
+
+local walter = Instance.new("Decal")
+walter.Name = "walter"
+walter.Texture = "http://www.roblox.com/asset/?id=5269008171"
+walter.Parent = Part22
+
+local Part23 = Instance.new("Part")
+Part23.Anchored = true
+Part23.BottomSurface = Enum.SurfaceType.Smooth
+Part23.TopSurface = Enum.SurfaceType.Smooth
+Part23.Color = Color3.fromRGB(99, 95, 98)
+Part23.Size = Vector3.new(1, 0.80000001192093, 0.30000001192093)
+Part23.CFrame = CFrame.new(-20.979999542236, 27.559999465942, 806.25006103516)
+Part23.Parent = MapLoader
+
+local TpPart = Instance.new("Part")
+TpPart.Name = "TpPart"
+TpPart.Anchored = true
+TpPart.BottomSurface = Enum.SurfaceType.Smooth
+TpPart.CanCollide = false
+TpPart.TopSurface = Enum.SurfaceType.Smooth
+TpPart.Transparency = 1
+TpPart.Size = Vector3.new(0.10000000149012, 0.10000000149012, 0.10000000149012)
+TpPart.CFrame = CFrame.new(-20.879999160767, 27.360000610352, 799.29998779297)
+TpPart.Parent = MapLoader
+
+local Screen = Instance.new("Part")
+Screen.Name = "Screen"
+Screen.Anchored = true
+Screen.BottomSurface = Enum.SurfaceType.Smooth
+Screen.TopSurface = Enum.SurfaceType.Smooth
+Screen.Transparency = 1
+Screen.Size = Vector3.new(1.7999999523163, 1.2999999523163, 0.050000000745058)
+Screen.CFrame = CFrame.new(-20.985834121704, 28.717472076416, 806.07501220703)
+Screen.Parent = MapLoader
+
+local SurfaceGui = Instance.new("SurfaceGui")
+SurfaceGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+SurfaceGui.LightInfluence = 1
+SurfaceGui.ClipsDescendants = true
+SurfaceGui.Parent = Screen
+
+local Start = Instance.new("Frame")
+Start.Name = "Start"
+Start.Visible = false
+Start.Size = UDim2.new(0.8, 0, 0.8, 0)
+Start.Position = UDim2.new(0.1, 0, 0.1, 0)
+Start.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Start.Parent = SurfaceGui
+
+local TextLabel = Instance.new("TextLabel")
+TextLabel.Size = UDim2.new(1, 0, 0.6, 0)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel.FontSize = Enum.FontSize.Size14
+TextLabel.TextSize = 14
+TextLabel.TextColor3 = Color3.fromRGB(0, 200, 255)
+TextLabel.Text = "Ninja OS"
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Parent = Start
+
+local StartButton = Instance.new("TextButton")
+StartButton.Name = "StartButton"
+StartButton.Size = UDim2.new(1, 0, 0.2, 0)
+StartButton.BackgroundTransparency = 1
+StartButton.Position = UDim2.new(0, 0, 0.7, 0)
+StartButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StartButton.FontSize = Enum.FontSize.Size14
+StartButton.TextSize = 14
+StartButton.TextColor3 = Color3.fromRGB(0, 255, 21)
+StartButton.Text = "Start"
+StartButton.Font = Enum.Font.SourceSans
+StartButton.Parent = Start
+
+local Main = Instance.new("Frame")
+Main.Name = "Main"
+Main.Size = UDim2.new(1, 0, 1, 0)
+Main.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+Main.Parent = SurfaceGui
+
+local List = Instance.new("ScrollingFrame")
+List.Name = "List"
+List.Size = UDim2.new(1.2, 0, 1, 0)
+List.Active = true
+List.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+List.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+List.MidImage = ""
+List.ScrollBarImageTransparency = 1
+List.TopImage = ""
+List.BottomImage = ""
+List.Parent = Main
+
+local UIListLayout = Instance.new("UIListLayout")
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Parent = List
+
+local Default = Instance.new("TextButton")
+Default.Name = "Default"
+Default.Size = UDim2.new(0.85, 0, 0.1, 0)
+Default.BackgroundTransparency = 0.8
+Default.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Default.FontSize = Enum.FontSize.Size14
+Default.TextSize = 14
+Default.TextColor3 = Color3.fromRGB(25, 255, 0)
+Default.Text = "Default Map"
+Default.TextWrap = true
+Default.Font = Enum.Font.Code
+Default.TextWrapped = true
+Default.TextScaled = true
+Default.Parent = List
+
+local Part24 = Instance.new("Part")
+Part24.Anchored = true
+Part24.BottomSurface = Enum.SurfaceType.Smooth
+Part24.TopSurface = Enum.SurfaceType.Smooth
+Part24.Color = Color3.fromRGB(171, 168, 158)
+Part24.Material = Enum.Material.WoodPlanks
+Part24.Size = Vector3.new(17, 1, 17)
+Part24.CFrame = CFrame.new(-20.979999542236, 23.159999847412, 800)
+Part24.Parent = MapLoader
+
+local Part25 = Instance.new("Part")
+Part25.Anchored = true
+Part25.BottomSurface = Enum.SurfaceType.Smooth
+Part25.TopSurface = Enum.SurfaceType.Smooth
+Part25.Color = Color3.fromRGB(110, 153, 202)
+Part25.Material = Enum.Material.Concrete
+Part25.Size = Vector3.new(17, 14.900000572205, 0.80000001192093)
+Part25.CFrame = CFrame.new(-20.979999542236, 30.110000610352, 791.89996337891)
+Part25.Parent = MapLoader
+
+local Part26 = Instance.new("Part")
+Part26.Anchored = true
+Part26.BottomSurface = Enum.SurfaceType.Smooth
+Part26.TopSurface = Enum.SurfaceType.Smooth
+Part26.Color = Color3.fromRGB(110, 153, 202)
+Part26.Material = Enum.Material.Concrete
+Part26.Size = Vector3.new(17, 14.900000572205, 0.80000001192093)
+Part26.CFrame = CFrame.new(-20.979999542236, 30.110000610352, 808.09997558594)
+Part26.Parent = MapLoader
+
+local Part27 = Instance.new("Part")
+Part27.Anchored = true
+Part27.BottomSurface = Enum.SurfaceType.Smooth
+Part27.TopSurface = Enum.SurfaceType.Smooth
+Part27.Color = Color3.fromRGB(110, 153, 202)
+Part27.Material = Enum.Material.Concrete
+Part27.Size = Vector3.new(0.79999923706055, 14.900000572205, 17)
+Part27.CFrame = CFrame.new(-12.879999160767, 30.110000610352, 800)
+Part27.Parent = MapLoader
+
+local Part28 = Instance.new("Part")
+Part28.Anchored = true
+Part28.BottomSurface = Enum.SurfaceType.Smooth
+Part28.TopSurface = Enum.SurfaceType.Smooth
+Part28.Color = Color3.fromRGB(110, 153, 202)
+Part28.Material = Enum.Material.Concrete
+Part28.Size = Vector3.new(0.79999923706055, 14.900000572205, 17)
+Part28.CFrame = CFrame.new(-29.180000305176, 30.110000610352, 800)
+Part28.Parent = MapLoader
+
+local Part29 = Instance.new("Part")
+Part29.Anchored = true
+Part29.BottomSurface = Enum.SurfaceType.Smooth
+Part29.TopSurface = Enum.SurfaceType.Smooth
+Part29.Color = Color3.fromRGB(91, 93, 105)
+Part29.Material = Enum.Material.Pebble
+Part29.Size = Vector3.new(17, 1, 17)
+Part29.CFrame = CFrame.new(-20.979999542236, 36.959999084473, 800)
+Part29.Parent = MapLoader
+
+local Part30 = Instance.new("Part")
+Part30.Anchored = true
+Part30.BottomSurface = Enum.SurfaceType.Smooth
+Part30.TopSurface = Enum.SurfaceType.Smooth
+Part30.Color = Color3.fromRGB(99, 95, 98)
+Part30.Size = Vector3.new(2, 1.6000000238419, 0.30000001192093)
+Part30.CFrame = CFrame.new(-20.979999542236, 28.659999847412, 806.25006103516)
+Part30.Parent = MapLoader
+
+local Part31 = Instance.new("Part")
+Part31.Anchored = true
+Part31.BottomSurface = Enum.SurfaceType.Smooth
+Part31.TopSurface = Enum.SurfaceType.Smooth
+Part31.Color = Color3.fromRGB(160, 95, 53)
+Part31.Material = Enum.Material.Wood
+Part31.Size = Vector3.new(1, 3, 1)
+Part31.CFrame = CFrame.new(-17.979999542236, 25.159999847412, 806.5)
+Part31.Parent = MapLoader
+
+local Part32 = Instance.new("Part")
+Part32.Anchored = true
+Part32.BottomSurface = Enum.SurfaceType.Smooth
+Part32.TopSurface = Enum.SurfaceType.Smooth
+Part32.Color = Color3.fromRGB(160, 95, 53)
+Part32.Material = Enum.Material.Wood
+Part32.Size = Vector3.new(1, 3, 1)
+Part32.CFrame = CFrame.new(-23.979999542236, 25.159999847412, 806.5)
+Part32.Parent = MapLoader
+
+local Part33 = Instance.new("Part")
+Part33.Anchored = true
+Part33.BottomSurface = Enum.SurfaceType.Smooth
+Part33.TopSurface = Enum.SurfaceType.Smooth
+Part33.Color = Color3.fromRGB(160, 95, 53)
+Part33.Material = Enum.Material.Wood
+Part33.Size = Vector3.new(1, 3, 1)
+Part33.CFrame = CFrame.new(-23.979999542236, 25.159999847412, 804.5)
+Part33.Parent = MapLoader
+
+local Part34 = Instance.new("Part")
+Part34.Anchored = true
+Part34.BottomSurface = Enum.SurfaceType.Smooth
+Part34.TopSurface = Enum.SurfaceType.Smooth
+Part34.Color = Color3.fromRGB(160, 95, 53)
+Part34.Material = Enum.Material.Wood
+Part34.Size = Vector3.new(1, 3, 1)
+Part34.CFrame = CFrame.new(-17.979999542236, 25.159999847412, 804.5)
+Part34.Parent = MapLoader
+
+local Part35 = Instance.new("Part")
+Part35.Anchored = true
+Part35.BottomSurface = Enum.SurfaceType.Smooth
+Part35.TopSurface = Enum.SurfaceType.Smooth
+Part35.Color = Color3.fromRGB(150, 103, 102)
+Part35.Material = Enum.Material.Wood
+Part35.Size = Vector3.new(7, 0.5, 3)
+Part35.CFrame = CFrame.new(-20.979999542236, 26.909999847412, 805.5)
+Part35.Parent = MapLoader
+
+local Part36 = Instance.new("Part")
+Part36.Anchored = true
+Part36.BottomSurface = Enum.SurfaceType.Smooth
+Part36.TopSurface = Enum.SurfaceType.Smooth
+Part36.Size = Vector3.new(2.6000001430511, 0.099999994039536, 1.1000000238419)
+Part36.CFrame = CFrame.new(-20.979999542236, 27.209999084473, 804.85003662109)
+Part36.Parent = MapLoader
+
+local Part37 = Instance.new("Part")
+Part37.Anchored = true
+Part37.BottomSurface = Enum.SurfaceType.Smooth
+Part37.TopSurface = Enum.SurfaceType.Smooth
+Part37.Color = Color3.fromRGB(99, 95, 98)
+Part37.Size = Vector3.new(2.4000000953674, 0.099999994039536, 0.90000003576279)
+Part37.CFrame = CFrame.new(-20.979999542236, 27.209999084473, 806.25006103516)
+Part37.Parent = MapLoader
+
+local Light = Instance.new("Model")
+Light.Name = "Light"
+Light.Parent = MapLoader
+
+local Part38 = Instance.new("Part")
+Part38.Anchored = true
+Part38.BottomSurface = Enum.SurfaceType.Smooth
+Part38.TopSurface = Enum.SurfaceType.Smooth
+Part38.Color = Color3.fromRGB(248, 248, 248)
+Part38.Material = Enum.Material.Neon
+Part38.Size = Vector3.new(0.39999985694885, 1.6000000238419, 1.6000000238419)
+Part38.CFrame = CFrame.new(-21.379997253418, 36.259998321533, 798.20001220703, 0, 0, -0.99999952316284, 1, 0, 0, 0, -0.99999952316284, 0)
+Part38.Shape = Enum.PartType.Cylinder
+Part38.Parent = Light
+
+local PointLight = Instance.new("PointLight")
+PointLight.Parent = Part38
+
+local Part39 = Instance.new("Part")
+Part39.Anchored = true
+Part39.BottomSurface = Enum.SurfaceType.Smooth
+Part39.TopSurface = Enum.SurfaceType.Smooth
+Part39.Size = Vector3.new(0.29999986290932, 2.2000000476837, 2.2000000476837)
+Part39.CFrame = CFrame.new(-21.379997253418, 36.309997558594, 798.20001220703, 0, 0, -0.99999952316284, 1, 0, 0, 0, -0.99999952316284, 0)
+Part39.Shape = Enum.PartType.Cylinder
+Part39.Parent = Light
+
+local Part40 = Instance.new("Part")
+Part40.Anchored = true
+Part40.BottomSurface = Enum.SurfaceType.Smooth
+Part40.TopSurface = Enum.SurfaceType.Smooth
+Part40.Size = Vector3.new(6.0999999046326, 7, 0.10000000149012)
+Part40.CFrame = CFrame.new(-13.329998970032, 30.360000610352, 799.95001220703, 0, 0, 1, 0, 1, 0, -1, 0, 0)
+Part40.Parent = MapLoader
+
+local StaringLizard = Instance.new("Decal")
+StaringLizard.Name = "Staring Lizard"
+StaringLizard.Texture = "http://www.roblox.com/asset/?id=5296030001"
+StaringLizard.Parent = Part40
+
+MapLoader.Parent = workspace
+
+local lp = game.Players.LocalPlayer
+local c = lp.Character
+local hrp = c.HumanoidRootPart
+hrp.CFrame = TpPart.CFrame
+
+Default.MouseButton1Click:Connect(function()
+hrp.CFrame = CFrame.new(0,40,0)
+end)
+
+function addButton(mn, url)
+local Button = Default:Clone()
+Button.Name = mn
+Button.Text = mn
+Button.MouseButton1Click:Connect(function()
+if workspace:FindFirstChild("CUSTOMMAP") then
+workspace:FindFirstChild("CUSTOMMAP"):Destroy()
+end
+loadstring(game:HttpGet(url))()
+wait(2)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/functions/spawn"))()
+end)
+Button.Parent = List
+end
+
+--Add Custom Map Buttons here
+addButton("Swamp", "https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/maps/Swamp")
+
+print("Ninja Map Loader by Gilbert")
+print("V1")
