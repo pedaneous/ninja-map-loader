@@ -1,0 +1,14 @@
+function findRandomSpawn(sp)
+  return sp:GetChildren()[math.random(0,#sp:GetChildren())]
+end
+
+function spawnAt(spawn)
+local lp = game.Players.LocalPlayer
+local c = lp.Character
+local hrp = c.HumanoidRootPart
+hrp.CFrame = spawn.CFrame
+end
+
+if workspace:FindFirstChild("CUSTOMMAP") then
+spawnAt(findRandomSpawn(workspace:FindFirstChild("CUSTOMMAP").Spawns))
+end
