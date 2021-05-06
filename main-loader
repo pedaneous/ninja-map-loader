@@ -647,6 +647,7 @@ workspace:FindFirstChild("CUSTOMMAP"):Destroy()
 end
 loadstring(game:HttpGet(url))()
 wait(2)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/functions/skyload"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/functions/spawn"))()
 end)
 Button.Parent = List
