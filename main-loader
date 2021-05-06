@@ -656,7 +656,7 @@ end
 addButton("Gilbert Swamp", "https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/maps/GilbertSwamp")
 addButton("Whomp Fortress", "https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/maps/WhompFortressDS")
 addButton("Tall Tall Mountain", "https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/maps/TallTallMountainN64")
-
+addButton("Bomb-omb Battlefield", "https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/maps/BombOmbBattlefield")
 
 
 print("Ninja Map Loader by Gilbert")
