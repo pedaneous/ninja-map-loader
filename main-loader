@@ -659,6 +659,7 @@ addButton("Whomp Fortress", "https://raw.githubusercontent.com/pedaneous/ninja-m
 addButton("Tall Tall Mountain", "https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/maps/TallTallMountainN64")
 addButton("Bomb-omb Battlefield", "https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/maps/BombOmbBattlefield")
 addButton("Bowsers Platform", "https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/maps/BowsersPlatform")
+addButton("Bowsers Dark World", "https://raw.githubusercontent.com/pedaneous/ninja-map-loader/main/maps/BowserDarkWorld")
 
 print("Ninja Map Loader by Gilbert")
 print("V1")
