@@ -1,0 +1,2807 @@
+
+--Converted with ttyyuu12345's model to script plugin v4
+function sandbox(var,func)
+	local env = getfenv(func)
+	local newenv = setmetatable({},{
+		__index = function(self,k)
+			if k=="script" then
+				return var
+			else
+				return env[k]
+			end
+		end,
+	})
+	setfenv(func,newenv)
+	return func
+end
+cors = {}
+mas = Instance.new("Model",game:GetService("Lighting"))
+Model0 = Instance.new("Model")
+Model1 = Instance.new("Model")
+Part2 = Instance.new("Part")
+Texture3 = Instance.new("Texture")
+Texture4 = Instance.new("Texture")
+Texture5 = Instance.new("Texture")
+Texture6 = Instance.new("Texture")
+Part7 = Instance.new("Part")
+Texture8 = Instance.new("Texture")
+Texture9 = Instance.new("Texture")
+Texture10 = Instance.new("Texture")
+Texture11 = Instance.new("Texture")
+Texture12 = Instance.new("Texture")
+Texture13 = Instance.new("Texture")
+WedgePart14 = Instance.new("WedgePart")
+Texture15 = Instance.new("Texture")
+Texture16 = Instance.new("Texture")
+Model17 = Instance.new("Model")
+Part18 = Instance.new("Part")
+ParticleEmitter19 = Instance.new("ParticleEmitter")
+LocalScript20 = Instance.new("LocalScript")
+Part21 = Instance.new("Part")
+Texture22 = Instance.new("Texture")
+Texture23 = Instance.new("Texture")
+Part24 = Instance.new("Part")
+Texture25 = Instance.new("Texture")
+Texture26 = Instance.new("Texture")
+Texture27 = Instance.new("Texture")
+Texture28 = Instance.new("Texture")
+Part29 = Instance.new("Part")
+Texture30 = Instance.new("Texture")
+Texture31 = Instance.new("Texture")
+Texture32 = Instance.new("Texture")
+Texture33 = Instance.new("Texture")
+Texture34 = Instance.new("Texture")
+Part35 = Instance.new("Part")
+Texture36 = Instance.new("Texture")
+Texture37 = Instance.new("Texture")
+Texture38 = Instance.new("Texture")
+Texture39 = Instance.new("Texture")
+Texture40 = Instance.new("Texture")
+Texture41 = Instance.new("Texture")
+Part42 = Instance.new("Part")
+Texture43 = Instance.new("Texture")
+Texture44 = Instance.new("Texture")
+Texture45 = Instance.new("Texture")
+Texture46 = Instance.new("Texture")
+Texture47 = Instance.new("Texture")
+Texture48 = Instance.new("Texture")
+WedgePart49 = Instance.new("WedgePart")
+Texture50 = Instance.new("Texture")
+Texture51 = Instance.new("Texture")
+Texture52 = Instance.new("Texture")
+WedgePart53 = Instance.new("WedgePart")
+Texture54 = Instance.new("Texture")
+Texture55 = Instance.new("Texture")
+Texture56 = Instance.new("Texture")
+Part57 = Instance.new("Part")
+Decal58 = Instance.new("Decal")
+Decal59 = Instance.new("Decal")
+Decal60 = Instance.new("Decal")
+Decal61 = Instance.new("Decal")
+Decal62 = Instance.new("Decal")
+Decal63 = Instance.new("Decal")
+Part64 = Instance.new("Part")
+Decal65 = Instance.new("Decal")
+Decal66 = Instance.new("Decal")
+Decal67 = Instance.new("Decal")
+Decal68 = Instance.new("Decal")
+Decal69 = Instance.new("Decal")
+Decal70 = Instance.new("Decal")
+Part71 = Instance.new("Part")
+Texture72 = Instance.new("Texture")
+Texture73 = Instance.new("Texture")
+Part74 = Instance.new("Part")
+Texture75 = Instance.new("Texture")
+Texture76 = Instance.new("Texture")
+Texture77 = Instance.new("Texture")
+Texture78 = Instance.new("Texture")
+Texture79 = Instance.new("Texture")
+Texture80 = Instance.new("Texture")
+Part81 = Instance.new("Part")
+Decal82 = Instance.new("Decal")
+Decal83 = Instance.new("Decal")
+Decal84 = Instance.new("Decal")
+Decal85 = Instance.new("Decal")
+Decal86 = Instance.new("Decal")
+Part87 = Instance.new("Part")
+Texture88 = Instance.new("Texture")
+Part89 = Instance.new("Part")
+Texture90 = Instance.new("Texture")
+Texture91 = Instance.new("Texture")
+Texture92 = Instance.new("Texture")
+Texture93 = Instance.new("Texture")
+Texture94 = Instance.new("Texture")
+Texture95 = Instance.new("Texture")
+Part96 = Instance.new("Part")
+Texture97 = Instance.new("Texture")
+Texture98 = Instance.new("Texture")
+Texture99 = Instance.new("Texture")
+Texture100 = Instance.new("Texture")
+Texture101 = Instance.new("Texture")
+Texture102 = Instance.new("Texture")
+Part103 = Instance.new("Part")
+Texture104 = Instance.new("Texture")
+Texture105 = Instance.new("Texture")
+Texture106 = Instance.new("Texture")
+Texture107 = Instance.new("Texture")
+Texture108 = Instance.new("Texture")
+Texture109 = Instance.new("Texture")
+Part110 = Instance.new("Part")
+Decal111 = Instance.new("Decal")
+Decal112 = Instance.new("Decal")
+Decal113 = Instance.new("Decal")
+Decal114 = Instance.new("Decal")
+Decal115 = Instance.new("Decal")
+Part116 = Instance.new("Part")
+Decal117 = Instance.new("Decal")
+Decal118 = Instance.new("Decal")
+Decal119 = Instance.new("Decal")
+Decal120 = Instance.new("Decal")
+Decal121 = Instance.new("Decal")
+Decal122 = Instance.new("Decal")
+Part123 = Instance.new("Part")
+Decal124 = Instance.new("Decal")
+Decal125 = Instance.new("Decal")
+Decal126 = Instance.new("Decal")
+Decal127 = Instance.new("Decal")
+Decal128 = Instance.new("Decal")
+Decal129 = Instance.new("Decal")
+Model130 = Instance.new("Model")
+Part131 = Instance.new("Part")
+ParticleEmitter132 = Instance.new("ParticleEmitter")
+LocalScript133 = Instance.new("LocalScript")
+Part134 = Instance.new("Part")
+Texture135 = Instance.new("Texture")
+Texture136 = Instance.new("Texture")
+Texture137 = Instance.new("Texture")
+Texture138 = Instance.new("Texture")
+Part139 = Instance.new("Part")
+Texture140 = Instance.new("Texture")
+Texture141 = Instance.new("Texture")
+Texture142 = Instance.new("Texture")
+Texture143 = Instance.new("Texture")
+Texture144 = Instance.new("Texture")
+Texture145 = Instance.new("Texture")
+Part146 = Instance.new("Part")
+Texture147 = Instance.new("Texture")
+Texture148 = Instance.new("Texture")
+Texture149 = Instance.new("Texture")
+Texture150 = Instance.new("Texture")
+Texture151 = Instance.new("Texture")
+Texture152 = Instance.new("Texture")
+Part153 = Instance.new("Part")
+Texture154 = Instance.new("Texture")
+Texture155 = Instance.new("Texture")
+Texture156 = Instance.new("Texture")
+Texture157 = Instance.new("Texture")
+Texture158 = Instance.new("Texture")
+Part159 = Instance.new("Part")
+Texture160 = Instance.new("Texture")
+Texture161 = Instance.new("Texture")
+Texture162 = Instance.new("Texture")
+Texture163 = Instance.new("Texture")
+Texture164 = Instance.new("Texture")
+Texture165 = Instance.new("Texture")
+Part166 = Instance.new("Part")
+Texture167 = Instance.new("Texture")
+Texture168 = Instance.new("Texture")
+Texture169 = Instance.new("Texture")
+Texture170 = Instance.new("Texture")
+Texture171 = Instance.new("Texture")
+Texture172 = Instance.new("Texture")
+Part173 = Instance.new("Part")
+Texture174 = Instance.new("Texture")
+Texture175 = Instance.new("Texture")
+Texture176 = Instance.new("Texture")
+Texture177 = Instance.new("Texture")
+Part178 = Instance.new("Part")
+Decal179 = Instance.new("Decal")
+Decal180 = Instance.new("Decal")
+Decal181 = Instance.new("Decal")
+Decal182 = Instance.new("Decal")
+Decal183 = Instance.new("Decal")
+Part184 = Instance.new("Part")
+Decal185 = Instance.new("Decal")
+Decal186 = Instance.new("Decal")
+Decal187 = Instance.new("Decal")
+Decal188 = Instance.new("Decal")
+Decal189 = Instance.new("Decal")
+Model190 = Instance.new("Model")
+Part191 = Instance.new("Part")
+Decal192 = Instance.new("Decal")
+Decal193 = Instance.new("Decal")
+Decal194 = Instance.new("Decal")
+Decal195 = Instance.new("Decal")
+Decal196 = Instance.new("Decal")
+Decal197 = Instance.new("Decal")
+Part198 = Instance.new("Part")
+Texture199 = Instance.new("Texture")
+Texture200 = Instance.new("Texture")
+Texture201 = Instance.new("Texture")
+Texture202 = Instance.new("Texture")
+Texture203 = Instance.new("Texture")
+Texture204 = Instance.new("Texture")
+Rotate205 = Instance.new("Rotate")
+Rotate206 = Instance.new("Rotate")
+Part207 = Instance.new("Part")
+Decal208 = Instance.new("Decal")
+Decal209 = Instance.new("Decal")
+Decal210 = Instance.new("Decal")
+Decal211 = Instance.new("Decal")
+Decal212 = Instance.new("Decal")
+Decal213 = Instance.new("Decal")
+Part214 = Instance.new("Part")
+Texture215 = Instance.new("Texture")
+Texture216 = Instance.new("Texture")
+Texture217 = Instance.new("Texture")
+Texture218 = Instance.new("Texture")
+Texture219 = Instance.new("Texture")
+Texture220 = Instance.new("Texture")
+Part221 = Instance.new("Part")
+Texture222 = Instance.new("Texture")
+Texture223 = Instance.new("Texture")
+Texture224 = Instance.new("Texture")
+Texture225 = Instance.new("Texture")
+Part226 = Instance.new("Part")
+Texture227 = Instance.new("Texture")
+Texture228 = Instance.new("Texture")
+Texture229 = Instance.new("Texture")
+Texture230 = Instance.new("Texture")
+Part231 = Instance.new("Part")
+Texture232 = Instance.new("Texture")
+Texture233 = Instance.new("Texture")
+Texture234 = Instance.new("Texture")
+Texture235 = Instance.new("Texture")
+Part236 = Instance.new("Part")
+Texture237 = Instance.new("Texture")
+Texture238 = Instance.new("Texture")
+Texture239 = Instance.new("Texture")
+Texture240 = Instance.new("Texture")
+Texture241 = Instance.new("Texture")
+Texture242 = Instance.new("Texture")
+Part243 = Instance.new("Part")
+Texture244 = Instance.new("Texture")
+Texture245 = Instance.new("Texture")
+Texture246 = Instance.new("Texture")
+Texture247 = Instance.new("Texture")
+Texture248 = Instance.new("Texture")
+Texture249 = Instance.new("Texture")
+Part250 = Instance.new("Part")
+Texture251 = Instance.new("Texture")
+Texture252 = Instance.new("Texture")
+Texture253 = Instance.new("Texture")
+Texture254 = Instance.new("Texture")
+Texture255 = Instance.new("Texture")
+Model256 = Instance.new("Model")
+Part257 = Instance.new("Part")
+Decal258 = Instance.new("Decal")
+Decal259 = Instance.new("Decal")
+Decal260 = Instance.new("Decal")
+Decal261 = Instance.new("Decal")
+Decal262 = Instance.new("Decal")
+Decal263 = Instance.new("Decal")
+Part264 = Instance.new("Part")
+Texture265 = Instance.new("Texture")
+Texture266 = Instance.new("Texture")
+Texture267 = Instance.new("Texture")
+Texture268 = Instance.new("Texture")
+Texture269 = Instance.new("Texture")
+Texture270 = Instance.new("Texture")
+Rotate271 = Instance.new("Rotate")
+Rotate272 = Instance.new("Rotate")
+Part273 = Instance.new("Part")
+Decal274 = Instance.new("Decal")
+Decal275 = Instance.new("Decal")
+Decal276 = Instance.new("Decal")
+Decal277 = Instance.new("Decal")
+Decal278 = Instance.new("Decal")
+Decal279 = Instance.new("Decal")
+Part280 = Instance.new("Part")
+Texture281 = Instance.new("Texture")
+Texture282 = Instance.new("Texture")
+Texture283 = Instance.new("Texture")
+Texture284 = Instance.new("Texture")
+Texture285 = Instance.new("Texture")
+Texture286 = Instance.new("Texture")
+Part287 = Instance.new("Part")
+Texture288 = Instance.new("Texture")
+Texture289 = Instance.new("Texture")
+Texture290 = Instance.new("Texture")
+Texture291 = Instance.new("Texture")
+Part292 = Instance.new("Part")
+Texture293 = Instance.new("Texture")
+Texture294 = Instance.new("Texture")
+Texture295 = Instance.new("Texture")
+Texture296 = Instance.new("Texture")
+Texture297 = Instance.new("Texture")
+Part298 = Instance.new("Part")
+Texture299 = Instance.new("Texture")
+Texture300 = Instance.new("Texture")
+Texture301 = Instance.new("Texture")
+Texture302 = Instance.new("Texture")
+Texture303 = Instance.new("Texture")
+Texture304 = Instance.new("Texture")
+Part305 = Instance.new("Part")
+Texture306 = Instance.new("Texture")
+Texture307 = Instance.new("Texture")
+Texture308 = Instance.new("Texture")
+Texture309 = Instance.new("Texture")
+Texture310 = Instance.new("Texture")
+Texture311 = Instance.new("Texture")
+Part312 = Instance.new("Part")
+Texture313 = Instance.new("Texture")
+Texture314 = Instance.new("Texture")
+Texture315 = Instance.new("Texture")
+Texture316 = Instance.new("Texture")
+Texture317 = Instance.new("Texture")
+Texture318 = Instance.new("Texture")
+Part319 = Instance.new("Part")
+Texture320 = Instance.new("Texture")
+Texture321 = Instance.new("Texture")
+Texture322 = Instance.new("Texture")
+Texture323 = Instance.new("Texture")
+Part324 = Instance.new("Part")
+Texture325 = Instance.new("Texture")
+Texture326 = Instance.new("Texture")
+Texture327 = Instance.new("Texture")
+Texture328 = Instance.new("Texture")
+Texture329 = Instance.new("Texture")
+Part330 = Instance.new("Part")
+Texture331 = Instance.new("Texture")
+Texture332 = Instance.new("Texture")
+Texture333 = Instance.new("Texture")
+Texture334 = Instance.new("Texture")
+Texture335 = Instance.new("Texture")
+Texture336 = Instance.new("Texture")
+Part337 = Instance.new("Part")
+Texture338 = Instance.new("Texture")
+Texture339 = Instance.new("Texture")
+Texture340 = Instance.new("Texture")
+Texture341 = Instance.new("Texture")
+Texture342 = Instance.new("Texture")
+Part343 = Instance.new("Part")
+Texture344 = Instance.new("Texture")
+Texture345 = Instance.new("Texture")
+Texture346 = Instance.new("Texture")
+Texture347 = Instance.new("Texture")
+Part348 = Instance.new("Part")
+Texture349 = Instance.new("Texture")
+Texture350 = Instance.new("Texture")
+Texture351 = Instance.new("Texture")
+Texture352 = Instance.new("Texture")
+Texture353 = Instance.new("Texture")
+Texture354 = Instance.new("Texture")
+WedgePart355 = Instance.new("WedgePart")
+Texture356 = Instance.new("Texture")
+Texture357 = Instance.new("Texture")
+Texture358 = Instance.new("Texture")
+Texture359 = Instance.new("Texture")
+Texture360 = Instance.new("Texture")
+Part361 = Instance.new("Part")
+Decal362 = Instance.new("Decal")
+Decal363 = Instance.new("Decal")
+Decal364 = Instance.new("Decal")
+Texture365 = Instance.new("Texture")
+Texture366 = Instance.new("Texture")
+Part367 = Instance.new("Part")
+Texture368 = Instance.new("Texture")
+Texture369 = Instance.new("Texture")
+Texture370 = Instance.new("Texture")
+Texture371 = Instance.new("Texture")
+Texture372 = Instance.new("Texture")
+Texture373 = Instance.new("Texture")
+Decal374 = Instance.new("Decal")
+Part375 = Instance.new("Part")
+Texture376 = Instance.new("Texture")
+Texture377 = Instance.new("Texture")
+Texture378 = Instance.new("Texture")
+Texture379 = Instance.new("Texture")
+Texture380 = Instance.new("Texture")
+Texture381 = Instance.new("Texture")
+Decal382 = Instance.new("Decal")
+Model383 = Instance.new("Model")
+Part384 = Instance.new("Part")
+CylinderMesh385 = Instance.new("CylinderMesh")
+Texture386 = Instance.new("Texture")
+Texture387 = Instance.new("Texture")
+Texture388 = Instance.new("Texture")
+Texture389 = Instance.new("Texture")
+Texture390 = Instance.new("Texture")
+Decal391 = Instance.new("Decal")
+Decal392 = Instance.new("Decal")
+Part393 = Instance.new("Part")
+CylinderMesh394 = Instance.new("CylinderMesh")
+Decal395 = Instance.new("Decal")
+Part396 = Instance.new("Part")
+CylinderMesh397 = Instance.new("CylinderMesh")
+Texture398 = Instance.new("Texture")
+Part399 = Instance.new("Part")
+CylinderMesh400 = Instance.new("CylinderMesh")
+Texture401 = Instance.new("Texture")
+Texture402 = Instance.new("Texture")
+Texture403 = Instance.new("Texture")
+Part404 = Instance.new("Part")
+CylinderMesh405 = Instance.new("CylinderMesh")
+Part406 = Instance.new("Part")
+Script407 = Instance.new("Script")
+Script408 = Instance.new("Script")
+StringValue409 = Instance.new("StringValue")
+Folder410 = Instance.new("Folder")
+Part411 = Instance.new("Part")
+Sky412 = Instance.new("Sky")
+Model0.Name = "CUSTOMMAP"
+Model0.Parent = mas
+Model1.Name = "Bowser in the Dark World"
+Model1.Parent = Model0
+Part2.Name = "Smooth Block Model"
+Part2.Parent = Model1
+Part2.CFrame = CFrame.new(350.79248, 138.39267, 2523.41406, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part2.Orientation = Vector3.new(0, 90, 0)
+Part2.Position = Vector3.new(350.79248, 138.39267, 2523.41406)
+Part2.Rotation = Vector3.new(0, 90, 0)
+Part2.Size = Vector3.new(32.8200035, 10.6699972, 14.5900021)
+Part2.Anchored = true
+Part2.BottomSurface = Enum.SurfaceType.Smooth
+Part2.TopSurface = Enum.SurfaceType.Smooth
+Part2.FormFactor = Enum.FormFactor.Custom
+Part2.formFactor = Enum.FormFactor.Custom
+Texture3.Parent = Part2
+Texture3.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture3.Face = Enum.NormalId.Right
+Texture3.StudsPerTileU = 4
+Texture3.StudsPerTileV = 4
+Texture4.Parent = Part2
+Texture4.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture4.StudsPerTileU = 4
+Texture4.StudsPerTileV = 4
+Texture5.Parent = Part2
+Texture5.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture5.Face = Enum.NormalId.Left
+Texture5.StudsPerTileU = 4
+Texture5.StudsPerTileV = 4
+Texture6.Parent = Part2
+Texture6.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture6.Face = Enum.NormalId.Top
+Texture6.StudsPerTileU = 4
+Texture6.StudsPerTileV = 4
+Part7.Name = "Smooth Block Model"
+Part7.Parent = Model1
+Part7.CFrame = CFrame.new(385.499756, 129.461319, 2523.51953, 1, 3.05180438e-05, -3.05171125e-05, -3.05171125e-05, 1, 3.05180438e-05, 3.05180438e-05, -3.05171125e-05, 1)
+Part7.Position = Vector3.new(385.499756, 129.461319, 2523.51953)
+Part7.Size = Vector3.new(84, 7.20000029, 33)
+Part7.Anchored = true
+Part7.BottomSurface = Enum.SurfaceType.Smooth
+Part7.TopSurface = Enum.SurfaceType.Smooth
+Texture8.Parent = Part7
+Texture8.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture8.Face = Enum.NormalId.Top
+Texture8.StudsPerTileU = 4
+Texture8.StudsPerTileV = 4
+Texture9.Parent = Part7
+Texture9.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture9.StudsPerTileU = 4
+Texture9.StudsPerTileV = 4
+Texture10.Parent = Part7
+Texture10.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture10.Face = Enum.NormalId.Right
+Texture10.StudsPerTileU = 4
+Texture10.StudsPerTileV = 4
+Texture11.Parent = Part7
+Texture11.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture11.Face = Enum.NormalId.Back
+Texture11.StudsPerTileU = 4
+Texture11.StudsPerTileV = 4
+Texture12.Parent = Part7
+Texture12.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture12.Face = Enum.NormalId.Bottom
+Texture12.StudsPerTileU = 4
+Texture12.StudsPerTileV = 4
+Texture13.Parent = Part7
+Texture13.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture13.Face = Enum.NormalId.Left
+Texture13.StudsPerTileU = 4
+Texture13.StudsPerTileV = 4
+WedgePart14.Parent = Model1
+WedgePart14.CFrame = CFrame.new(372.780518, 138.437653, 2515.58398, -3.26636873e-05, 4.31581502e-05, -1, 9.29513355e-10, 1, 4.31581502e-05, 1, 4.80190998e-10, -3.26636873e-05)
+WedgePart14.Orientation = Vector3.new(0, -90, 0)
+WedgePart14.Position = Vector3.new(372.780518, 138.437653, 2515.58398)
+WedgePart14.Rotation = Vector3.new(0, -90, 0)
+WedgePart14.Size = Vector3.new(17.159996, 10.7599955, 29.6500092)
+WedgePart14.Anchored = true
+WedgePart14.BottomSurface = Enum.SurfaceType.Smooth
+Texture15.Parent = WedgePart14
+Texture15.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture15.Face = Enum.NormalId.Top
+Texture15.StudsPerTileU = 4
+Texture15.StudsPerTileV = 4
+Texture16.Parent = WedgePart14
+Texture16.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture16.Face = Enum.NormalId.Left
+Texture16.StudsPerTileU = 4
+Texture16.StudsPerTileV = 4
+Model17.Name = "FireTrap"
+Model17.Parent = Model1
+Part18.Name = "Flamer"
+Part18.Parent = Model17
+Part18.CFrame = CFrame.new(350.896973, 146.737305, 2545.11914, -1, 0, -0, 0, 0, -1, 0, -1, -0)
+Part18.Orientation = Vector3.new(90, 180, 0)
+Part18.Position = Vector3.new(350.896973, 146.737305, 2545.11914)
+Part18.Rotation = Vector3.new(90, 0, -180)
+Part18.Transparency = 1
+Part18.Size = Vector3.new(0.200000003, 0.200000003, 0.200000003)
+Part18.Anchored = true
+Part18.BottomSurface = Enum.SurfaceType.Smooth
+Part18.TopSurface = Enum.SurfaceType.Smooth
+Part18.FormFactor = Enum.FormFactor.Custom
+Part18.formFactor = Enum.FormFactor.Custom
+ParticleEmitter19.Parent = Part18
+ParticleEmitter19.Speed = NumberRange.new(50, 50)
+ParticleEmitter19.Color = ColorSequence.new(Color3.new(1, 0, 0),Color3.new(1, 0, 0))
+ParticleEmitter19.Enabled = false
+ParticleEmitter19.Texture = "http://www.roblox.com/asset/?id=241945517"
+ParticleEmitter19.Transparency = NumberSequence.new(0.30000001192093,0.30000001192093)
+ParticleEmitter19.Size = NumberSequence.new(0.5,2.5)
+ParticleEmitter19.Lifetime = NumberRange.new(0.69999998807907, 0.69999998807907)
+ParticleEmitter19.Rate = 25
+LocalScript20.Parent = ParticleEmitter19
+table.insert(cors,sandbox(LocalScript20,function()
+while wait(5) do
+	script.Parent.Enabled = not script.Parent.Enabled
+end
+end))
+Part21.Name = "Smooth Block Model"
+Part21.Parent = Model1
+Part21.CFrame = CFrame.new(367.157715, 138.392426, 2532.05713, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part21.Orientation = Vector3.new(0, 90, 0)
+Part21.Position = Vector3.new(367.157715, 138.392426, 2532.05713)
+Part21.Rotation = Vector3.new(0, 90, 0)
+Part21.Size = Vector3.new(15.5000114, 10.6699972, 19.1599998)
+Part21.Anchored = true
+Part21.BottomSurface = Enum.SurfaceType.Smooth
+Part21.TopSurface = Enum.SurfaceType.Smooth
+Part21.FormFactor = Enum.FormFactor.Custom
+Part21.formFactor = Enum.FormFactor.Custom
+Texture22.Parent = Part21
+Texture22.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture22.Face = Enum.NormalId.Left
+Texture22.StudsPerTileU = 4
+Texture22.StudsPerTileV = 4
+Texture23.Parent = Part21
+Texture23.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture23.Face = Enum.NormalId.Right
+Texture23.StudsPerTileU = 4
+Texture23.StudsPerTileV = 4
+Part24.Name = "Smooth Block Model"
+Part24.Parent = Model1
+Part24.CFrame = CFrame.new(381.999512, 142.058502, 2531.93506, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part24.Orientation = Vector3.new(0, 90, 0)
+Part24.Position = Vector3.new(381.999512, 142.058502, 2531.93506)
+Part24.Rotation = Vector3.new(0, 90, 0)
+Part24.Size = Vector3.new(15.8299999, 18, 11)
+Part24.Anchored = true
+Part24.BottomSurface = Enum.SurfaceType.Smooth
+Part24.TopSurface = Enum.SurfaceType.Smooth
+Part24.FormFactor = Enum.FormFactor.Custom
+Part24.formFactor = Enum.FormFactor.Custom
+Texture25.Parent = Part24
+Texture25.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture25.Face = Enum.NormalId.Back
+Texture25.StudsPerTileU = 4
+Texture25.StudsPerTileV = 4
+Texture26.Parent = Part24
+Texture26.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture26.Face = Enum.NormalId.Left
+Texture26.StudsPerTileU = 4
+Texture26.StudsPerTileV = 4
+Texture27.Parent = Part24
+Texture27.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture27.Face = Enum.NormalId.Top
+Texture27.StudsPerTileU = 4
+Texture27.StudsPerTileV = 4
+Texture28.Parent = Part24
+Texture28.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture28.Face = Enum.NormalId.Right
+Texture28.StudsPerTileU = 4
+Texture28.StudsPerTileV = 4
+Part29.Name = "Smooth Block Model"
+Part29.Parent = Model1
+Part29.CFrame = CFrame.new(427.499512, 172.471191, 2532.02051, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part29.Orientation = Vector3.new(0, 90, 0)
+Part29.Position = Vector3.new(427.499512, 172.471191, 2532.02051)
+Part29.Rotation = Vector3.new(0, 90, 0)
+Part29.Size = Vector3.new(10, 1.20000005, 12)
+Part29.Anchored = true
+Part29.BottomSurface = Enum.SurfaceType.Smooth
+Part29.TopSurface = Enum.SurfaceType.Smooth
+Texture30.Parent = Part29
+Texture30.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture30.Face = Enum.NormalId.Top
+Texture30.StudsPerTileU = 4
+Texture30.StudsPerTileV = 4
+Texture31.Parent = Part29
+Texture31.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture31.Face = Enum.NormalId.Left
+Texture31.StudsPerTileU = 4
+Texture31.StudsPerTileV = 4
+Texture32.Parent = Part29
+Texture32.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture32.StudsPerTileU = 4
+Texture32.StudsPerTileV = 4
+Texture33.Parent = Part29
+Texture33.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture33.Face = Enum.NormalId.Right
+Texture33.StudsPerTileU = 4
+Texture33.StudsPerTileV = 4
+Texture34.Parent = Part29
+Texture34.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture34.Face = Enum.NormalId.Bottom
+Texture34.StudsPerTileU = 4
+Texture34.StudsPerTileV = 4
+Part35.Name = "Smooth Block Model"
+Part35.Parent = Model1
+Part35.CFrame = CFrame.new(412.099854, 165.071182, 2532.02026, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part35.Orientation = Vector3.new(0, 90, 0)
+Part35.Position = Vector3.new(412.099854, 165.071182, 2532.02026)
+Part35.Rotation = Vector3.new(0, 90, 0)
+Part35.Color = Color3.new(0.431373, 0.6, 0.792157)
+Part35.Size = Vector3.new(10, 1.20000005, 11)
+Part35.Anchored = true
+Part35.BottomSurface = Enum.SurfaceType.Smooth
+Part35.BrickColor = BrickColor.new("Medium blue")
+Part35.TopSurface = Enum.SurfaceType.Smooth
+Part35.brickColor = BrickColor.new("Medium blue")
+Texture36.Parent = Part35
+Texture36.Texture = "http://www.roblox.com/asset/?id=161663049"
+Texture36.Face = Enum.NormalId.Top
+Texture36.StudsPerTileU = 4
+Texture36.StudsPerTileV = 4
+Texture37.Parent = Part35
+Texture37.Texture = "http://www.roblox.com/asset/?id=161663049"
+Texture37.Face = Enum.NormalId.Left
+Texture37.StudsPerTileU = 4
+Texture37.StudsPerTileV = 4
+Texture38.Parent = Part35
+Texture38.Texture = "http://www.roblox.com/asset/?id=161663049"
+Texture38.StudsPerTileU = 4
+Texture38.StudsPerTileV = 4
+Texture39.Parent = Part35
+Texture39.Texture = "http://www.roblox.com/asset/?id=161663049"
+Texture39.Face = Enum.NormalId.Right
+Texture39.StudsPerTileU = 4
+Texture39.StudsPerTileV = 4
+Texture40.Parent = Part35
+Texture40.Texture = "http://www.roblox.com/asset/?id=161663049"
+Texture40.Face = Enum.NormalId.Back
+Texture40.StudsPerTileU = 4
+Texture40.StudsPerTileV = 4
+Texture41.Parent = Part35
+Texture41.Texture = "http://www.roblox.com/asset/?id=161663049"
+Texture41.Face = Enum.NormalId.Bottom
+Texture41.StudsPerTileU = 4
+Texture41.StudsPerTileV = 4
+Part42.Name = "Smooth Block Model"
+Part42.Parent = Model1
+Part42.CFrame = CFrame.new(395.999512, 157.464279, 2532.02026, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part42.Orientation = Vector3.new(0, 90, 0)
+Part42.Position = Vector3.new(395.999512, 157.464279, 2532.02026)
+Part42.Rotation = Vector3.new(0, 90, 0)
+Part42.Color = Color3.new(0.431373, 0.6, 0.792157)
+Part42.Size = Vector3.new(10, 1.20000005, 11)
+Part42.Anchored = true
+Part42.BottomSurface = Enum.SurfaceType.Smooth
+Part42.BrickColor = BrickColor.new("Medium blue")
+Part42.TopSurface = Enum.SurfaceType.Smooth
+Part42.brickColor = BrickColor.new("Medium blue")
+Texture43.Parent = Part42
+Texture43.Texture = "http://www.roblox.com/asset/?id=161663049"
+Texture43.Face = Enum.NormalId.Top
+Texture43.StudsPerTileU = 4
+Texture43.StudsPerTileV = 4
+Texture44.Parent = Part42
+Texture44.Texture = "http://www.roblox.com/asset/?id=161663049"
+Texture44.Face = Enum.NormalId.Bottom
+Texture44.StudsPerTileU = 4
+Texture44.StudsPerTileV = 4
+Texture45.Parent = Part42
+Texture45.Texture = "http://www.roblox.com/asset/?id=161663049"
+Texture45.Face = Enum.NormalId.Right
+Texture45.StudsPerTileU = 4
+Texture45.StudsPerTileV = 4
+Texture46.Parent = Part42
+Texture46.Texture = "http://www.roblox.com/asset/?id=161663049"
+Texture46.StudsPerTileU = 4
+Texture46.StudsPerTileV = 4
+Texture47.Parent = Part42
+Texture47.Texture = "http://www.roblox.com/asset/?id=161663049"
+Texture47.Face = Enum.NormalId.Left
+Texture47.StudsPerTileU = 4
+Texture47.StudsPerTileV = 4
+Texture48.Parent = Part42
+Texture48.Texture = "http://www.roblox.com/asset/?id=161663049"
+Texture48.Face = Enum.NormalId.Back
+Texture48.StudsPerTileU = 4
+Texture48.StudsPerTileV = 4
+WedgePart49.Parent = Model1
+WedgePart49.CFrame = CFrame.new(405.260254, 140.887955, 2532.12842, -3.26636873e-05, 4.31581502e-05, -1, 9.29513355e-10, 1, 4.31581502e-05, 1, 4.80190998e-10, -3.26636873e-05)
+WedgePart49.Orientation = Vector3.new(0, -90, 0)
+WedgePart49.Position = Vector3.new(405.260254, 140.887955, 2532.12842)
+WedgePart49.Rotation = Vector3.new(0, -90, 0)
+WedgePart49.Color = Color3.new(0.431373, 0.6, 0.792157)
+WedgePart49.Size = Vector3.new(16.3200016, 15.6599951, 35.5999985)
+WedgePart49.Anchored = true
+WedgePart49.BottomSurface = Enum.SurfaceType.Smooth
+WedgePart49.BrickColor = BrickColor.new("Medium blue")
+WedgePart49.brickColor = BrickColor.new("Medium blue")
+Texture50.Parent = WedgePart49
+Texture50.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture50.Face = Enum.NormalId.Left
+Texture50.StudsPerTileU = 4
+Texture50.StudsPerTileV = 4
+Texture51.Parent = WedgePart49
+Texture51.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture51.Face = Enum.NormalId.Right
+Texture51.StudsPerTileU = 4
+Texture51.StudsPerTileV = 4
+Texture52.Parent = WedgePart49
+Texture52.Texture = "http://www.roblox.com/asset/?id=161663049"
+Texture52.StudsPerTileU = 5.4400000572205
+Texture52.StudsPerTileV = 15.659999847412
+WedgePart53.Parent = Model1
+WedgePart53.CFrame = CFrame.new(367.317383, 147.446869, 2532.03198, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+WedgePart53.Orientation = Vector3.new(0, 90, 0)
+WedgePart53.Position = Vector3.new(367.317383, 147.446869, 2532.03198)
+WedgePart53.Rotation = Vector3.new(0, 90, 0)
+WedgePart53.Size = Vector3.new(15.5899944, 7.42999506, 18.4600067)
+WedgePart53.Anchored = true
+WedgePart53.BottomSurface = Enum.SurfaceType.Smooth
+Texture54.Parent = WedgePart53
+Texture54.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture54.Face = Enum.NormalId.Right
+Texture54.StudsPerTileU = 4
+Texture54.StudsPerTileV = 4
+Texture55.Parent = WedgePart53
+Texture55.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture55.Face = Enum.NormalId.Top
+Texture55.StudsPerTileU = 4
+Texture55.StudsPerTileV = 4
+Texture56.Parent = WedgePart53
+Texture56.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture56.Face = Enum.NormalId.Left
+Texture56.StudsPerTileU = 4
+Texture56.StudsPerTileV = 4
+Part57.Name = "Smooth Block Model"
+Part57.Parent = Model1
+Part57.CFrame = CFrame.new(452.144531, 128.859573, 2532.36841, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part57.Position = Vector3.new(452.144531, 128.859573, 2532.36841)
+Part57.Color = Color3.new(0.0509804, 0.411765, 0.67451)
+Part57.Size = Vector3.new(14, 1.20000005, 12)
+Part57.Anchored = true
+Part57.BottomSurface = Enum.SurfaceType.Smooth
+Part57.BrickColor = BrickColor.new("Bright blue")
+Part57.TopSurface = Enum.SurfaceType.Smooth
+Part57.brickColor = BrickColor.new("Bright blue")
+Decal58.Parent = Part57
+Decal58.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal59.Parent = Part57
+Decal59.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal59.Face = Enum.NormalId.Right
+Decal60.Parent = Part57
+Decal60.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal60.Face = Enum.NormalId.Top
+Decal61.Parent = Part57
+Decal61.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal61.Face = Enum.NormalId.Left
+Decal62.Parent = Part57
+Decal62.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal62.Face = Enum.NormalId.Back
+Decal63.Parent = Part57
+Decal63.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal63.Face = Enum.NormalId.Bottom
+Part64.Name = "Smooth Block Model"
+Part64.Parent = Model1
+Part64.CFrame = CFrame.new(437.942871, 128.859573, 2514.5686, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part64.Position = Vector3.new(437.942871, 128.859573, 2514.5686)
+Part64.Color = Color3.new(0.0509804, 0.411765, 0.67451)
+Part64.Size = Vector3.new(14, 1.20000005, 12)
+Part64.Anchored = true
+Part64.BottomSurface = Enum.SurfaceType.Smooth
+Part64.BrickColor = BrickColor.new("Bright blue")
+Part64.TopSurface = Enum.SurfaceType.Smooth
+Part64.brickColor = BrickColor.new("Bright blue")
+Decal65.Parent = Part64
+Decal65.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal66.Parent = Part64
+Decal66.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal66.Face = Enum.NormalId.Top
+Decal67.Parent = Part64
+Decal67.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal67.Face = Enum.NormalId.Right
+Decal68.Parent = Part64
+Decal68.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal68.Face = Enum.NormalId.Left
+Decal69.Parent = Part64
+Decal69.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal69.Face = Enum.NormalId.Back
+Decal70.Parent = Part64
+Decal70.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal70.Face = Enum.NormalId.Bottom
+Part71.Name = "Smooth Block Model"
+Part71.Parent = Model1
+Part71.CFrame = CFrame.new(455.999512, 173.170624, 2573.40576, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part71.Orientation = Vector3.new(0, 90, 0)
+Part71.Position = Vector3.new(455.999512, 173.170624, 2573.40576)
+Part71.Rotation = Vector3.new(0, 90, 0)
+Part71.Color = Color3.new(0.627451, 0.372549, 0.207843)
+Part71.Transparency = 1
+Part71.Size = Vector3.new(39.2299995, 0.200000003, 9)
+Part71.Anchored = true
+Part71.BottomSurface = Enum.SurfaceType.Smooth
+Part71.BrickColor = BrickColor.new("Dark orange")
+Part71.TopSurface = Enum.SurfaceType.Smooth
+Part71.brickColor = BrickColor.new("Dark orange")
+Part71.FormFactor = Enum.FormFactor.Custom
+Part71.formFactor = Enum.FormFactor.Custom
+Texture72.Parent = Part71
+Texture72.Texture = "http://www.roblox.com/asset/?id=160205066"
+Texture72.Face = Enum.NormalId.Top
+Texture72.StudsPerTileU = 9
+Texture72.StudsPerTileV = 9
+Texture73.Parent = Part71
+Texture73.Texture = "http://www.roblox.com/asset/?id=160205066"
+Texture73.Face = Enum.NormalId.Bottom
+Texture73.StudsPerTileU = 9
+Texture73.StudsPerTileV = 9
+Part74.Name = "Smooth Block Model"
+Part74.Parent = Model1
+Part74.CFrame = CFrame.new(456.499512, 172.4711, 2533.02051, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part74.Orientation = Vector3.new(0, 90, 0)
+Part74.Position = Vector3.new(456.499512, 172.4711, 2533.02051)
+Part74.Rotation = Vector3.new(0, 90, 0)
+Part74.Color = Color3.new(0.627451, 0.372549, 0.207843)
+Part74.Size = Vector3.new(42, 1.20000005, 46)
+Part74.Anchored = true
+Part74.BottomSurface = Enum.SurfaceType.Smooth
+Part74.BrickColor = BrickColor.new("Dark orange")
+Part74.TopSurface = Enum.SurfaceType.Smooth
+Part74.brickColor = BrickColor.new("Dark orange")
+Texture75.Parent = Part74
+Texture75.Texture = "http://www.roblox.com/asset/?id=161663088"
+Texture75.Face = Enum.NormalId.Top
+Texture75.StudsPerTileU = 4
+Texture75.StudsPerTileV = 4
+Texture76.Parent = Part74
+Texture76.Texture = "http://www.roblox.com/asset/?id=161663088"
+Texture76.Face = Enum.NormalId.Bottom
+Texture76.StudsPerTileU = 4
+Texture76.StudsPerTileV = 4
+Texture77.Parent = Part74
+Texture77.Texture = "http://www.roblox.com/asset/?id=161663086"
+Texture77.StudsPerTileU = 1.2000000476837
+Texture77.StudsPerTileV = 1.2000000476837
+Texture78.Parent = Part74
+Texture78.Texture = "http://www.roblox.com/asset/?id=161663086"
+Texture78.Face = Enum.NormalId.Right
+Texture78.StudsPerTileU = 1.2000000476837
+Texture78.StudsPerTileV = 1.2000000476837
+Texture79.Parent = Part74
+Texture79.Texture = "http://www.roblox.com/asset/?id=161663086"
+Texture79.Face = Enum.NormalId.Back
+Texture79.StudsPerTileU = 1.2000000476837
+Texture79.StudsPerTileV = 1.2000000476837
+Texture80.Parent = Part74
+Texture80.Texture = "http://www.roblox.com/asset/?id=161663086"
+Texture80.Face = Enum.NormalId.Left
+Texture80.StudsPerTileU = 1.2000000476837
+Texture80.StudsPerTileV = 1.2000000476837
+Part81.Name = "Smooth Block Model"
+Part81.Parent = Model1
+Part81.CFrame = CFrame.new(473.757324, 177.030655, 2595.03027, -3.26636873e-05, 4.31581502e-05, -1, 9.29513355e-10, 1, 4.31581502e-05, 1, 4.80190998e-10, -3.26636873e-05)
+Part81.Orientation = Vector3.new(0, -90, 0)
+Part81.Position = Vector3.new(473.757324, 177.030655, 2595.03027)
+Part81.Rotation = Vector3.new(0, -90, 0)
+Part81.Color = Color3.new(0.0156863, 0.686275, 0.92549)
+Part81.Size = Vector3.new(3.87999988, 5.51999998, 4.36999989)
+Part81.Anchored = true
+Part81.BottomSurface = Enum.SurfaceType.Smooth
+Part81.BrickColor = BrickColor.new("Cyan")
+Part81.Reflectance = 0.5
+Part81.TopSurface = Enum.SurfaceType.Smooth
+Part81.brickColor = BrickColor.new("Cyan")
+Part81.FormFactor = Enum.FormFactor.Custom
+Part81.formFactor = Enum.FormFactor.Custom
+Decal82.Parent = Part81
+Decal82.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal82.Face = Enum.NormalId.Left
+Decal83.Parent = Part81
+Decal83.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal83.Face = Enum.NormalId.Back
+Decal84.Parent = Part81
+Decal84.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal84.Face = Enum.NormalId.Right
+Decal85.Parent = Part81
+Decal85.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal86.Parent = Part81
+Decal86.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal86.Face = Enum.NormalId.Top
+Part87.Name = "Smooth Block Model"
+Part87.Parent = Model1
+Part87.CFrame = CFrame.new(459.646973, 177.201691, 2663.12988, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part87.Orientation = Vector3.new(0, 90, 0)
+Part87.Position = Vector3.new(459.646973, 177.201691, 2663.12988)
+Part87.Rotation = Vector3.new(0, 90, 0)
+Part87.Color = Color3.new(0.666667, 0.333333, 0)
+Part87.Size = Vector3.new(14.9599915, 0.200000003, 15.4000015)
+Part87.Anchored = true
+Part87.BottomSurface = Enum.SurfaceType.Smooth
+Part87.BrickColor = BrickColor.new("CGA brown")
+Part87.TopSurface = Enum.SurfaceType.Smooth
+Part87.brickColor = BrickColor.new("CGA brown")
+Part87.FormFactor = Enum.FormFactor.Custom
+Part87.formFactor = Enum.FormFactor.Custom
+Texture88.Parent = Part87
+Texture88.Texture = "http://www.roblox.com/asset/?id=161663088"
+Texture88.Face = Enum.NormalId.Top
+Texture88.StudsPerTileU = 4
+Texture88.StudsPerTileV = 4
+Part89.Name = "Smooth Block Model"
+Part89.Parent = Model1
+Part89.CFrame = CFrame.new(459.612793, 176.671677, 2663.49023, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part89.Orientation = Vector3.new(0, 90, 0)
+Part89.Position = Vector3.new(459.612793, 176.671677, 2663.49023)
+Part89.Rotation = Vector3.new(0, 90, 0)
+Part89.Color = Color3.new(1, 0, 0)
+Part89.Size = Vector3.new(21.8399906, 1.20000005, 22.7099991)
+Part89.Anchored = true
+Part89.BottomSurface = Enum.SurfaceType.Smooth
+Part89.BrickColor = BrickColor.new("Really red")
+Part89.TopSurface = Enum.SurfaceType.Smooth
+Part89.brickColor = BrickColor.new("Really red")
+Part89.FormFactor = Enum.FormFactor.Custom
+Part89.formFactor = Enum.FormFactor.Custom
+Texture90.Parent = Part89
+Texture90.Texture = "http://www.roblox.com/asset/?id=161663086"
+Texture90.Face = Enum.NormalId.Right
+Texture90.StudsPerTileU = 1.2000000476837
+Texture90.StudsPerTileV = 1.2000000476837
+Texture91.Parent = Part89
+Texture91.Texture = "http://www.roblox.com/asset/?id=161663086"
+Texture91.StudsPerTileU = 1.2000000476837
+Texture91.StudsPerTileV = 1.2000000476837
+Texture92.Parent = Part89
+Texture92.Texture = "http://www.roblox.com/asset/?id=161663086"
+Texture92.Face = Enum.NormalId.Back
+Texture92.StudsPerTileU = 1.2000000476837
+Texture92.StudsPerTileV = 1.2000000476837
+Texture93.Parent = Part89
+Texture93.Texture = "http://www.roblox.com/asset/?id=161663086"
+Texture93.Face = Enum.NormalId.Left
+Texture93.StudsPerTileU = 1.2000000476837
+Texture93.StudsPerTileV = 1.2000000476837
+Texture94.Parent = Part89
+Texture94.Texture = "http://www.roblox.com/asset/?id=161663088"
+Texture94.Face = Enum.NormalId.Bottom
+Texture94.StudsPerTileU = 4
+Texture94.StudsPerTileV = 4
+Texture95.Parent = Part89
+Texture95.Texture = "http://www.roblox.com/asset/?id=161279399"
+Texture95.Face = Enum.NormalId.Top
+Texture95.StudsPerTileU = 4
+Texture95.StudsPerTileV = 4
+Part96.Parent = Model1
+Part96.CFrame = CFrame.new(460.154297, 155.926117, 2662.90039, 1, 3.05180438e-05, -3.05171125e-05, -3.05171125e-05, 1, 3.05180438e-05, 3.05180438e-05, -3.05171125e-05, 1)
+Part96.Position = Vector3.new(460.154297, 155.926117, 2662.90039)
+Part96.Color = Color3.new(0.972549, 0.972549, 0.972549)
+Part96.Size = Vector3.new(4.04999971, 60.1200218, 3.48999977)
+Part96.Anchored = true
+Part96.BottomSurface = Enum.SurfaceType.Smooth
+Part96.BrickColor = BrickColor.new("Institutional white")
+Part96.TopSurface = Enum.SurfaceType.Smooth
+Part96.brickColor = BrickColor.new("Institutional white")
+Part96.FormFactor = Enum.FormFactor.Custom
+Part96.formFactor = Enum.FormFactor.Custom
+Texture97.Parent = Part96
+Texture97.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture97.Face = Enum.NormalId.Top
+Texture97.StudsPerTileU = 4
+Texture97.StudsPerTileV = 4
+Texture98.Parent = Part96
+Texture98.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture98.Face = Enum.NormalId.Back
+Texture98.StudsPerTileU = 4
+Texture98.StudsPerTileV = 4
+Texture99.Parent = Part96
+Texture99.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture99.Face = Enum.NormalId.Left
+Texture99.StudsPerTileU = 4
+Texture99.StudsPerTileV = 4
+Texture100.Parent = Part96
+Texture100.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture100.StudsPerTileU = 4
+Texture100.StudsPerTileV = 4
+Texture101.Parent = Part96
+Texture101.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture101.Face = Enum.NormalId.Right
+Texture101.StudsPerTileU = 4
+Texture101.StudsPerTileV = 4
+Texture102.Parent = Part96
+Texture102.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture102.Face = Enum.NormalId.Bottom
+Texture102.StudsPerTileU = 4
+Texture102.StudsPerTileV = 4
+Part103.Name = "Smooth Block Model"
+Part103.Parent = Model1
+Part103.CFrame = CFrame.new(490.499512, 129.460953, 2535.01953, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part103.Orientation = Vector3.new(0, 90, 0)
+Part103.Position = Vector3.new(490.499512, 129.460953, 2535.01953)
+Part103.Rotation = Vector3.new(0, 90, 0)
+Part103.Size = Vector3.new(20, 7.20000029, 56)
+Part103.Anchored = true
+Part103.BottomSurface = Enum.SurfaceType.Smooth
+Part103.TopSurface = Enum.SurfaceType.Smooth
+Texture104.Parent = Part103
+Texture104.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture104.Face = Enum.NormalId.Back
+Texture104.StudsPerTileU = 4
+Texture104.StudsPerTileV = 4
+Texture105.Parent = Part103
+Texture105.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture105.Face = Enum.NormalId.Left
+Texture105.StudsPerTileU = 4
+Texture105.StudsPerTileV = 4
+Texture106.Parent = Part103
+Texture106.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture106.Face = Enum.NormalId.Top
+Texture106.StudsPerTileU = 4
+Texture106.StudsPerTileV = 4
+Texture107.Parent = Part103
+Texture107.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture107.Face = Enum.NormalId.Right
+Texture107.StudsPerTileU = 4
+Texture107.StudsPerTileV = 4
+Texture108.Parent = Part103
+Texture108.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture108.StudsPerTileU = 4
+Texture108.StudsPerTileV = 4
+Texture109.Parent = Part103
+Texture109.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture109.Face = Enum.NormalId.Bottom
+Texture109.StudsPerTileU = 4
+Texture109.StudsPerTileV = 4
+Part110.Name = "Smooth Block Model"
+Part110.Parent = Model1
+Part110.CFrame = CFrame.new(527.73584, 177.029968, 2619.78516, -3.26636873e-05, 4.31581502e-05, -1, 9.29513355e-10, 1, 4.31581502e-05, 1, 4.80190998e-10, -3.26636873e-05)
+Part110.Orientation = Vector3.new(0, -90, 0)
+Part110.Position = Vector3.new(527.73584, 177.029968, 2619.78516)
+Part110.Rotation = Vector3.new(0, -90, 0)
+Part110.Color = Color3.new(0.0156863, 0.686275, 0.92549)
+Part110.Size = Vector3.new(3.87999988, 5.51999998, 4.36999989)
+Part110.Anchored = true
+Part110.BottomSurface = Enum.SurfaceType.Smooth
+Part110.BrickColor = BrickColor.new("Cyan")
+Part110.Reflectance = 0.5
+Part110.TopSurface = Enum.SurfaceType.Smooth
+Part110.brickColor = BrickColor.new("Cyan")
+Part110.FormFactor = Enum.FormFactor.Custom
+Part110.formFactor = Enum.FormFactor.Custom
+Decal111.Parent = Part110
+Decal111.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal111.Face = Enum.NormalId.Top
+Decal112.Parent = Part110
+Decal112.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal112.Face = Enum.NormalId.Back
+Decal113.Parent = Part110
+Decal113.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal113.Face = Enum.NormalId.Right
+Decal114.Parent = Part110
+Decal114.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal115.Parent = Part110
+Decal115.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal115.Face = Enum.NormalId.Left
+Part116.Name = "Smooth Block Model"
+Part116.Parent = Model1
+Part116.CFrame = CFrame.new(489.186523, 175.910095, 2722.70947, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part116.Position = Vector3.new(489.186523, 175.910095, 2722.70947)
+Part116.Color = Color3.new(0.0509804, 0.411765, 0.67451)
+Part116.Size = Vector3.new(14, 1.20000005, 12)
+Part116.Anchored = true
+Part116.BottomSurface = Enum.SurfaceType.Smooth
+Part116.BrickColor = BrickColor.new("Bright blue")
+Part116.TopSurface = Enum.SurfaceType.Smooth
+Part116.brickColor = BrickColor.new("Bright blue")
+Decal117.Parent = Part116
+Decal117.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal117.Face = Enum.NormalId.Top
+Decal118.Parent = Part116
+Decal118.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal119.Parent = Part116
+Decal119.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal119.Face = Enum.NormalId.Right
+Decal120.Parent = Part116
+Decal120.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal120.Face = Enum.NormalId.Back
+Decal121.Parent = Part116
+Decal121.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal121.Face = Enum.NormalId.Left
+Decal122.Parent = Part116
+Decal122.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal122.Face = Enum.NormalId.Bottom
+Part123.Name = "Smooth Block Model"
+Part123.Parent = Model1
+Part123.CFrame = CFrame.new(506.165527, 175.910095, 2710.06909, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part123.Position = Vector3.new(506.165527, 175.910095, 2710.06909)
+Part123.Color = Color3.new(0.0509804, 0.411765, 0.67451)
+Part123.Size = Vector3.new(14, 1.20000005, 12)
+Part123.Anchored = true
+Part123.BottomSurface = Enum.SurfaceType.Smooth
+Part123.BrickColor = BrickColor.new("Bright blue")
+Part123.TopSurface = Enum.SurfaceType.Smooth
+Part123.brickColor = BrickColor.new("Bright blue")
+Decal124.Parent = Part123
+Decal124.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal124.Face = Enum.NormalId.Top
+Decal125.Parent = Part123
+Decal125.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal125.Face = Enum.NormalId.Left
+Decal126.Parent = Part123
+Decal126.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal127.Parent = Part123
+Decal127.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal127.Face = Enum.NormalId.Right
+Decal128.Parent = Part123
+Decal128.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal128.Face = Enum.NormalId.Back
+Decal129.Parent = Part123
+Decal129.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal129.Face = Enum.NormalId.Bottom
+Model130.Name = "FireTrap"
+Model130.Parent = Model1
+Part131.Name = "Flamer"
+Part131.Parent = Model130
+Part131.CFrame = CFrame.new(494.395508, 136.132599, 2547.1084, -1, 0, -0, 0, 0, -1, 0, -1, -0)
+Part131.Orientation = Vector3.new(90, 180, 0)
+Part131.Position = Vector3.new(494.395508, 136.132599, 2547.1084)
+Part131.Rotation = Vector3.new(90, 0, -180)
+Part131.Transparency = 1
+Part131.Size = Vector3.new(0.200000003, 0.200000003, 0.200000003)
+Part131.Anchored = true
+Part131.BottomSurface = Enum.SurfaceType.Smooth
+Part131.TopSurface = Enum.SurfaceType.Smooth
+Part131.FormFactor = Enum.FormFactor.Custom
+Part131.formFactor = Enum.FormFactor.Custom
+ParticleEmitter132.Parent = Part131
+ParticleEmitter132.Speed = NumberRange.new(50, 50)
+ParticleEmitter132.Color = ColorSequence.new(Color3.new(1, 0, 0),Color3.new(1, 0, 0))
+ParticleEmitter132.Enabled = false
+ParticleEmitter132.Texture = "http://www.roblox.com/asset/?id=241945517"
+ParticleEmitter132.Transparency = NumberSequence.new(0.30000001192093,0.30000001192093)
+ParticleEmitter132.Size = NumberSequence.new(0.5,2.5)
+ParticleEmitter132.Lifetime = NumberRange.new(0.40000000596046, 0.40000000596046)
+ParticleEmitter132.Rate = 25
+LocalScript133.Parent = Part131
+table.insert(cors,sandbox(LocalScript133,function()
+while wait(5) do
+	script.Parent.Enabled = not script.Parent.Enabled
+end
+end))
+Part134.Name = "Smooth Block Model"
+Part134.Parent = Model1
+Part134.CFrame = CFrame.new(460.209473, 176.672607, 2699.71484, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part134.Orientation = Vector3.new(0, 90, 0)
+Part134.Position = Vector3.new(460.209473, 176.672607, 2699.71484)
+Part134.Rotation = Vector3.new(0, 90, 0)
+Part134.Color = Color3.new(0.8, 1, 0.8)
+Part134.Size = Vector3.new(50.6099892, 1.20000005, 5.01000023)
+Part134.Anchored = true
+Part134.BottomSurface = Enum.SurfaceType.Smooth
+Part134.BrickColor = BrickColor.new("Pastel green")
+Part134.TopSurface = Enum.SurfaceType.Smooth
+Part134.brickColor = BrickColor.new("Pastel green")
+Part134.FormFactor = Enum.FormFactor.Custom
+Part134.formFactor = Enum.FormFactor.Custom
+Texture135.Parent = Part134
+Texture135.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture135.Face = Enum.NormalId.Top
+Texture135.StudsPerTileU = 5.0100002288818
+Texture135.StudsPerTileV = 5.0100002288818
+Texture136.Parent = Part134
+Texture136.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture136.Face = Enum.NormalId.Back
+Texture136.StudsPerTileU = 5.0100002288818
+Texture136.StudsPerTileV = 5.0100002288818
+Texture137.Parent = Part134
+Texture137.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture137.Face = Enum.NormalId.Bottom
+Texture137.StudsPerTileU = 5.0100002288818
+Texture137.StudsPerTileV = 5.0100002288818
+Texture138.Parent = Part134
+Texture138.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture138.StudsPerTileU = 5.0100002288818
+Texture138.StudsPerTileV = 5.0100002288818
+Part139.Name = "Smooth Block Model"
+Part139.Parent = Model1
+Part139.CFrame = CFrame.new(465.820068, 176.668747, 2733.02002, -1, 3.05171125e-05, 3.05180438e-05, 3.05180438e-05, 1, 3.05171125e-05, -3.05171125e-05, 3.05180438e-05, -1)
+Part139.Orientation = Vector3.new(0, 180, 0)
+Part139.Position = Vector3.new(465.820068, 176.668747, 2733.02002)
+Part139.Rotation = Vector3.new(-180, 0, -180)
+Part139.Color = Color3.new(0.431373, 0.6, 0.792157)
+Part139.Size = Vector3.new(20.6399994, 1.20000005, 16)
+Part139.Anchored = true
+Part139.BottomSurface = Enum.SurfaceType.Smooth
+Part139.BrickColor = BrickColor.new("Medium blue")
+Part139.TopSurface = Enum.SurfaceType.Smooth
+Part139.brickColor = BrickColor.new("Medium blue")
+Texture140.Parent = Part139
+Texture140.Texture = "http://www.roblox.com/asset/?id=161663058"
+Texture140.Face = Enum.NormalId.Top
+Texture140.StudsPerTileU = 4
+Texture140.StudsPerTileV = 4
+Texture141.Parent = Part139
+Texture141.Texture = "http://www.roblox.com/asset/?id=161663058"
+Texture141.Face = Enum.NormalId.Bottom
+Texture141.StudsPerTileU = 4
+Texture141.StudsPerTileV = 4
+Texture142.Parent = Part139
+Texture142.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture142.Face = Enum.NormalId.Back
+Texture142.StudsPerTileU = 4
+Texture142.StudsPerTileV = 4
+Texture143.Parent = Part139
+Texture143.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture143.Face = Enum.NormalId.Right
+Texture143.StudsPerTileU = 4
+Texture143.StudsPerTileV = 4
+Texture144.Parent = Part139
+Texture144.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture144.StudsPerTileU = 4
+Texture144.StudsPerTileV = 4
+Texture145.Parent = Part139
+Texture145.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture145.Face = Enum.NormalId.Left
+Texture145.StudsPerTileU = 4
+Texture145.StudsPerTileV = 4
+Part146.Name = "Smooth Block Model"
+Part146.Parent = Model1
+Part146.CFrame = CFrame.new(524.680908, 177.519348, 2672.00513, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part146.Orientation = Vector3.new(0, 90, 0)
+Part146.Position = Vector3.new(524.680908, 177.519348, 2672.00513)
+Part146.Rotation = Vector3.new(0, 90, 0)
+Part146.Color = Color3.new(0.960784, 0.803922, 0.188235)
+Part146.Size = Vector3.new(41.9700012, 2.30000019, 7.23000002)
+Part146.Anchored = true
+Part146.BottomSurface = Enum.SurfaceType.Smooth
+Part146.BrickColor = BrickColor.new("Bright yellow")
+Part146.TopSurface = Enum.SurfaceType.Smooth
+Part146.brickColor = BrickColor.new("Bright yellow")
+Texture147.Parent = Part146
+Texture147.Texture = "http://www.roblox.com/asset/?id=161663093"
+Texture147.Face = Enum.NormalId.Top
+Texture147.StudsPerTileU = 4
+Texture147.StudsPerTileV = 4
+Texture148.Parent = Part146
+Texture148.Texture = "http://www.roblox.com/asset/?id=161663093"
+Texture148.Face = Enum.NormalId.Left
+Texture148.StudsPerTileU = 4
+Texture148.StudsPerTileV = 4
+Texture149.Parent = Part146
+Texture149.Texture = "http://www.roblox.com/asset/?id=161663093"
+Texture149.StudsPerTileU = 4
+Texture149.StudsPerTileV = 4
+Texture150.Parent = Part146
+Texture150.Texture = "http://www.roblox.com/asset/?id=161663093"
+Texture150.Face = Enum.NormalId.Back
+Texture150.StudsPerTileU = 4
+Texture150.StudsPerTileV = 4
+Texture151.Parent = Part146
+Texture151.Texture = "http://www.roblox.com/asset/?id=161663093"
+Texture151.Face = Enum.NormalId.Bottom
+Texture151.StudsPerTileU = 4
+Texture151.StudsPerTileV = 4
+Texture152.Parent = Part146
+Texture152.Texture = "http://www.roblox.com/asset/?id=161663093"
+Texture152.Face = Enum.NormalId.Right
+Texture152.StudsPerTileU = 4
+Texture152.StudsPerTileV = 4
+Part153.Name = "Smooth Block Model"
+Part153.Parent = Model1
+Part153.CFrame = CFrame.new(524.496094, 173.669846, 2628.02148, -1, 3.05171125e-05, 3.05180438e-05, 3.05180438e-05, 1, 3.05171125e-05, -3.05171125e-05, 3.05180438e-05, -1)
+Part153.Orientation = Vector3.new(0, 180, 0)
+Part153.Position = Vector3.new(524.496094, 173.669846, 2628.02148)
+Part153.Rotation = Vector3.new(-180, 0, -180)
+Part153.Color = Color3.new(0.227451, 0.490196, 0.0823529)
+Part153.Size = Vector3.new(12, 1.20000005, 46)
+Part153.Anchored = true
+Part153.BottomSurface = Enum.SurfaceType.Smooth
+Part153.BrickColor = BrickColor.new("Camo")
+Part153.TopSurface = Enum.SurfaceType.Smooth
+Part153.brickColor = BrickColor.new("Camo")
+Texture154.Parent = Part153
+Texture154.Texture = "http://www.roblox.com/asset/?id=161663506"
+Texture154.Face = Enum.NormalId.Bottom
+Texture154.StudsPerTileU = 4
+Texture154.StudsPerTileV = 4
+Texture155.Parent = Part153
+Texture155.Texture = "http://www.roblox.com/asset/?id=161663506"
+Texture155.Face = Enum.NormalId.Top
+Texture155.StudsPerTileU = 4
+Texture155.StudsPerTileV = 4
+Texture156.Parent = Part153
+Texture156.Texture = "http://www.roblox.com/asset/?id=161663506"
+Texture156.Face = Enum.NormalId.Right
+Texture156.StudsPerTileU = 4
+Texture156.StudsPerTileV = 4
+Texture157.Parent = Part153
+Texture157.Texture = "http://www.roblox.com/asset/?id=161663506"
+Texture157.StudsPerTileU = 4
+Texture157.StudsPerTileV = 4
+Texture158.Parent = Part153
+Texture158.Texture = "http://www.roblox.com/asset/?id=161663506"
+Texture158.Face = Enum.NormalId.Left
+Texture158.StudsPerTileU = 4
+Texture158.StudsPerTileV = 4
+Part159.Name = "Smooth Block Model"
+Part159.Parent = Model1
+Part159.CFrame = CFrame.new(524.496094, 178.469345, 2672.02002, -3.26636873e-05, 4.31581502e-05, -1, 9.29513355e-10, 1, 4.31581502e-05, 1, 4.80190998e-10, -3.26636873e-05)
+Part159.Orientation = Vector3.new(0, -90, 0)
+Part159.Position = Vector3.new(524.496094, 178.469345, 2672.02002)
+Part159.Rotation = Vector3.new(0, -90, 0)
+Part159.Size = Vector3.new(12, 8.40000057, 12)
+Part159.Anchored = true
+Part159.BottomSurface = Enum.SurfaceType.Smooth
+Part159.TopSurface = Enum.SurfaceType.Smooth
+Texture160.Parent = Part159
+Texture160.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture160.Face = Enum.NormalId.Top
+Texture160.StudsPerTileU = 4
+Texture160.StudsPerTileV = 4
+Texture161.Parent = Part159
+Texture161.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture161.Face = Enum.NormalId.Back
+Texture161.StudsPerTileU = 4
+Texture161.StudsPerTileV = 4
+Texture162.Parent = Part159
+Texture162.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture162.Face = Enum.NormalId.Right
+Texture162.StudsPerTileU = 4
+Texture162.StudsPerTileV = 4
+Texture163.Parent = Part159
+Texture163.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture163.StudsPerTileU = 4
+Texture163.StudsPerTileV = 4
+Texture164.Parent = Part159
+Texture164.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture164.Face = Enum.NormalId.Left
+Texture164.StudsPerTileU = 4
+Texture164.StudsPerTileV = 4
+Texture165.Parent = Part159
+Texture165.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture165.Face = Enum.NormalId.Bottom
+Texture165.StudsPerTileU = 4
+Texture165.StudsPerTileV = 4
+Part166.Name = "Smooth Block Model"
+Part166.Parent = Model1
+Part166.CFrame = CFrame.new(490.999512, 173.670242, 2599.021, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part166.Orientation = Vector3.new(0, 90, 0)
+Part166.Position = Vector3.new(490.999512, 173.670242, 2599.021)
+Part166.Rotation = Vector3.new(0, 90, 0)
+Part166.Color = Color3.new(0.227451, 0.490196, 0.0823529)
+Part166.Size = Vector3.new(12, 1.20000005, 79)
+Part166.Anchored = true
+Part166.BottomSurface = Enum.SurfaceType.Smooth
+Part166.BrickColor = BrickColor.new("Camo")
+Part166.TopSurface = Enum.SurfaceType.Smooth
+Part166.brickColor = BrickColor.new("Camo")
+Texture167.Parent = Part166
+Texture167.Texture = "http://www.roblox.com/asset/?id=161663506"
+Texture167.Face = Enum.NormalId.Top
+Texture167.StudsPerTileU = 4
+Texture167.StudsPerTileV = 4
+Texture168.Parent = Part166
+Texture168.Texture = "http://www.roblox.com/asset/?id=161663506"
+Texture168.StudsPerTileU = 4
+Texture168.StudsPerTileV = 4
+Texture169.Parent = Part166
+Texture169.Texture = "http://www.roblox.com/asset/?id=161663506"
+Texture169.Face = Enum.NormalId.Right
+Texture169.StudsPerTileU = 4
+Texture169.StudsPerTileV = 4
+Texture170.Parent = Part166
+Texture170.Texture = "http://www.roblox.com/asset/?id=161663506"
+Texture170.Face = Enum.NormalId.Back
+Texture170.StudsPerTileU = 4
+Texture170.StudsPerTileV = 4
+Texture171.Parent = Part166
+Texture171.Texture = "http://www.roblox.com/asset/?id=161663506"
+Texture171.Face = Enum.NormalId.Left
+Texture171.StudsPerTileU = 4
+Texture171.StudsPerTileV = 4
+Texture172.Parent = Part166
+Texture172.Texture = "http://www.roblox.com/asset/?id=161663506"
+Texture172.Face = Enum.NormalId.Bottom
+Texture172.StudsPerTileU = 4
+Texture172.StudsPerTileV = 4
+Part173.Name = "Smooth Block Model"
+Part173.Parent = Model1
+Part173.CFrame = CFrame.new(527.496094, 132.56012, 2535.02002, -3.26636873e-05, 4.31581502e-05, -1, 9.29513355e-10, 1, 4.31581502e-05, 1, 4.80190998e-10, -3.26636873e-05)
+Part173.Orientation = Vector3.new(0, -90, 0)
+Part173.Position = Vector3.new(527.496094, 132.56012, 2535.02002)
+Part173.Rotation = Vector3.new(0, -90, 0)
+Part173.Color = Color3.new(0.843137, 0.772549, 0.603922)
+Part173.Size = Vector3.new(2, 1, 18)
+Part173.Anchored = true
+Part173.BottomSurface = Enum.SurfaceType.Smooth
+Part173.BrickColor = BrickColor.new("Brick yellow")
+Part173.TopSurface = Enum.SurfaceType.Smooth
+Part173.brickColor = BrickColor.new("Brick yellow")
+Part173.FormFactor = Enum.FormFactor.Custom
+Part173.formFactor = Enum.FormFactor.Custom
+Texture174.Parent = Part173
+Texture174.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture174.Face = Enum.NormalId.Top
+Texture175.Parent = Part173
+Texture175.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture175.Face = Enum.NormalId.Left
+Texture176.Parent = Part173
+Texture176.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture176.Face = Enum.NormalId.Bottom
+Texture177.Parent = Part173
+Texture177.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture177.Face = Enum.NormalId.Right
+Part178.Name = "Smooth Block Model"
+Part178.Parent = Model1
+Part178.CFrame = CFrame.new(514.586426, 177.03035, 2595.11328, -3.26636873e-05, 4.31581502e-05, -1, 9.29513355e-10, 1, 4.31581502e-05, 1, 4.80190998e-10, -3.26636873e-05)
+Part178.Orientation = Vector3.new(0, -90, 0)
+Part178.Position = Vector3.new(514.586426, 177.03035, 2595.11328)
+Part178.Rotation = Vector3.new(0, -90, 0)
+Part178.Color = Color3.new(0.0156863, 0.686275, 0.92549)
+Part178.Size = Vector3.new(3.87999988, 5.51999998, 4.36999989)
+Part178.Anchored = true
+Part178.BottomSurface = Enum.SurfaceType.Smooth
+Part178.BrickColor = BrickColor.new("Cyan")
+Part178.Reflectance = 0.5
+Part178.TopSurface = Enum.SurfaceType.Smooth
+Part178.brickColor = BrickColor.new("Cyan")
+Part178.FormFactor = Enum.FormFactor.Custom
+Part178.formFactor = Enum.FormFactor.Custom
+Decal179.Parent = Part178
+Decal179.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal179.Face = Enum.NormalId.Right
+Decal180.Parent = Part178
+Decal180.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal181.Parent = Part178
+Decal181.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal181.Face = Enum.NormalId.Left
+Decal182.Parent = Part178
+Decal182.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal182.Face = Enum.NormalId.Back
+Decal183.Parent = Part178
+Decal183.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal183.Face = Enum.NormalId.Top
+Part184.Name = "Smooth Block Model"
+Part184.Parent = Model1
+Part184.CFrame = CFrame.new(493.387207, 177.030411, 2602.89087, -3.26636873e-05, 4.31581502e-05, -1, 9.29513355e-10, 1, 4.31581502e-05, 1, 4.80190998e-10, -3.26636873e-05)
+Part184.Orientation = Vector3.new(0, -90, 0)
+Part184.Position = Vector3.new(493.387207, 177.030411, 2602.89087)
+Part184.Rotation = Vector3.new(0, -90, 0)
+Part184.Color = Color3.new(0.0156863, 0.686275, 0.92549)
+Part184.Size = Vector3.new(3.87999988, 5.51999998, 4.36999989)
+Part184.Anchored = true
+Part184.BottomSurface = Enum.SurfaceType.Smooth
+Part184.BrickColor = BrickColor.new("Cyan")
+Part184.Reflectance = 0.5
+Part184.TopSurface = Enum.SurfaceType.Smooth
+Part184.brickColor = BrickColor.new("Cyan")
+Part184.FormFactor = Enum.FormFactor.Custom
+Part184.formFactor = Enum.FormFactor.Custom
+Decal185.Parent = Part184
+Decal185.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal186.Parent = Part184
+Decal186.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal186.Face = Enum.NormalId.Left
+Decal187.Parent = Part184
+Decal187.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal187.Face = Enum.NormalId.Right
+Decal188.Parent = Part184
+Decal188.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal188.Face = Enum.NormalId.Top
+Decal189.Parent = Part184
+Decal189.Texture = "http://www.roblox.com/asset/?id=161663032"
+Decal189.Face = Enum.NormalId.Back
+Model190.Name = "Seesaw"
+Model190.Parent = Model1
+Part191.Parent = Model190
+Part191.CFrame = CFrame.new(457.999512, 176.768646, 2757.52026, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part191.Position = Vector3.new(457.999512, 176.768646, 2757.52026)
+Part191.Color = Color3.new(1, 0.686275, 0)
+Part191.Size = Vector3.new(1, 3, 3)
+Part191.Anchored = true
+Part191.BottomSurface = Enum.SurfaceType.Smooth
+Part191.BrickColor = BrickColor.new("Deep orange")
+Part191.TopSurface = Enum.SurfaceType.Smooth
+Part191.brickColor = BrickColor.new("Deep orange")
+Part191.FormFactor = Enum.FormFactor.Symmetric
+Part191.formFactor = Enum.FormFactor.Symmetric
+Decal192.Parent = Part191
+Decal192.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal192.Face = Enum.NormalId.Top
+Decal193.Parent = Part191
+Decal193.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal193.Face = Enum.NormalId.Left
+Decal194.Parent = Part191
+Decal194.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal194.Face = Enum.NormalId.Back
+Decal195.Parent = Part191
+Decal195.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal196.Parent = Part191
+Decal196.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal196.Face = Enum.NormalId.Bottom
+Decal197.Parent = Part191
+Decal197.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal197.Face = Enum.NormalId.Right
+Part198.Parent = Model190
+Part198.CFrame = CFrame.new(464.499512, 176.768646, 2757.52026, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part198.Position = Vector3.new(464.499512, 176.768646, 2757.52026)
+Part198.Color = Color3.new(0.631373, 0.768627, 0.54902)
+Part198.Size = Vector3.new(12, 1, 29)
+Part198.BottomSurface = Enum.SurfaceType.Smooth
+Part198.BrickColor = BrickColor.new("Medium green")
+Part198.LeftSurface = Enum.SurfaceType.Hinge
+Part198.RightSurface = Enum.SurfaceType.Hinge
+Part198.TopSurface = Enum.SurfaceType.Smooth
+Part198.brickColor = BrickColor.new("Medium green")
+Part198.FormFactor = Enum.FormFactor.Symmetric
+Part198.formFactor = Enum.FormFactor.Symmetric
+Texture199.Parent = Part198
+Texture199.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture199.Face = Enum.NormalId.Top
+Texture199.StudsPerTileU = 4
+Texture199.StudsPerTileV = 4
+Texture200.Parent = Part198
+Texture200.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture200.StudsPerTileU = 4
+Texture200.StudsPerTileV = 4
+Texture201.Parent = Part198
+Texture201.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture201.Face = Enum.NormalId.Bottom
+Texture201.StudsPerTileU = 4
+Texture201.StudsPerTileV = 4
+Texture202.Parent = Part198
+Texture202.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture202.Face = Enum.NormalId.Back
+Texture202.StudsPerTileU = 4
+Texture202.StudsPerTileV = 4
+Texture203.Parent = Part198
+Texture203.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture203.Face = Enum.NormalId.Left
+Texture203.StudsPerTileU = 4
+Texture203.StudsPerTileV = 4
+Texture204.Parent = Part198
+Texture204.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture204.Face = Enum.NormalId.Right
+Texture204.StudsPerTileU = 4
+Texture204.StudsPerTileV = 4
+Rotate205.Parent = Part198
+Rotate205.C0 = CFrame.new(-6, 0, 0, -0, -0, -1, 0, 1, 0, 1, 0, 0)
+Rotate205.C1 = CFrame.new(0.5, 0, 0, -0, -0, -1, 0, 1, 0, 1, 0, 0)
+Rotate205.Part0 = Part198
+Rotate205.Part1 = Part191
+Rotate205.part1 = Part191
+Rotate206.Parent = Part198
+Rotate206.C0 = CFrame.new(6, 0, 0, 0, 0, 1, 0, 1, 0, -1, -0, -0)
+Rotate206.C1 = CFrame.new(-0.5, 0, 0, 0, 0, 1, 0, 1, 0, -1, -0, -0)
+Rotate206.Part0 = Part198
+Rotate206.Part1 = Part207
+Rotate206.part1 = Part207
+Part207.Parent = Model190
+Part207.CFrame = CFrame.new(471, 176.768646, 2757.52026, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part207.Position = Vector3.new(471, 176.768646, 2757.52026)
+Part207.Color = Color3.new(1, 0.686275, 0)
+Part207.Size = Vector3.new(1, 3, 3)
+Part207.Anchored = true
+Part207.BottomSurface = Enum.SurfaceType.Smooth
+Part207.BrickColor = BrickColor.new("Deep orange")
+Part207.TopSurface = Enum.SurfaceType.Smooth
+Part207.brickColor = BrickColor.new("Deep orange")
+Part207.FormFactor = Enum.FormFactor.Symmetric
+Part207.formFactor = Enum.FormFactor.Symmetric
+Decal208.Parent = Part207
+Decal208.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal208.Face = Enum.NormalId.Left
+Decal209.Parent = Part207
+Decal209.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal209.Face = Enum.NormalId.Back
+Decal210.Parent = Part207
+Decal210.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal210.Face = Enum.NormalId.Top
+Decal211.Parent = Part207
+Decal211.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal212.Parent = Part207
+Decal212.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal212.Face = Enum.NormalId.Right
+Decal213.Parent = Part207
+Decal213.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal213.Face = Enum.NormalId.Bottom
+Part214.Name = "Smooth Block Model"
+Part214.Parent = Model1
+Part214.CFrame = CFrame.new(467.267578, 195.723633, 2746.16357, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part214.Orientation = Vector3.new(0, 90, 0)
+Part214.Position = Vector3.new(467.267578, 195.723633, 2746.16357)
+Part214.Rotation = Vector3.new(0, 90, 0)
+Part214.Color = Color3.new(0.431373, 0.6, 0.792157)
+Part214.Size = Vector3.new(10, 1.3900001, 17.7000027)
+Part214.Anchored = true
+Part214.BottomSurface = Enum.SurfaceType.Smooth
+Part214.BrickColor = BrickColor.new("Medium blue")
+Part214.TopSurface = Enum.SurfaceType.Smooth
+Part214.brickColor = BrickColor.new("Medium blue")
+Part214.FormFactor = Enum.FormFactor.Custom
+Part214.formFactor = Enum.FormFactor.Custom
+Texture215.Parent = Part214
+Texture215.Texture = "http://www.roblox.com/asset/?id=161663058"
+Texture215.Face = Enum.NormalId.Top
+Texture215.StudsPerTileU = 4
+Texture215.StudsPerTileV = 4
+Texture216.Parent = Part214
+Texture216.Texture = "http://www.roblox.com/asset/?id=161663058"
+Texture216.Face = Enum.NormalId.Bottom
+Texture216.StudsPerTileU = 4
+Texture216.StudsPerTileV = 4
+Texture217.Parent = Part214
+Texture217.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture217.Face = Enum.NormalId.Back
+Texture217.StudsPerTileU = 4
+Texture217.StudsPerTileV = 4
+Texture218.Parent = Part214
+Texture218.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture218.Face = Enum.NormalId.Left
+Texture218.StudsPerTileU = 4
+Texture218.StudsPerTileV = 4
+Texture219.Parent = Part214
+Texture219.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture219.StudsPerTileU = 4
+Texture219.StudsPerTileV = 4
+Texture220.Parent = Part214
+Texture220.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture220.Face = Enum.NormalId.Right
+Texture220.StudsPerTileU = 4
+Texture220.StudsPerTileV = 4
+Part221.Name = "Smooth Block Model"
+Part221.Parent = Model1
+Part221.CFrame = CFrame.new(475.092285, 186.251663, 2765.46411, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part221.Orientation = Vector3.new(0, 90, 0)
+Part221.Position = Vector3.new(475.092285, 186.251663, 2765.46411)
+Part221.Rotation = Vector3.new(0, 90, 0)
+Part221.Color = Color3.new(0.431373, 0.6, 0.792157)
+Part221.Size = Vector3.new(10, 17.9899826, 2.05000114)
+Part221.Anchored = true
+Part221.BottomSurface = Enum.SurfaceType.Smooth
+Part221.BrickColor = BrickColor.new("Medium blue")
+Part221.TopSurface = Enum.SurfaceType.Smooth
+Part221.brickColor = BrickColor.new("Medium blue")
+Part221.FormFactor = Enum.FormFactor.Custom
+Part221.formFactor = Enum.FormFactor.Custom
+Texture222.Parent = Part221
+Texture222.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture222.StudsPerTileU = 4
+Texture222.StudsPerTileV = 4
+Texture223.Parent = Part221
+Texture223.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture223.Face = Enum.NormalId.Left
+Texture223.StudsPerTileU = 4
+Texture223.StudsPerTileV = 4
+Texture224.Parent = Part221
+Texture224.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture224.Face = Enum.NormalId.Back
+Texture224.StudsPerTileU = 4
+Texture224.StudsPerTileV = 4
+Texture225.Parent = Part221
+Texture225.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture225.Face = Enum.NormalId.Right
+Texture225.StudsPerTileU = 4
+Texture225.StudsPerTileV = 4
+Part226.Name = "Smooth Block Model"
+Part226.Parent = Model1
+Part226.CFrame = CFrame.new(474.537109, 176.628235, 2776.60205, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part226.Orientation = Vector3.new(0, 90, 0)
+Part226.Position = Vector3.new(474.537109, 176.628235, 2776.60205)
+Part226.Rotation = Vector3.new(0, 90, 0)
+Part226.Color = Color3.new(0.431373, 0.6, 0.792157)
+Part226.Size = Vector3.new(71.6700134, 1.20000005, 3.15999985)
+Part226.Anchored = true
+Part226.BottomSurface = Enum.SurfaceType.Smooth
+Part226.BrickColor = BrickColor.new("Medium blue")
+Part226.TopSurface = Enum.SurfaceType.Smooth
+Part226.brickColor = BrickColor.new("Medium blue")
+Part226.FormFactor = Enum.FormFactor.Custom
+Part226.formFactor = Enum.FormFactor.Custom
+Texture227.Parent = Part226
+Texture227.Texture = "http://www.roblox.com/asset/?id=161663058"
+Texture227.Face = Enum.NormalId.Top
+Texture227.StudsPerTileU = 4
+Texture227.StudsPerTileV = 4
+Texture228.Parent = Part226
+Texture228.Texture = "http://www.roblox.com/asset/?id=161663058"
+Texture228.Face = Enum.NormalId.Bottom
+Texture228.StudsPerTileU = 4
+Texture228.StudsPerTileV = 4
+Texture229.Parent = Part226
+Texture229.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture229.StudsPerTileU = 4
+Texture229.StudsPerTileV = 4
+Texture230.Parent = Part226
+Texture230.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture230.Face = Enum.NormalId.Back
+Texture230.StudsPerTileU = 4
+Texture230.StudsPerTileV = 4
+Part231.Name = "Smooth Block Model"
+Part231.Parent = Model1
+Part231.CFrame = CFrame.new(475.092285, 186.051636, 2746.16357, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part231.Orientation = Vector3.new(0, 90, 0)
+Part231.Position = Vector3.new(475.092285, 186.051636, 2746.16357)
+Part231.Rotation = Vector3.new(0, 90, 0)
+Part231.Color = Color3.new(0.431373, 0.6, 0.792157)
+Part231.Size = Vector3.new(10, 17.9899826, 2.05000114)
+Part231.Anchored = true
+Part231.BottomSurface = Enum.SurfaceType.Smooth
+Part231.BrickColor = BrickColor.new("Medium blue")
+Part231.TopSurface = Enum.SurfaceType.Smooth
+Part231.brickColor = BrickColor.new("Medium blue")
+Part231.FormFactor = Enum.FormFactor.Custom
+Part231.formFactor = Enum.FormFactor.Custom
+Texture232.Parent = Part231
+Texture232.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture232.StudsPerTileU = 4
+Texture232.StudsPerTileV = 4
+Texture233.Parent = Part231
+Texture233.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture233.Face = Enum.NormalId.Right
+Texture233.StudsPerTileU = 4
+Texture233.StudsPerTileV = 4
+Texture234.Parent = Part231
+Texture234.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture234.Face = Enum.NormalId.Back
+Texture234.StudsPerTileU = 4
+Texture234.StudsPerTileV = 4
+Texture235.Parent = Part231
+Texture235.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture235.Face = Enum.NormalId.Left
+Texture235.StudsPerTileU = 4
+Texture235.StudsPerTileV = 4
+Part236.Name = "Smooth Block Model"
+Part236.Parent = Model1
+Part236.CFrame = CFrame.new(583.994141, 206.776703, 2812.18018, -1, 3.05171125e-05, 3.05180438e-05, 3.05180438e-05, 1, 3.05171125e-05, -3.05171125e-05, 3.05180438e-05, -1)
+Part236.Orientation = Vector3.new(0, 180, 0)
+Part236.Position = Vector3.new(583.994141, 206.776703, 2812.18018)
+Part236.Rotation = Vector3.new(-180, 0, -180)
+Part236.Size = Vector3.new(31, 1.20000005, 30)
+Part236.Anchored = true
+Part236.BottomSurface = Enum.SurfaceType.Smooth
+Part236.TopSurface = Enum.SurfaceType.Smooth
+Texture237.Parent = Part236
+Texture237.Texture = "http://www.roblox.com/asset/?id=161663044"
+Texture237.Face = Enum.NormalId.Top
+Texture237.StudsPerTileU = 4
+Texture237.StudsPerTileV = 4
+Texture238.Parent = Part236
+Texture238.Texture = "http://www.roblox.com/asset/?id=161663044"
+Texture238.Face = Enum.NormalId.Bottom
+Texture238.StudsPerTileU = 4
+Texture238.StudsPerTileV = 4
+Texture239.Parent = Part236
+Texture239.Texture = "http://www.roblox.com/asset/?id=161663086"
+Texture239.Face = Enum.NormalId.Right
+Texture239.StudsPerTileU = 1.2000000476837
+Texture239.StudsPerTileV = 1.2000000476837
+Texture240.Parent = Part236
+Texture240.Texture = "http://www.roblox.com/asset/?id=161663086"
+Texture240.StudsPerTileU = 1.2000000476837
+Texture240.StudsPerTileV = 1.2000000476837
+Texture241.Parent = Part236
+Texture241.Texture = "http://www.roblox.com/asset/?id=161663086"
+Texture241.Face = Enum.NormalId.Left
+Texture241.StudsPerTileU = 1.2000000476837
+Texture241.StudsPerTileV = 1.2000000476837
+Texture242.Parent = Part236
+Texture242.Texture = "http://www.roblox.com/asset/?id=161663086"
+Texture242.Face = Enum.NormalId.Back
+Texture242.StudsPerTileU = 1.2000000476837
+Texture242.StudsPerTileV = 1.2000000476837
+Part243.Name = "Smooth Block Model"
+Part243.Parent = Model1
+Part243.CFrame = CFrame.new(524.496094, 176.868958, 2705.01953, -3.26636873e-05, 4.31581502e-05, -1, 9.29513355e-10, 1, 4.31581502e-05, 1, 4.80190998e-10, -3.26636873e-05)
+Part243.Orientation = Vector3.new(0, -90, 0)
+Part243.Position = Vector3.new(524.496094, 176.868958, 2705.01953)
+Part243.Rotation = Vector3.new(0, -90, 0)
+Part243.Size = Vector3.new(16, 3.60000014, 10)
+Part243.Anchored = true
+Part243.BottomSurface = Enum.SurfaceType.Smooth
+Part243.TopSurface = Enum.SurfaceType.Smooth
+Texture244.Parent = Part243
+Texture244.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture244.Face = Enum.NormalId.Top
+Texture244.StudsPerTileU = 4
+Texture244.StudsPerTileV = 4
+Texture245.Parent = Part243
+Texture245.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture245.Face = Enum.NormalId.Back
+Texture245.StudsPerTileU = 4
+Texture245.StudsPerTileV = 4
+Texture246.Parent = Part243
+Texture246.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture246.Face = Enum.NormalId.Right
+Texture246.StudsPerTileU = 4
+Texture246.StudsPerTileV = 4
+Texture247.Parent = Part243
+Texture247.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture247.StudsPerTileU = 4
+Texture247.StudsPerTileV = 4
+Texture248.Parent = Part243
+Texture248.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture248.Face = Enum.NormalId.Left
+Texture248.StudsPerTileU = 4
+Texture248.StudsPerTileV = 4
+Texture249.Parent = Part243
+Texture249.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture249.Face = Enum.NormalId.Bottom
+Texture249.StudsPerTileU = 4
+Texture249.StudsPerTileV = 4
+Part250.Name = "Smooth Block Model"
+Part250.Parent = Model1
+Part250.CFrame = CFrame.new(545.494629, 129.460861, 2535.01953, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part250.Orientation = Vector3.new(0, 90, 0)
+Part250.Position = Vector3.new(545.494629, 129.460861, 2535.01953)
+Part250.Rotation = Vector3.new(0, 90, 0)
+Part250.Size = Vector3.new(20, 7.20000029, 18)
+Part250.Anchored = true
+Part250.BottomSurface = Enum.SurfaceType.Smooth
+Part250.TopSurface = Enum.SurfaceType.Smooth
+Texture251.Parent = Part250
+Texture251.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture251.Face = Enum.NormalId.Top
+Texture251.StudsPerTileU = 4
+Texture251.StudsPerTileV = 4
+Texture252.Parent = Part250
+Texture252.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture252.StudsPerTileU = 4
+Texture252.StudsPerTileV = 4
+Texture253.Parent = Part250
+Texture253.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture253.Face = Enum.NormalId.Left
+Texture253.StudsPerTileU = 4
+Texture253.StudsPerTileV = 4
+Texture254.Parent = Part250
+Texture254.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture254.Face = Enum.NormalId.Bottom
+Texture254.StudsPerTileU = 4
+Texture254.StudsPerTileV = 4
+Texture255.Parent = Part250
+Texture255.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture255.Face = Enum.NormalId.Right
+Texture255.StudsPerTileU = 4
+Texture255.StudsPerTileV = 4
+Model256.Name = "Seesaw"
+Model256.Parent = Model1
+Part257.Parent = Model256
+Part257.CFrame = CFrame.new(457.999512, 176.768646, 2792.44019, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part257.Position = Vector3.new(457.999512, 176.768646, 2792.44019)
+Part257.Color = Color3.new(1, 0.686275, 0)
+Part257.Size = Vector3.new(1, 3, 3)
+Part257.Anchored = true
+Part257.BottomSurface = Enum.SurfaceType.Smooth
+Part257.BrickColor = BrickColor.new("Deep orange")
+Part257.TopSurface = Enum.SurfaceType.Smooth
+Part257.brickColor = BrickColor.new("Deep orange")
+Part257.FormFactor = Enum.FormFactor.Symmetric
+Part257.formFactor = Enum.FormFactor.Symmetric
+Decal258.Parent = Part257
+Decal258.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal258.Face = Enum.NormalId.Left
+Decal259.Parent = Part257
+Decal259.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal260.Parent = Part257
+Decal260.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal260.Face = Enum.NormalId.Top
+Decal261.Parent = Part257
+Decal261.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal261.Face = Enum.NormalId.Back
+Decal262.Parent = Part257
+Decal262.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal262.Face = Enum.NormalId.Bottom
+Decal263.Parent = Part257
+Decal263.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal263.Face = Enum.NormalId.Right
+Part264.Parent = Model256
+Part264.CFrame = CFrame.new(464.499512, 176.768646, 2792.44019, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part264.Position = Vector3.new(464.499512, 176.768646, 2792.44019)
+Part264.Color = Color3.new(0.631373, 0.768627, 0.54902)
+Part264.Size = Vector3.new(12, 1, 29)
+Part264.BottomSurface = Enum.SurfaceType.Smooth
+Part264.BrickColor = BrickColor.new("Medium green")
+Part264.LeftSurface = Enum.SurfaceType.Hinge
+Part264.RightSurface = Enum.SurfaceType.Hinge
+Part264.TopSurface = Enum.SurfaceType.Smooth
+Part264.brickColor = BrickColor.new("Medium green")
+Part264.FormFactor = Enum.FormFactor.Symmetric
+Part264.formFactor = Enum.FormFactor.Symmetric
+Texture265.Parent = Part264
+Texture265.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture265.Face = Enum.NormalId.Top
+Texture265.StudsPerTileU = 4
+Texture265.StudsPerTileV = 4
+Texture266.Parent = Part264
+Texture266.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture266.Face = Enum.NormalId.Bottom
+Texture266.StudsPerTileU = 4
+Texture266.StudsPerTileV = 4
+Texture267.Parent = Part264
+Texture267.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture267.Face = Enum.NormalId.Back
+Texture267.StudsPerTileU = 4
+Texture267.StudsPerTileV = 4
+Texture268.Parent = Part264
+Texture268.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture268.Face = Enum.NormalId.Left
+Texture268.StudsPerTileU = 4
+Texture268.StudsPerTileV = 4
+Texture269.Parent = Part264
+Texture269.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture269.StudsPerTileU = 4
+Texture269.StudsPerTileV = 4
+Texture270.Parent = Part264
+Texture270.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture270.Face = Enum.NormalId.Right
+Texture270.StudsPerTileU = 4
+Texture270.StudsPerTileV = 4
+Rotate271.Parent = Part264
+Rotate271.C0 = CFrame.new(6, 0, 0, 0, 0, 1, 0, 1, 0, -1, -0, -0)
+Rotate271.C1 = CFrame.new(-0.5, 0, 0, 0, 0, 1, 0, 1, 0, -1, -0, -0)
+Rotate271.Part0 = Part264
+Rotate271.Part1 = Part273
+Rotate271.part1 = Part273
+Rotate272.Parent = Part264
+Rotate272.C0 = CFrame.new(-6, 0, 0, -0, -0, -1, 0, 1, 0, 1, 0, 0)
+Rotate272.C1 = CFrame.new(0.5, 0, 0, -0, -0, -1, 0, 1, 0, 1, 0, 0)
+Rotate272.Part0 = Part264
+Rotate272.Part1 = Part257
+Rotate272.part1 = Part257
+Part273.Parent = Model256
+Part273.CFrame = CFrame.new(471, 176.768646, 2792.44019, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part273.Position = Vector3.new(471, 176.768646, 2792.44019)
+Part273.Color = Color3.new(1, 0.686275, 0)
+Part273.Size = Vector3.new(1, 3, 3)
+Part273.Anchored = true
+Part273.BottomSurface = Enum.SurfaceType.Smooth
+Part273.BrickColor = BrickColor.new("Deep orange")
+Part273.TopSurface = Enum.SurfaceType.Smooth
+Part273.brickColor = BrickColor.new("Deep orange")
+Part273.FormFactor = Enum.FormFactor.Symmetric
+Part273.formFactor = Enum.FormFactor.Symmetric
+Decal274.Parent = Part273
+Decal274.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal274.Face = Enum.NormalId.Right
+Decal275.Parent = Part273
+Decal275.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal275.Face = Enum.NormalId.Top
+Decal276.Parent = Part273
+Decal276.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal276.Face = Enum.NormalId.Back
+Decal277.Parent = Part273
+Decal277.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal278.Parent = Part273
+Decal278.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal278.Face = Enum.NormalId.Left
+Decal279.Parent = Part273
+Decal279.Texture = "http://www.roblox.com/asset/?id=155937123"
+Decal279.Face = Enum.NormalId.Bottom
+Part280.Name = "Smooth Block Model"
+Part280.Parent = Model1
+Part280.CFrame = CFrame.new(467.267578, 195.923645, 2765.46411, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part280.Orientation = Vector3.new(0, 90, 0)
+Part280.Position = Vector3.new(467.267578, 195.923645, 2765.46411)
+Part280.Rotation = Vector3.new(0, 90, 0)
+Part280.Color = Color3.new(0.431373, 0.6, 0.792157)
+Part280.Size = Vector3.new(10, 1.3900001, 17.7000027)
+Part280.Anchored = true
+Part280.BottomSurface = Enum.SurfaceType.Smooth
+Part280.BrickColor = BrickColor.new("Medium blue")
+Part280.TopSurface = Enum.SurfaceType.Smooth
+Part280.brickColor = BrickColor.new("Medium blue")
+Part280.FormFactor = Enum.FormFactor.Custom
+Part280.formFactor = Enum.FormFactor.Custom
+Texture281.Parent = Part280
+Texture281.Texture = "http://www.roblox.com/asset/?id=161663058"
+Texture281.Face = Enum.NormalId.Top
+Texture281.StudsPerTileU = 4
+Texture281.StudsPerTileV = 4
+Texture282.Parent = Part280
+Texture282.Texture = "http://www.roblox.com/asset/?id=161663058"
+Texture282.Face = Enum.NormalId.Bottom
+Texture282.StudsPerTileU = 4
+Texture282.StudsPerTileV = 4
+Texture283.Parent = Part280
+Texture283.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture283.Face = Enum.NormalId.Back
+Texture283.StudsPerTileU = 4
+Texture283.StudsPerTileV = 4
+Texture284.Parent = Part280
+Texture284.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture284.Face = Enum.NormalId.Right
+Texture284.StudsPerTileU = 4
+Texture284.StudsPerTileV = 4
+Texture285.Parent = Part280
+Texture285.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture285.StudsPerTileU = 4
+Texture285.StudsPerTileV = 4
+Texture286.Parent = Part280
+Texture286.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture286.Face = Enum.NormalId.Left
+Texture286.StudsPerTileU = 4
+Texture286.StudsPerTileV = 4
+Part287.Name = "Smooth Block Model"
+Part287.Parent = Model1
+Part287.CFrame = CFrame.new(475.092285, 188.721664, 2785.30347, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part287.Orientation = Vector3.new(0, 90, 0)
+Part287.Position = Vector3.new(475.092285, 188.721664, 2785.30347)
+Part287.Rotation = Vector3.new(0, 90, 0)
+Part287.Color = Color3.new(0.431373, 0.6, 0.792157)
+Part287.Size = Vector3.new(10, 22.9299889, 2.05000114)
+Part287.Anchored = true
+Part287.BottomSurface = Enum.SurfaceType.Smooth
+Part287.BrickColor = BrickColor.new("Medium blue")
+Part287.TopSurface = Enum.SurfaceType.Smooth
+Part287.brickColor = BrickColor.new("Medium blue")
+Part287.FormFactor = Enum.FormFactor.Custom
+Part287.formFactor = Enum.FormFactor.Custom
+Texture288.Parent = Part287
+Texture288.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture288.StudsPerTileU = 4
+Texture288.StudsPerTileV = 4
+Texture289.Parent = Part287
+Texture289.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture289.Face = Enum.NormalId.Right
+Texture289.StudsPerTileU = 4
+Texture289.StudsPerTileV = 4
+Texture290.Parent = Part287
+Texture290.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture290.Face = Enum.NormalId.Back
+Texture290.StudsPerTileU = 4
+Texture290.StudsPerTileV = 4
+Texture291.Parent = Part287
+Texture291.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture291.Face = Enum.NormalId.Left
+Texture291.StudsPerTileU = 4
+Texture291.StudsPerTileV = 4
+Part292.Name = "Smooth Block Model"
+Part292.Parent = Model1
+Part292.CFrame = CFrame.new(561.992188, 131.260849, 2535.02002, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part292.Orientation = Vector3.new(0, 90, 0)
+Part292.Position = Vector3.new(561.992188, 131.260849, 2535.02002)
+Part292.Rotation = Vector3.new(0, 90, 0)
+Part292.Size = Vector3.new(20, 10.8000002, 15)
+Part292.Anchored = true
+Part292.BottomSurface = Enum.SurfaceType.Smooth
+Part292.TopSurface = Enum.SurfaceType.Smooth
+Texture293.Parent = Part292
+Texture293.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture293.Face = Enum.NormalId.Top
+Texture293.StudsPerTileU = 4
+Texture293.StudsPerTileV = 4
+Texture294.Parent = Part292
+Texture294.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture294.Face = Enum.NormalId.Right
+Texture294.StudsPerTileU = 4
+Texture294.StudsPerTileV = 4
+Texture295.Parent = Part292
+Texture295.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture295.StudsPerTileU = 4
+Texture295.StudsPerTileV = 4
+Texture296.Parent = Part292
+Texture296.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture296.Face = Enum.NormalId.Left
+Texture296.StudsPerTileU = 4
+Texture296.StudsPerTileV = 4
+Texture297.Parent = Part292
+Texture297.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture297.Face = Enum.NormalId.Bottom
+Texture297.StudsPerTileU = 4
+Texture297.StudsPerTileV = 4
+Part298.Name = "Smooth Block Model"
+Part298.Parent = Model1
+Part298.CFrame = CFrame.new(471, 176.398727, 2820.17993, -1, 3.05171125e-05, 3.05180438e-05, 3.05180438e-05, 1, 3.05171125e-05, -3.05171125e-05, 3.05180438e-05, -1)
+Part298.Orientation = Vector3.new(0, 180, 0)
+Part298.Position = Vector3.new(471, 176.398727, 2820.17993)
+Part298.Rotation = Vector3.new(-180, 0, -180)
+Part298.Color = Color3.new(0.431373, 0.6, 0.792157)
+Part298.Size = Vector3.new(31, 1.20000005, 16)
+Part298.Anchored = true
+Part298.BottomSurface = Enum.SurfaceType.Smooth
+Part298.BrickColor = BrickColor.new("Medium blue")
+Part298.TopSurface = Enum.SurfaceType.Smooth
+Part298.brickColor = BrickColor.new("Medium blue")
+Texture299.Parent = Part298
+Texture299.Texture = "http://www.roblox.com/asset/?id=161663058"
+Texture299.Face = Enum.NormalId.Top
+Texture299.StudsPerTileU = 4
+Texture299.StudsPerTileV = 4
+Texture300.Parent = Part298
+Texture300.Texture = "http://www.roblox.com/asset/?id=161663058"
+Texture300.Face = Enum.NormalId.Bottom
+Texture300.StudsPerTileU = 4
+Texture300.StudsPerTileV = 4
+Texture301.Parent = Part298
+Texture301.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture301.Face = Enum.NormalId.Back
+Texture301.StudsPerTileU = 4
+Texture301.StudsPerTileV = 4
+Texture302.Parent = Part298
+Texture302.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture302.Face = Enum.NormalId.Right
+Texture302.StudsPerTileU = 4
+Texture302.StudsPerTileV = 4
+Texture303.Parent = Part298
+Texture303.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture303.StudsPerTileU = 4
+Texture303.StudsPerTileV = 4
+Texture304.Parent = Part298
+Texture304.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture304.Face = Enum.NormalId.Left
+Texture304.StudsPerTileU = 4
+Texture304.StudsPerTileV = 4
+Part305.Name = "Smooth Block Model"
+Part305.Parent = Model1
+Part305.CFrame = CFrame.new(467.267578, 195.923645, 2806.41357, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part305.Orientation = Vector3.new(0, 90, 0)
+Part305.Position = Vector3.new(467.267578, 195.923645, 2806.41357)
+Part305.Rotation = Vector3.new(0, 90, 0)
+Part305.Color = Color3.new(0.431373, 0.6, 0.792157)
+Part305.Size = Vector3.new(10, 1.3900001, 17.7000027)
+Part305.Anchored = true
+Part305.BottomSurface = Enum.SurfaceType.Smooth
+Part305.BrickColor = BrickColor.new("Medium blue")
+Part305.TopSurface = Enum.SurfaceType.Smooth
+Part305.brickColor = BrickColor.new("Medium blue")
+Part305.FormFactor = Enum.FormFactor.Custom
+Part305.formFactor = Enum.FormFactor.Custom
+Texture306.Parent = Part305
+Texture306.Texture = "http://www.roblox.com/asset/?id=161663058"
+Texture306.Face = Enum.NormalId.Top
+Texture306.StudsPerTileU = 4
+Texture306.StudsPerTileV = 4
+Texture307.Parent = Part305
+Texture307.Texture = "http://www.roblox.com/asset/?id=161663058"
+Texture307.Face = Enum.NormalId.Bottom
+Texture307.StudsPerTileU = 4
+Texture307.StudsPerTileV = 4
+Texture308.Parent = Part305
+Texture308.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture308.Face = Enum.NormalId.Back
+Texture308.StudsPerTileU = 4
+Texture308.StudsPerTileV = 4
+Texture309.Parent = Part305
+Texture309.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture309.Face = Enum.NormalId.Right
+Texture309.StudsPerTileU = 4
+Texture309.StudsPerTileV = 4
+Texture310.Parent = Part305
+Texture310.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture310.StudsPerTileU = 4
+Texture310.StudsPerTileV = 4
+Texture311.Parent = Part305
+Texture311.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture311.Face = Enum.NormalId.Left
+Texture311.StudsPerTileU = 4
+Texture311.StudsPerTileV = 4
+Part312.Name = "Smooth Block Model"
+Part312.Parent = Model1
+Part312.CFrame = CFrame.new(467.267578, 200.663391, 2785.30347, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part312.Orientation = Vector3.new(0, 90, 0)
+Part312.Position = Vector3.new(467.267578, 200.663391, 2785.30347)
+Part312.Rotation = Vector3.new(0, 90, 0)
+Part312.Color = Color3.new(0.431373, 0.6, 0.792157)
+Part312.Size = Vector3.new(10, 1.3900001, 17.7000027)
+Part312.Anchored = true
+Part312.BottomSurface = Enum.SurfaceType.Smooth
+Part312.BrickColor = BrickColor.new("Medium blue")
+Part312.TopSurface = Enum.SurfaceType.Smooth
+Part312.brickColor = BrickColor.new("Medium blue")
+Part312.FormFactor = Enum.FormFactor.Custom
+Part312.formFactor = Enum.FormFactor.Custom
+Texture313.Parent = Part312
+Texture313.Texture = "http://www.roblox.com/asset/?id=161663058"
+Texture313.Face = Enum.NormalId.Top
+Texture313.StudsPerTileU = 4
+Texture313.StudsPerTileV = 4
+Texture314.Parent = Part312
+Texture314.Texture = "http://www.roblox.com/asset/?id=161663058"
+Texture314.Face = Enum.NormalId.Bottom
+Texture314.StudsPerTileU = 4
+Texture314.StudsPerTileV = 4
+Texture315.Parent = Part312
+Texture315.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture315.Face = Enum.NormalId.Back
+Texture315.StudsPerTileU = 4
+Texture315.StudsPerTileV = 4
+Texture316.Parent = Part312
+Texture316.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture316.Face = Enum.NormalId.Right
+Texture316.StudsPerTileU = 4
+Texture316.StudsPerTileV = 4
+Texture317.Parent = Part312
+Texture317.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture317.StudsPerTileU = 4
+Texture317.StudsPerTileV = 4
+Texture318.Parent = Part312
+Texture318.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture318.Face = Enum.NormalId.Left
+Texture318.StudsPerTileU = 4
+Texture318.StudsPerTileV = 4
+Part319.Name = "Smooth Block Model"
+Part319.Parent = Model1
+Part319.CFrame = CFrame.new(475.092285, 186.251663, 2806.41357, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part319.Orientation = Vector3.new(0, 90, 0)
+Part319.Position = Vector3.new(475.092285, 186.251663, 2806.41357)
+Part319.Rotation = Vector3.new(0, 90, 0)
+Part319.Color = Color3.new(0.431373, 0.6, 0.792157)
+Part319.Size = Vector3.new(10, 17.9899826, 2.05000114)
+Part319.Anchored = true
+Part319.BottomSurface = Enum.SurfaceType.Smooth
+Part319.BrickColor = BrickColor.new("Medium blue")
+Part319.TopSurface = Enum.SurfaceType.Smooth
+Part319.brickColor = BrickColor.new("Medium blue")
+Part319.FormFactor = Enum.FormFactor.Custom
+Part319.formFactor = Enum.FormFactor.Custom
+Texture320.Parent = Part319
+Texture320.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture320.StudsPerTileU = 4
+Texture320.StudsPerTileV = 4
+Texture321.Parent = Part319
+Texture321.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture321.Face = Enum.NormalId.Right
+Texture321.StudsPerTileU = 4
+Texture321.StudsPerTileV = 4
+Texture322.Parent = Part319
+Texture322.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture322.Face = Enum.NormalId.Back
+Texture322.StudsPerTileU = 4
+Texture322.StudsPerTileV = 4
+Texture323.Parent = Part319
+Texture323.Texture = "http://www.roblox.com/asset/?id=161663054"
+Texture323.Face = Enum.NormalId.Left
+Texture323.StudsPerTileU = 4
+Texture323.StudsPerTileV = 4
+Part324.Name = "Smooth Block Model"
+Part324.Parent = Model1
+Part324.CFrame = CFrame.new(503.484375, 186.598312, 2822.67969, -1, 3.05171125e-05, 3.05180438e-05, 3.05180438e-05, 1, 3.05171125e-05, -3.05171125e-05, 3.05180438e-05, -1)
+Part324.Orientation = Vector3.new(0, 180, 0)
+Part324.Position = Vector3.new(503.484375, 186.598312, 2822.67969)
+Part324.Rotation = Vector3.new(-180, 0, -180)
+Part324.Color = Color3.new(0.470588, 0.564706, 0.509804)
+Part324.Size = Vector3.new(9.97000027, 1.20000005, 7)
+Part324.Anchored = true
+Part324.BottomSurface = Enum.SurfaceType.Smooth
+Part324.BrickColor = BrickColor.new("Sand green")
+Part324.TopSurface = Enum.SurfaceType.Smooth
+Part324.brickColor = BrickColor.new("Sand green")
+Part324.FormFactor = Enum.FormFactor.Custom
+Part324.formFactor = Enum.FormFactor.Custom
+Texture325.Parent = Part324
+Texture325.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture325.StudsPerTileU = 4
+Texture325.StudsPerTileV = 4
+Texture326.Parent = Part324
+Texture326.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture326.Face = Enum.NormalId.Top
+Texture326.StudsPerTileU = 4
+Texture326.StudsPerTileV = 4
+Texture327.Parent = Part324
+Texture327.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture327.Face = Enum.NormalId.Right
+Texture327.StudsPerTileU = 4
+Texture327.StudsPerTileV = 4
+Texture328.Parent = Part324
+Texture328.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture328.Face = Enum.NormalId.Left
+Texture328.StudsPerTileU = 4
+Texture328.StudsPerTileV = 4
+Texture329.Parent = Part324
+Texture329.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture329.Face = Enum.NormalId.Bottom
+Texture329.StudsPerTileU = 4
+Texture329.StudsPerTileV = 4
+Part330.Name = "Smooth Block Model"
+Part330.Parent = Model1
+Part330.CFrame = CFrame.new(494.999512, 182.398544, 2812.17993, -1, 3.05171125e-05, 3.05180438e-05, 3.05180438e-05, 1, 3.05171125e-05, -3.05171125e-05, 3.05180438e-05, -1)
+Part330.Orientation = Vector3.new(0, 180, 0)
+Part330.Position = Vector3.new(494.999512, 182.398544, 2812.17993)
+Part330.Rotation = Vector3.new(-180, 0, -180)
+Part330.Size = Vector3.new(27, 10.8000002, 14)
+Part330.Anchored = true
+Part330.BottomSurface = Enum.SurfaceType.Smooth
+Part330.TopSurface = Enum.SurfaceType.Smooth
+Texture331.Parent = Part330
+Texture331.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture331.Face = Enum.NormalId.Back
+Texture331.StudsPerTileU = 4
+Texture331.StudsPerTileV = 4
+Texture332.Parent = Part330
+Texture332.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture332.Face = Enum.NormalId.Top
+Texture332.StudsPerTileU = 4
+Texture332.StudsPerTileV = 4
+Texture333.Parent = Part330
+Texture333.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture333.Face = Enum.NormalId.Right
+Texture333.StudsPerTileU = 4
+Texture333.StudsPerTileV = 4
+Texture334.Parent = Part330
+Texture334.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture334.StudsPerTileU = 4
+Texture334.StudsPerTileV = 4
+Texture335.Parent = Part330
+Texture335.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture335.Face = Enum.NormalId.Left
+Texture335.StudsPerTileU = 4
+Texture335.StudsPerTileV = 4
+Texture336.Parent = Part330
+Texture336.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture336.Face = Enum.NormalId.Bottom
+Texture336.StudsPerTileU = 4
+Texture336.StudsPerTileV = 4
+Part337.Name = "Smooth Block Model"
+Part337.Parent = Model1
+Part337.CFrame = CFrame.new(497.499512, 180.598602, 2822.67969, -1, 3.05171125e-05, 3.05180438e-05, 3.05180438e-05, 1, 3.05171125e-05, -3.05171125e-05, 3.05180438e-05, -1)
+Part337.Orientation = Vector3.new(0, 180, 0)
+Part337.Position = Vector3.new(497.499512, 180.598602, 2822.67969)
+Part337.Rotation = Vector3.new(-180, 0, -180)
+Part337.Color = Color3.new(0.470588, 0.564706, 0.509804)
+Part337.Size = Vector3.new(22, 1.20000005, 7)
+Part337.Anchored = true
+Part337.BottomSurface = Enum.SurfaceType.Smooth
+Part337.BrickColor = BrickColor.new("Sand green")
+Part337.TopSurface = Enum.SurfaceType.Smooth
+Part337.brickColor = BrickColor.new("Sand green")
+Texture338.Parent = Part337
+Texture338.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture338.Face = Enum.NormalId.Right
+Texture338.StudsPerTileU = 4
+Texture338.StudsPerTileV = 4
+Texture339.Parent = Part337
+Texture339.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture339.Face = Enum.NormalId.Top
+Texture339.StudsPerTileU = 4
+Texture339.StudsPerTileV = 4
+Texture340.Parent = Part337
+Texture340.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture340.StudsPerTileU = 4
+Texture340.StudsPerTileV = 4
+Texture341.Parent = Part337
+Texture341.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture341.Face = Enum.NormalId.Left
+Texture341.StudsPerTileU = 4
+Texture341.StudsPerTileV = 4
+Texture342.Parent = Part337
+Texture342.Texture = "http://www.roblox.com/asset/?id=161663029"
+Texture342.Face = Enum.NormalId.Bottom
+Texture342.StudsPerTileU = 4
+Texture342.StudsPerTileV = 4
+Part343.Name = "Smooth Block Model"
+Part343.Parent = Model1
+Part343.CFrame = CFrame.new(557.493164, 206.777069, 2812.18018, -1, 3.05171125e-05, 3.05180438e-05, 3.05180438e-05, 1, 3.05171125e-05, -3.05171125e-05, 3.05180438e-05, -1)
+Part343.Orientation = Vector3.new(0, 180, 0)
+Part343.Position = Vector3.new(557.493164, 206.777069, 2812.18018)
+Part343.Rotation = Vector3.new(-180, 0, -180)
+Part343.Size = Vector3.new(22, 1.20000005, 8)
+Part343.Anchored = true
+Part343.BottomSurface = Enum.SurfaceType.Smooth
+Part343.TopSurface = Enum.SurfaceType.Smooth
+Texture344.Parent = Part343
+Texture344.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture344.Face = Enum.NormalId.Top
+Texture344.StudsPerTileU = 4
+Texture344.StudsPerTileV = 4
+Texture345.Parent = Part343
+Texture345.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture345.StudsPerTileU = 4
+Texture345.StudsPerTileV = 4
+Texture346.Parent = Part343
+Texture346.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture346.Face = Enum.NormalId.Back
+Texture346.StudsPerTileU = 4
+Texture346.StudsPerTileV = 4
+Texture347.Parent = Part343
+Texture347.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture347.Face = Enum.NormalId.Bottom
+Texture347.StudsPerTileU = 4
+Texture347.StudsPerTileV = 4
+Part348.Name = "Smooth Block Model"
+Part348.Parent = Model1
+Part348.CFrame = CFrame.new(574.494141, 134.257446, 2535.02002, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part348.Orientation = Vector3.new(0, 90, 0)
+Part348.Position = Vector3.new(574.494141, 134.257446, 2535.02002)
+Part348.Rotation = Vector3.new(0, 90, 0)
+Part348.Size = Vector3.new(20, 16.8000011, 10)
+Part348.Anchored = true
+Part348.BottomSurface = Enum.SurfaceType.Smooth
+Part348.TopSurface = Enum.SurfaceType.Smooth
+Texture349.Parent = Part348
+Texture349.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture349.Face = Enum.NormalId.Top
+Texture349.StudsPerTileU = 4
+Texture349.StudsPerTileV = 4
+Texture350.Parent = Part348
+Texture350.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture350.Face = Enum.NormalId.Left
+Texture350.StudsPerTileU = 4
+Texture350.StudsPerTileV = 4
+Texture351.Parent = Part348
+Texture351.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture351.StudsPerTileU = 4
+Texture351.StudsPerTileV = 4
+Texture352.Parent = Part348
+Texture352.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture352.Face = Enum.NormalId.Right
+Texture352.StudsPerTileU = 4
+Texture352.StudsPerTileV = 4
+Texture353.Parent = Part348
+Texture353.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture353.Face = Enum.NormalId.Back
+Texture353.StudsPerTileU = 4
+Texture353.StudsPerTileV = 4
+Texture354.Parent = Part348
+Texture354.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture354.Face = Enum.NormalId.Bottom
+Texture354.StudsPerTileU = 4
+Texture354.StudsPerTileV = 4
+WedgePart355.Parent = Model1
+WedgePart355.CFrame = CFrame.new(527.424805, 197.583557, 2812.23291, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+WedgePart355.Orientation = Vector3.new(0, 90, 0)
+WedgePart355.Position = Vector3.new(527.424805, 197.583557, 2812.23291)
+WedgePart355.Rotation = Vector3.new(0, 90, 0)
+WedgePart355.Color = Color3.new(0.631373, 0.768627, 0.54902)
+WedgePart355.Size = Vector3.new(8.17000294, 19.6099987, 38.2400055)
+WedgePart355.Anchored = true
+WedgePart355.BottomSurface = Enum.SurfaceType.Smooth
+WedgePart355.BrickColor = BrickColor.new("Medium green")
+WedgePart355.brickColor = BrickColor.new("Medium green")
+Texture356.Parent = WedgePart355
+Texture356.Texture = "http://www.roblox.com/asset/?id=161663064"
+Texture356.Face = Enum.NormalId.Top
+Texture356.StudsPerTileU = 4
+Texture356.StudsPerTileV = 4
+Texture357.Parent = WedgePart355
+Texture357.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture357.Face = Enum.NormalId.Left
+Texture357.StudsPerTileU = 4
+Texture357.StudsPerTileV = 4
+Texture358.Parent = WedgePart355
+Texture358.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture358.Face = Enum.NormalId.Back
+Texture358.StudsPerTileU = 4
+Texture358.StudsPerTileV = 4
+Texture359.Parent = WedgePart355
+Texture359.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture359.Face = Enum.NormalId.Right
+Texture359.StudsPerTileU = 4
+Texture359.StudsPerTileV = 4
+Texture360.Parent = WedgePart355
+Texture360.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture360.Face = Enum.NormalId.Bottom
+Texture360.StudsPerTileU = 4
+Texture360.StudsPerTileV = 4
+Part361.Name = "Smooth Block Model"
+Part361.Parent = Model1
+Part361.CFrame = CFrame.new(588.494141, 139.802109, 2535.02002, -3.26636873e-05, 4.31581502e-05, -1, 9.29513355e-10, 1, 4.31581502e-05, 1, 4.80190998e-10, -3.26636873e-05)
+Part361.Orientation = Vector3.new(0, -90, 0)
+Part361.Position = Vector3.new(588.494141, 139.802109, 2535.02002)
+Part361.Rotation = Vector3.new(0, -90, 0)
+Part361.Color = Color3.new(0.431373, 0.6, 0.792157)
+Part361.Size = Vector3.new(20, 5.70999956, 18)
+Part361.Anchored = true
+Part361.BottomSurface = Enum.SurfaceType.Smooth
+Part361.BrickColor = BrickColor.new("Medium blue")
+Part361.TopSurface = Enum.SurfaceType.Smooth
+Part361.brickColor = BrickColor.new("Medium blue")
+Part361.FormFactor = Enum.FormFactor.Custom
+Part361.formFactor = Enum.FormFactor.Custom
+Decal362.Parent = Part361
+Decal362.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal362.Face = Enum.NormalId.Left
+Decal363.Parent = Part361
+Decal363.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal364.Parent = Part361
+Decal364.Texture = "http://www.roblox.com/asset/?id=161663061"
+Decal364.Face = Enum.NormalId.Right
+Texture365.Parent = Part361
+Texture365.Texture = "http://www.roblox.com/asset/?id=161663076"
+Texture365.Face = Enum.NormalId.Top
+Texture365.StudsPerTileU = 4
+Texture365.StudsPerTileV = 4
+Texture366.Parent = Part361
+Texture366.Texture = "http://www.roblox.com/asset/?id=161663076"
+Texture366.Face = Enum.NormalId.Bottom
+Texture366.StudsPerTileU = 4
+Texture366.StudsPerTileV = 4
+Part367.Name = "Platform"
+Part367.Parent = Model1
+Part367.CFrame = CFrame.new(494.395508, 136.132599, 2549.4082, -1, 0, -0, 0, 0, -1, 0, -1, -0)
+Part367.Orientation = Vector3.new(90, 180, 0)
+Part367.Position = Vector3.new(494.395508, 136.132599, 2549.4082)
+Part367.Rotation = Vector3.new(90, 0, -180)
+Part367.Size = Vector3.new(6, 5.71000051, 6)
+Part367.Anchored = true
+Part367.BottomSurface = Enum.SurfaceType.Smooth
+Part367.TopSurface = Enum.SurfaceType.Smooth
+Part367.FormFactor = Enum.FormFactor.Custom
+Part367.formFactor = Enum.FormFactor.Custom
+Texture368.Parent = Part367
+Texture368.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture368.Face = Enum.NormalId.Top
+Texture368.StudsPerTileU = 4
+Texture368.StudsPerTileV = 4
+Texture369.Parent = Part367
+Texture369.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture369.Face = Enum.NormalId.Left
+Texture369.StudsPerTileU = 4
+Texture369.StudsPerTileV = 4
+Texture370.Parent = Part367
+Texture370.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture370.StudsPerTileU = 4
+Texture370.StudsPerTileV = 4
+Texture371.Parent = Part367
+Texture371.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture371.Face = Enum.NormalId.Bottom
+Texture371.StudsPerTileU = 4
+Texture371.StudsPerTileV = 4
+Texture372.Parent = Part367
+Texture372.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture372.Face = Enum.NormalId.Back
+Texture372.StudsPerTileU = 4
+Texture372.StudsPerTileV = 4
+Texture373.Parent = Part367
+Texture373.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture373.Face = Enum.NormalId.Right
+Texture373.StudsPerTileU = 4
+Texture373.StudsPerTileV = 4
+Decal374.Parent = Part367
+Decal374.Texture = "http://www.roblox.com/asset/?id=244319778"
+Decal374.Face = Enum.NormalId.Top
+Part375.Name = "Platform"
+Part375.Parent = Model1
+Part375.CFrame = CFrame.new(350.896973, 146.737305, 2545.20972, -1, 0, -0, 0, 0, -1, 0, -1, -0)
+Part375.Orientation = Vector3.new(90, 180, 0)
+Part375.Position = Vector3.new(350.896973, 146.737305, 2545.20972)
+Part375.Rotation = Vector3.new(90, 0, -180)
+Part375.Size = Vector3.new(6, 5.79000139, 6)
+Part375.Anchored = true
+Part375.BottomSurface = Enum.SurfaceType.Smooth
+Part375.TopSurface = Enum.SurfaceType.Smooth
+Part375.FormFactor = Enum.FormFactor.Custom
+Part375.formFactor = Enum.FormFactor.Custom
+Texture376.Parent = Part375
+Texture376.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture376.Face = Enum.NormalId.Top
+Texture376.StudsPerTileU = 4
+Texture376.StudsPerTileV = 4
+Texture377.Parent = Part375
+Texture377.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture377.StudsPerTileU = 4
+Texture377.StudsPerTileV = 4
+Texture378.Parent = Part375
+Texture378.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture378.Face = Enum.NormalId.Left
+Texture378.StudsPerTileU = 4
+Texture378.StudsPerTileV = 4
+Texture379.Parent = Part375
+Texture379.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture379.Face = Enum.NormalId.Back
+Texture379.StudsPerTileU = 4
+Texture379.StudsPerTileV = 4
+Texture380.Parent = Part375
+Texture380.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture380.Face = Enum.NormalId.Bottom
+Texture380.StudsPerTileU = 4
+Texture380.StudsPerTileV = 4
+Texture381.Parent = Part375
+Texture381.Texture = "http://www.roblox.com/asset/?id=161663079"
+Texture381.Face = Enum.NormalId.Right
+Texture381.StudsPerTileU = 4
+Texture381.StudsPerTileV = 4
+Decal382.Parent = Part375
+Decal382.Texture = "http://www.roblox.com/asset/?id=244319778"
+Decal382.Face = Enum.NormalId.Top
+Model383.Name = "Pipe"
+Model383.Parent = Model0
+Part384.Parent = Model383
+Part384.CFrame = CFrame.new(584.480469, 212.635376, 2813.2002, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part384.Orientation = Vector3.new(0, 90, 0)
+Part384.Position = Vector3.new(584.480469, 212.635376, 2813.2002)
+Part384.Rotation = Vector3.new(0, 90, 0)
+Part384.Color = Color3.new(0, 1, 0)
+Part384.Size = Vector3.new(7.00000095, 1.5899992, 7)
+Part384.Anchored = true
+Part384.BrickColor = BrickColor.new("Lime green")
+Part384.brickColor = BrickColor.new("Lime green")
+Part384.FormFactor = Enum.FormFactor.Custom
+Part384.formFactor = Enum.FormFactor.Custom
+CylinderMesh385.Parent = Part384
+Texture386.Parent = Part384
+Texture386.Texture = "http://www.roblox.com/asset/?id=143614582"
+Texture387.Parent = Part384
+Texture387.Texture = "http://www.roblox.com/asset/?id=143614582"
+Texture387.Face = Enum.NormalId.Right
+Texture388.Parent = Part384
+Texture388.Texture = "http://www.roblox.com/asset/?id=143614582"
+Texture388.Face = Enum.NormalId.Back
+Texture389.Parent = Part384
+Texture389.Texture = "http://www.roblox.com/asset/?id=143614582"
+Texture389.Face = Enum.NormalId.Left
+Texture390.Parent = Part384
+Texture390.Texture = "http://www.roblox.com/asset/?id=143614582"
+Texture390.Face = Enum.NormalId.Top
+Decal391.Parent = Part384
+Decal391.Texture = "http://www.roblox.com/asset/?id=123691141"
+Decal391.Face = Enum.NormalId.Bottom
+Decal392.Parent = Part384
+Decal392.Texture = "http://www.roblox.com/asset/?id=115881120"
+Decal392.Face = Enum.NormalId.Bottom
+Part393.Parent = Model383
+Part393.CFrame = CFrame.new(584.480469, 213.361359, 2813.2002, 0.258832902, 5.63308595e-06, 0.965922177, -4.27895975e-05, 1, 5.63427102e-06, -0.965922177, -4.27897503e-05, 0.258832872)
+Part393.Orientation = Vector3.new(0, 75, 0)
+Part393.Position = Vector3.new(584.480469, 213.361359, 2813.2002)
+Part393.Rotation = Vector3.new(0, 75, 0)
+Part393.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+Part393.Size = Vector3.new(5.8000021, 0.200000003, 5.60000134)
+Part393.Anchored = true
+Part393.BrickColor = BrickColor.new("Really black")
+Part393.brickColor = BrickColor.new("Really black")
+Part393.FormFactor = Enum.FormFactor.Custom
+Part393.formFactor = Enum.FormFactor.Custom
+CylinderMesh394.Parent = Part393
+Decal395.Parent = Part393
+Decal395.Texture = "http://www.roblox.com/asset/?id=123696663"
+Decal395.Face = Enum.NormalId.Top
+Part396.Parent = Model383
+Part396.CFrame = CFrame.new(584.470703, 210.435486, 2813.19775, -3.26622794e-05, -4.59821458e-14, 1, 4.31576664e-05, -1, 1.40958167e-09, 1, 4.31576664e-05, 3.26622794e-05)
+Part396.Orientation = Vector3.new(0, 90, 180)
+Part396.Position = Vector3.new(584.470703, 210.435486, 2813.19775)
+Part396.Rotation = Vector3.new(180, 90, 0)
+Part396.Color = Color3.new(0.227451, 0.490196, 0.0823529)
+Part396.Transparency = 1
+Part396.Size = Vector3.new(6.59000015, 5.99000072, 6.59000015)
+Part396.Anchored = true
+Part396.BrickColor = BrickColor.new("Camo")
+Part396.brickColor = BrickColor.new("Camo")
+Part396.FormFactor = Enum.FormFactor.Custom
+Part396.formFactor = Enum.FormFactor.Custom
+CylinderMesh397.Parent = Part396
+Texture398.Parent = Part396
+Texture398.Texture = "http://www.roblox.com/asset/?id=143613744"
+Texture398.Face = Enum.NormalId.Back
+Part399.Parent = Model383
+Part399.CFrame = CFrame.new(584.470703, 210.425446, 2813.19775, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part399.Orientation = Vector3.new(0, 90, 0)
+Part399.Position = Vector3.new(584.470703, 210.425446, 2813.19775)
+Part399.Rotation = Vector3.new(0, 90, 0)
+Part399.Color = Color3.new(0.227451, 0.490196, 0.0823529)
+Part399.Transparency = 1
+Part399.Size = Vector3.new(6.60000134, 5.98999786, 6.60000038)
+Part399.Anchored = true
+Part399.BrickColor = BrickColor.new("Camo")
+Part399.brickColor = BrickColor.new("Camo")
+Part399.FormFactor = Enum.FormFactor.Custom
+Part399.formFactor = Enum.FormFactor.Custom
+CylinderMesh400.Parent = Part399
+Texture401.Parent = Part399
+Texture401.Texture = "http://www.roblox.com/asset/?id=143613744"
+Texture402.Parent = Part399
+Texture402.Texture = "http://www.roblox.com/asset/?id=143613744"
+Texture402.Face = Enum.NormalId.Right
+Texture403.Parent = Part399
+Texture403.Texture = "http://www.roblox.com/asset/?id=143613744"
+Texture403.Face = Enum.NormalId.Left
+Part404.Parent = Model383
+Part404.CFrame = CFrame.new(584.480469, 210.235718, 2813.2002, 5.34682295e-05, 1.23517841e-13, 1, -4.3159529e-05, 1, 2.30754016e-09, -1, -4.3159529e-05, 5.34682331e-05)
+Part404.Orientation = Vector3.new(0, 90, 0)
+Part404.Position = Vector3.new(584.480469, 210.235718, 2813.2002)
+Part404.Rotation = Vector3.new(0, 90, 0)
+Part404.Color = Color3.new(0.227451, 0.490196, 0.0823529)
+Part404.Size = Vector3.new(5.5, 5.59000015, 5.5)
+Part404.Anchored = true
+Part404.BrickColor = BrickColor.new("Camo")
+Part404.brickColor = BrickColor.new("Camo")
+Part404.FormFactor = Enum.FormFactor.Custom
+Part404.formFactor = Enum.FormFactor.Custom
+CylinderMesh405.Parent = Part404
+Part406.Name = "kooparoad"
+Part406.Parent = Model0
+Part406.CFrame = CFrame.new(588.490723, 142.757019, 2535.01465, -3.26636873e-05, 4.31581502e-05, -1, 9.29513355e-10, 1, 4.31581502e-05, 1, 4.80190998e-10, -3.26636873e-05)
+Part406.Orientation = Vector3.new(0, -90, 0)
+Part406.Position = Vector3.new(588.490723, 142.757019, 2535.01465)
+Part406.Rotation = Vector3.new(0, -90, 0)
+Part406.Color = Color3.new(0.0509804, 0.411765, 0.67451)
+Part406.Transparency = 1
+Part406.Size = Vector3.new(19.9400024, 0.200000003, 17.9599915)
+Part406.Anchored = true
+Part406.BottomSurface = Enum.SurfaceType.Smooth
+Part406.BrickColor = BrickColor.new("Bright blue")
+Part406.CanCollide = false
+Part406.TopSurface = Enum.SurfaceType.Smooth
+Part406.brickColor = BrickColor.new("Bright blue")
+Part406.FormFactor = Enum.FormFactor.Custom
+Part406.formFactor = Enum.FormFactor.Custom
+Script407.Name = "Checkpoint"
+Script407.Parent = Part406
+table.insert(cors,sandbox(Script407,function()
+local debounce = true
+script.Parent.Transparency = 1
+
+function onTouched(part)
+	local h = part.Parent:findFirstChild("Humanoid")
+	if (h~=nil) and (h.Health ~= 0) then
+		local thisplr = game.Players:findFirstChild(h.Parent.Name)
+		if (thisplr~=nil) then
+				local cash = thisplr:findFirstChild("Checkpoint")
+				if (cash ~= nil) then
+					debounce = false
+					cash.Value = Vector3.new(script.Parent.Position.x,script.Parent.Position.y+4,script.Parent.Position.z)
+					debounce = true
+				end
+		end
+	end
+end
+
+script.Parent.Touched:connect(onTouched)
+end))
+Script408.Name = "playScript"
+Script408.Parent = Part406
+table.insert(cors,sandbox(Script408,function()
+--Change the Value of playThis in this brick to set what song will play. It has to be a song that exists
+--in the "Music" frame inside SoundPlayer.
+
+function onTouched(hit)
+	
+	if hit.Parent == nil then return end
+	local h = hit.Parent:FindFirstChild("Humanoid")
+	if h==nil then return end
+	local p = game.Players:findFirstChild(h.Parent.Name)
+	if p == nil then return end
+	local mScript = require(p.PlayerGui.SongPlayer)
+	mScript.PlaySong(script.Parent.playThis.Value)
+	
+end
+
+connection = script.Parent.Touched:connect(onTouched)
+
+end))
+StringValue409.Name = "playThis"
+StringValue409.Parent = Part406
+StringValue409.Value = "Koopa Road"
+Folder410.Name = "Spawns"
+Folder410.Parent = Model0
+Part411.Name = "Spawn"
+Part411.Parent = Folder410
+Part411.CFrame = CFrame.new(588.210938, 148.257019, 2534.44458, 1, 4.31581502e-05, -3.06094953e-05, -4.31581502e-05, 1, 8.40858161e-10, 3.06094953e-05, 4.80190998e-10, 1)
+Part411.Position = Vector3.new(588.210938, 148.257019, 2534.44458)
+Part411.Transparency = 1
+Part411.Size = Vector3.new(1, 1, 1)
+Part411.Anchored = true
+Part411.BottomSurface = Enum.SurfaceType.Smooth
+Part411.CanCollide = false
+Part411.TopSurface = Enum.SurfaceType.Smooth
+Sky412.Parent = Model0
+Sky412.CelestialBodiesShown = false
+Sky412.SkyboxBk = "rbxassetid://74839686"
+Sky412.SkyboxDn = "rbxassetid://6522861386"
+Sky412.SkyboxFt = "rbxassetid://74839686"
+Sky412.SkyboxLf = "rbxassetid://74839686"
+Sky412.SkyboxRt = "rbxassetid://74839686"
+Sky412.SkyboxUp = "rbxassetid://6522861386"
+for i,v in pairs(mas:GetChildren()) do
+	v.Parent = workspace
+	pcall(function() v:MakeJoints() end)
+end
+mas:Destroy()
+for i,v in pairs(cors) do
+	spawn(function()
+		pcall(v)
+	end)
+end
